@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moodcorn</title>
+  <meta name="description" content="Moduna göre film ve dizi öneren Android uygulaması.">
+  <style>
+    :root {
+      --bg: #FFFCF7; --card: #FFFFFF; --butter: #FFF1BF; --blush: #FFE1E8;
+      --ink: #3B2F3A; --soft: #7D6B77; --line: #F1E2E7;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1F1A20; --card: #2B2329; --butter: #4F4325; --blush: #5A3442;
+        --ink: #F8EEF1; --soft: #C9B6BF; --line: #473A43;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      padding: 24px 16px; background: var(--bg); color: var(--ink);
+      font-family: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    main {
+      max-width: 520px; width: 100%; background: var(--card);
+      border: 1px solid var(--line); border-radius: 24px; padding: 32px 24px;
+      text-align: center;
+    }
+    .corn {
+      width: 96px; height: 96px; margin: 0 auto 16px; border-radius: 50%;
+      background: var(--butter); display: grid; place-items: center; font-size: 48px;
+    }
+    h1 { margin: 0 0 8px; font-size: 2rem; }
+    p { margin: 0 0 12px; color: var(--soft); line-height: 1.5; }
+    .pill {
+      display: inline-block; margin-top: 8px; padding: 6px 14px; border-radius: 999px;
+      background: var(--blush); color: var(--ink); font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="corn" aria-hidden="true">🍿</div>
+    <h1>Moodcorn</h1>
+    <p>Moduna göre film ve dizi öneren, samimi bir Android uygulaması.</p>
+    <p lang="en">A friendly Android app that picks movies and series for your mood.</p>
+    <span class="pill">Yakında Google Play'de · Coming soon</span>
+  </main>
+</body>
+</html>
