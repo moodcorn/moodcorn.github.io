@@ -2,7 +2,9 @@
 
 Moodcorn uygulamasının internet sitesi ve film listesi.
 
-- `index.html`: ana sayfa (ileride gizlilik politikası da burada olacak)
+- `index.html`: ana sayfa
+- `privacy.html`: gizlilik politikası, 6 dilde (uygulama `privacy.html#tr` gibi
+  kendi diliyle açar)
 - `data/catalog.json`: uygulamanın kullandığı film ve dizi listesi
 - `data/version.json`: listenin sürüm numarası
 
