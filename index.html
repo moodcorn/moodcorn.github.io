@@ -1,54 +1,399 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moodcorn</title>
-  <meta name="description" content="Moduna göre film ve dizi öneren Android uygulaması.">
-  <style>
-    :root {
-      --bg: #FFFCF7; --card: #FFFFFF; --butter: #FFF1BF; --blush: #FFE1E8;
-      --ink: #3B2F3A; --soft: #7D6B77; --line: #F1E2E7;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #1F1A20; --card: #2B2329; --butter: #4F4325; --blush: #5A3442;
-        --ink: #F8EEF1; --soft: #C9B6BF; --line: #473A43;
-      }
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0; min-height: 100vh; display: grid; place-items: center;
-      padding: 24px 16px; background: var(--bg); color: var(--ink);
-      font-family: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
-    }
-    main {
-      max-width: 520px; width: 100%; background: var(--card);
-      border: 1px solid var(--line); border-radius: 24px; padding: 32px 24px;
-      text-align: center;
-    }
-    .corn {
-      width: 96px; height: 96px; margin: 0 auto 16px; border-radius: 50%;
-      background: var(--butter); display: grid; place-items: center; font-size: 48px;
-    }
-    h1 { margin: 0 0 8px; font-size: 2rem; }
-    p { margin: 0 0 12px; color: var(--soft); line-height: 1.5; }
-    .links { margin: 20px 0 0; font-size: 0.95rem; }
-    .links a { color: var(--soft); }
-    .pill {
-      display: inline-block; margin-top: 8px; padding: 6px 14px; border-radius: 999px;
-      background: var(--blush); color: var(--ink); font-weight: 700;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moodcorn · Movies and series for your mood</title>
+<meta name="description" content="Tell Mısır how you feel and get the movie or series that fits. 1,600 titles, 13 moods, 6 languages. Coming soon to Google Play.">
+<meta name="theme-color" content="#FFFCF7">
+<link rel="canonical" href="https://moodcorn.app/">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://moodcorn.app/">
+<meta property="og:title" content="Moodcorn · Movies and series for your mood">
+<meta property="og:description" content="Tell Mısır how you feel and get the movie or series that fits. 1,600 titles, 13 moods, 6 languages. Coming soon to Google Play.">
+<meta property="og:image" content="https://moodcorn.app/icon.png">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #FFFCF7; --card: #FFFFFF; --butter: #FFF1BF; --corn: #FFD86B; --blush: #FFE1E8;
+  --pink: #F7A8BC; --rose: #D9577A; --ink: #3B2F3A; --soft: #7D6B77; --line: #F1E2E7;
+  --shadow: 0 14px 40px rgba(59,47,58,.08); --logo2: #E8A93A;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1F1A20; --card: #2B2329; --butter: #4F4325; --corn: #E8B93A; --blush: #5A3442;
+    --pink: #F7A8BC; --rose: #F7A8BC; --ink: #F8EEF1; --soft: #C9B6BF; --line: #473A43;
+    --shadow: 0 14px 40px rgba(0,0,0,.3); --logo2: #FFD86B;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1F1A20; --card: #2B2329; --butter: #4F4325; --corn: #E8B93A; --blush: #5A3442;
+  --pink: #F7A8BC; --rose: #F7A8BC; --ink: #F8EEF1; --soft: #C9B6BF; --line: #473A43;
+  --shadow: 0 14px 40px rgba(0,0,0,.3); --logo2: #FFD86B;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 17px; line-height: 1.55; overflow-x: hidden;
+}
+a { color: var(--rose); }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+.skip, .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip:focus { width: auto; height: auto; clip: auto; }
+.skip:focus { left: 16px; top: 8px; background: var(--card); padding: 8px 12px; border-radius: 8px; z-index: 9; }
+
+/* Üst çubuk */
+header.top {
+  position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line);
+}
+.bar { display: flex; align-items: center; gap: 12px; height: 64px; }
+.logo { display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--ink);
+  font-weight: 900; font-size: 1.35rem; letter-spacing: -.02em; }
+.logo .m { width: 38px; height: 38px; }
+.logo b { color: var(--logo2); font-weight: 900; }
+nav.links { display: flex; gap: 4px; margin-left: auto; }
+nav.links a { color: var(--ink); text-decoration: none; font-weight: 700; padding: 8px 12px; border-radius: 999px; }
+nav.links a:hover { background: var(--blush); }
+nav.links a.cta { background: var(--pink); color: #3B2F3A; }
+.lang { position: relative; }
+.lang select {
+  appearance: none; -webkit-appearance: none; font: inherit; font-weight: 700; color: var(--ink);
+  background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 30px 7px 12px; cursor: pointer;
+}
+.lang::after { content: "▾"; position: absolute; right: 12px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--soft); }
+@media (max-width: 760px) {
+  nav.links a:not(.cta) { display: none; }
+  .logo span.word { font-size: 1.15rem; }
+}
+@media (max-width: 420px) { nav.links a.cta { display: none; } .lang { margin-left: auto; } }
+
+/* Giriş */
+.hero { padding: 56px 0 40px; }
+.hero .grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 32px; align-items: center; }
+.kicker { display: inline-flex; align-items: center; gap: 8px; background: var(--butter); border-radius: 999px;
+  padding: 6px 14px; font-weight: 800; font-size: .95rem; }
+.kicker::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--rose); }
+h1 { font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.04; letter-spacing: -.03em; margin: 18px 0 14px; font-weight: 900; }
+.lead { font-size: clamp(1.1rem, 2.2vw, 1.3rem); color: var(--soft); margin: 0 0 24px; max-width: 34ch; }
+.btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-weight: 800;
+  padding: 14px 22px; border-radius: 999px; border: 2px solid transparent; font-size: 1.02rem; }
+.btn.primary { background: var(--pink); color: #3B2F3A; box-shadow: 0 10px 24px rgba(217,87,122,.22); }
+.btn.primary:hover { filter: brightness(1.04); transform: translateY(-1px); }
+.btn.ghost { border-color: var(--line); color: var(--ink); background: var(--card); }
+.stats { list-style: none; padding: 0; margin: 28px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.stats li { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px;
+  font-weight: 700; font-size: .92rem; color: var(--soft); }
+.stage { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 380px; gap: 6px; }
+.stage .glow { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-42%); width: 88%; aspect-ratio: 1; border-radius: 50%;
+  background: radial-gradient(circle, var(--butter) 0%, var(--blush) 55%, transparent 72%); }
+.stage .big { position: relative; width: min(300px, 70vw); aspect-ratio: 1; animation: bob 4s ease-in-out infinite; cursor: pointer; }
+.stage .bubble { position: relative; max-width: 280px; text-align: center; }
+.stage .bubble::after { content: ""; position: absolute; left: 50%; bottom: -9px; width: 14px; height: 14px; background: var(--card); border-right: 2px solid var(--line); border-bottom: 2px solid var(--line); transform: translateX(-50%) rotate(45deg); }
+.bubble { background: var(--card); border: 2px solid var(--line); border-radius: 22px; padding: 12px 16px;
+  font-weight: 700; box-shadow: var(--shadow); z-index: 1; }
+@keyframes bob { 0%,100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-10px) rotate(2deg); } }
+@keyframes hop { 0% { transform: translateY(0) scale(1); } 40% { transform: translateY(-26px) scale(1.06,.94); } 100% { transform: translateY(0) scale(1); } }
+.hop { animation: hop .45s ease-out !important; }
+@media (max-width: 860px) {
+  .hero { padding-top: 28px; }
+  .hero .grid { grid-template-columns: 1fr; }
+  .stage { order: -1; min-height: 280px; }
+  .stage .big { width: 190px; }
+  .stage .bubble { max-width: min(300px, 86vw); }
+}
+
+/* Bölümler */
+section.block { padding: 56px 0; }
+h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.1; letter-spacing: -.02em; margin: 0 0 10px; font-weight: 900; }
+.sub { color: var(--soft); margin: 0 0 28px; max-width: 62ch; font-size: 1.05rem; }
+.center { text-align: center; }
+.center .sub { margin-left: auto; margin-right: auto; }
+
+/* Modlar */
+.moods { display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: start; }
+.mascot-side { position: sticky; top: 84px; text-align: center; }
+.mascot-side .mid { width: 160px; height: 160px; margin: 0 auto; }
+.mascot-side .bubble { margin-bottom: 8px; min-height: 52px; }
+.mgroup { background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 14px 16px; margin-bottom: 12px; }
+.mgroup h3 { margin: 0 0 10px; font-size: .95rem; text-transform: uppercase; letter-spacing: .06em; color: var(--soft); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font: inherit; font-weight: 700; color: var(--ink); background: var(--bg); border: 2px solid var(--line);
+  border-radius: 999px; padding: 8px 14px; cursor: pointer; transition: transform .15s, background .15s; }
+.chip:hover { transform: translateY(-2px); }
+.chip[aria-pressed="true"] { background: var(--blush); border-color: var(--rose); }
+@media (max-width: 760px) {
+  .moods { grid-template-columns: 1fr; }
+  .mascot-side { position: static; display: flex; align-items: center; gap: 12px; text-align: left; }
+  .mascot-side .mid { width: 96px; height: 96px; flex: none; margin: 0; order: -1; }
+  .mascot-side .bubble { margin: 0; flex: 1; }
+}
+
+/* Üç adım */
+.how { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; counter-reset: s; }
+.how li { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 22px; box-shadow: var(--shadow); }
+.how .num { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%;
+  background: var(--corn); color: #3B2F3A; font-weight: 900; margin-bottom: 12px; }
+.how strong { display: block; font-size: 1.2rem; margin-bottom: 4px; }
+.how p { margin: 0; color: var(--soft); }
+@media (max-width: 760px) { .how { grid-template-columns: 1fr; } }
+
+/* Ekran görüntüleri */
+.shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 36px; }
+.phone { margin: 0; border-radius: 30px; padding: 8px; background: #141014; box-shadow: var(--shadow); }
+.phone img { border-radius: 23px; width: 100%; height: auto; }
+.phone:nth-child(even) { transform: translateY(24px); }
+@media (max-width: 860px) {
+  .shots { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 14px; padding: 4px 16px 32px;
+    margin: 28px -16px 0; scrollbar-width: none; }
+  .shots::-webkit-scrollbar { display: none; }
+  .phone { flex: 0 0 62%; max-width: 260px; scroll-snap-align: center; }
+  .phone:nth-child(even) { transform: none; }
+}
+
+/* Özellikler */
+.features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.fgroup { background: var(--card); border: 1px solid var(--line); border-radius: 26px; padding: 22px; }
+.fgroup h3 { display: flex; align-items: center; gap: 10px; margin: 0 0 14px; font-size: 1.25rem; font-weight: 900; }
+.ficon { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 14px; background: var(--butter); font-size: 1.3rem; }
+.fgroup:nth-child(3n+2) .ficon { background: var(--blush); }
+.fgroup ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.fgroup li { padding-top: 12px; border-top: 1px dashed var(--line); }
+.fgroup li:first-child { border-top: 0; padding-top: 0; }
+.fgroup strong { display: block; }
+.fgroup p { margin: 2px 0 0; color: var(--soft); font-size: .97rem; }
+@media (max-width: 960px) { .features { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .features { grid-template-columns: 1fr; } }
+
+/* Gizlilik */
+.privacy { list-style: none; padding: 0; margin: 0 0 20px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.privacy li { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 22px; }
+.pico { font-size: 1.8rem; display: block; margin-bottom: 8px; }
+.privacy strong { display: block; font-size: 1.1rem; }
+.privacy p { margin: 4px 0 0; color: var(--soft); }
+@media (max-width: 760px) { .privacy { grid-template-columns: 1fr; } }
+
+/* Test */
+.test { background: var(--blush); border-radius: 32px; padding: 36px; display: grid; grid-template-columns: 160px 1fr; gap: 28px; align-items: center; }
+.test .mid { width: 160px; height: 160px; }
+.test p { margin: 0 0 18px; max-width: 60ch; }
+.test .mail { margin: 14px 0 0; font-size: .95rem; }
+@media (max-width: 640px) { .test { grid-template-columns: 1fr; padding: 26px 20px; text-align: center; }
+  .test .mid { width: 110px; height: 110px; margin: 0 auto; } .test .btns { justify-content: center; } }
+
+footer { padding: 36px 0 48px; color: var(--soft); font-size: .95rem; }
+footer .row { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 20px; }
+footer nav { display: flex; gap: 16px; flex-wrap: wrap; }
+footer a { color: var(--soft); }
+
+:focus-visible { outline: 3px solid var(--rose); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; scroll-behavior: auto !important; transition: none !important; } }
+</style>
 </head>
 <body>
-  <main>
-    <div class="corn" aria-hidden="true">🍿</div>
-    <h1>Moodcorn</h1>
-    <p>Moduna göre film ve dizi öneren, samimi bir Android uygulaması.</p>
-    <p lang="en">A friendly Android app that picks movies and series for your mood.</p>
-    <span class="pill">Yakında Google Play'de · Coming soon</span>
-    <p class="links"><a href="privacy.html">Gizlilik politikası · Privacy policy</a></p>
-  </main>
+<a class="skip" href="#main">Skip</a>
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="Moodcorn"><span class="m" data-misir="happy"></span><span class="word">Mood<b>corn</b></span></a>
+    <nav class="links" aria-label="Menu">
+      <a href="#features"><span data-i="nav_features">Features</span></a>
+      <a href="#privacy"><span data-i="nav_privacy">Privacy</span></a>
+      <a class="cta" href="#test"><span data-i="nav_test">Become a tester</span></a>
+    </nav>
+    <label class="lang"><span class="sr">Language</span>
+      <select id="lang" aria-label="Language"><option value="tr">Türkçe</option><option value="en">English</option><option value="es">Español</option><option value="pt">Português</option><option value="fr">Français</option><option value="ru">Русский</option></select>
+    </label>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap grid">
+      <div>
+        <span class="kicker"><span data-i="hero_kicker">Coming soon to Google Play</span></span>
+        <h1 data-i="hero_title">What should I watch tonight?</h1>
+        <p class="lead" data-i="hero_sub">Tell Mısır how you feel, and it finds the movie or series that fits.</p>
+        <div class="btns">
+          <a class="btn primary" href="#test">🍿 <span data-i="hero_cta">Join the test</span></a>
+          <a class="btn ghost" href="#features"><span data-i="hero_more">See what it does</span></a>
+        </div>
+        <ul class="stats"><li><span data-i="st1">1,600 movies &amp; series</span></li><li><span data-i="st2">13 moods</span></li><li><span data-i="st3">18 genres</span></li><li><span data-i="st4">6 languages</span></li><li><span data-i="st5">Works offline</span></li><li><span data-i="st6">No account</span></li></ul>
+      </div>
+      <div class="stage">
+        <div class="glow" aria-hidden="true"></div>
+        <div class="bubble"><span data-i="bubble">Hi! I&#x27;m Mısır. What&#x27;s your mood today? 🍿</span></div>
+        <div class="big" id="heroMisir" data-misir="happy" data-acc="beret" role="img" aria-label="Mısır"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="moods">
+    <div class="wrap">
+      <h2 data-i="moods_title">Start with your mood</h2>
+      <p class="sub" data-i="moods_sub">13 moods in 5 groups. Pick up to 2 and Mısır finds titles that fit both. Tap a mood to see Mısır react.</p>
+      <div class="moods">
+        <div class="mascot-side">
+          <div class="bubble" id="moodBubble" aria-live="polite">🍿</div>
+          <div class="mid" id="moodMisir" data-misir="happy" role="img" aria-label="Mısır"></div>
+        </div>
+        <div><div class="mgroup"><h3 data-g="joy">Joy</h3><div class="chips"><button type="button" class="chip" data-mood="happy" data-face="happy" aria-pressed="false"><span aria-hidden="true">😊</span> <span data-m="happy">Feel happy</span></button><button type="button" class="chip" data-mood="laugh" data-face="laugh" aria-pressed="false"><span aria-hidden="true">😂</span> <span data-m="laugh">Laugh out loud</span></button><button type="button" class="chip" data-mood="heartwarming" data-face="love" aria-pressed="false"><span aria-hidden="true">🤗</span> <span data-m="heartwarming">Warm my heart</span></button></div></div><div class="mgroup"><h3 data-g="feelings">Feelings</h3><div class="chips"><button type="button" class="chip" data-mood="cry" data-face="teary" aria-pressed="false"><span aria-hidden="true">😢</span> <span data-m="cry">I want to cry</span></button><button type="button" class="chip" data-mood="romantic" data-face="love" aria-pressed="false"><span aria-hidden="true">💕</span> <span data-m="romantic">Romantic</span></button><button type="button" class="chip" data-mood="nostalgia" data-face="calm" aria-pressed="false"><span aria-hidden="true">📼</span> <span data-m="nostalgia">Nostalgic</span></button></div></div><div class="mgroup"><h3 data-g="thrill">Thrill</h3><div class="chips"><button type="button" class="chip" data-mood="adrenaline" data-face="excited" aria-pressed="false"><span aria-hidden="true">⚡</span> <span data-m="adrenaline">Adrenaline</span></button><button type="button" class="chip" data-mood="adventure" data-face="excited" aria-pressed="false"><span aria-hidden="true">🗺️</span> <span data-m="adventure">Adventure</span></button><button type="button" class="chip" data-mood="suspense" data-face="wow" aria-pressed="false"><span aria-hidden="true">😰</span> <span data-m="suspense">Suspense</span></button><button type="button" class="chip" data-mood="horror" data-face="wow" aria-pressed="false"><span aria-hidden="true">👻</span> <span data-m="horror">Scared</span></button></div></div><div class="mgroup"><h3 data-g="mind">Mind</h3><div class="chips"><button type="button" class="chip" data-mood="mindBending" data-face="think" aria-pressed="false"><span aria-hidden="true">🌀</span> <span data-m="mindBending">Mind-bending</span></button><button type="button" class="chip" data-mood="inspiring" data-face="excited" aria-pressed="false"><span aria-hidden="true">🌟</span> <span data-m="inspiring">Inspired</span></button></div></div><div class="mgroup"><h3 data-g="calm">Calm</h3><div class="chips"><button type="button" class="chip" data-mood="unwind" data-face="calm" aria-pressed="false"><span aria-hidden="true">🛋️</span> <span data-m="unwind">Unwind</span></button></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <h2 data-i="how_title">Tonight&#x27;s pick in three steps</h2>
+      <ol class="how"><li><span class="num">1</span><strong data-i="how1_t">Pick your mood</strong><p data-i="how1">Feel happy, have a good cry, or get your mind bent?</p></li><li><span class="num">2</span><strong data-i="how2_t">Pick genres</strong><p data-i="how2">18 genres or &quot;Anything goes&quot;. Add a time limit or turn on &quot;Watching with family&quot;.</p></li><li><span class="num">3</span><strong data-i="how3_t">Get your picks</strong><p data-i="how3">10 movies and 10 series, each with a match score and a &quot;Why this pick?&quot; line.</p></li></ol>
+      <div class="shots"><figure class="phone"><img src="shot-home.webp" width="540" height="1045" loading="lazy" alt="Moodcorn"></figure><figure class="phone"><img src="shot-results.webp" width="540" height="1045" loading="lazy" alt="Moodcorn"></figure><figure class="phone"><img src="shot-smart.webp" width="540" height="1045" loading="lazy" alt="Moodcorn"></figure><figure class="phone"><img src="shot-friend.webp" width="540" height="1045" loading="lazy" alt="Moodcorn"></figure></div>
+    </div>
+  </section>
+
+  <section class="block" id="features">
+    <div class="wrap">
+      <h2 data-i="feat_title">Everything in the app</h2>
+      <p class="sub" data-i="feat_sub">Every Moodcorn feature, on one page.</p>
+      <div class="features"><article class="fgroup"><h3><span class="ficon" aria-hidden="true">🎬</span><span data-i="g_find">Find by mood</span></h3><ul><li><strong data-i="a1_t">13 moods, pick up to 2</strong><p data-i="a1">Choose two and Mısır puts the titles that fit both at the top.</p></li><li><strong data-i="a2_t">Genre, length and family</strong><p data-i="a2">18 genres or &quot;Anything goes&quot;. Say &quot;I have 1.5 hours&quot; or turn on &quot;Watching with family&quot;.</p></li><li><strong data-i="a3_t">Match score</strong><p data-i="a3">Every card shows &quot;Mood match: 4.6/5&quot;, a Moodcorn score 🍿 out of 10 and a &quot;Why this pick?&quot; line.</p></li><li><strong data-i="a4_t">Details</strong><p data-i="a4">Spoiler-free summary, where to watch, trailer, a snack idea, &quot;Start now and you&#x27;re done by 11:10 PM&quot; and 3 similar titles.</p></li><li><strong data-i="a5_t">Search, cast and directors</strong><p data-i="a5">Search any title, or tap an actor or director to see their other work.</p></li><li><strong data-i="a6_t">Roll the dice, swipe the cards</strong><p data-i="a6">Can&#x27;t decide? Roll the dice or swipe: right for My list, left to skip.</p></li></ul></article><article class="fgroup"><h3><span class="ficon" aria-hidden="true">💬</span><span data-i="g_talk">Talk to Mısır</span></h3><ul><li><strong data-i="b1_t">Write to Mısır</strong><p data-i="b1">Type what you want, like &quot;a Korean series that won&#x27;t make me cry&quot;. Mısır gets the mood, genre, length, who you&#x27;re watching with, the country and what to avoid. Offline, in 6 languages.</p></li><li><strong data-i="b2_t">Show Mısır</strong><p data-i="b2">Snap your room, the rain or your cat. Mısır reads the scene and picks &quot;this photo&#x27;s movie&quot;. Selfies work too.</p></li><li><strong data-i="b3_t">Pick with Mısır</strong><p data-i="b3">Answer 3 quick questions and let Mısır do the rest.</p></li><li><strong data-i="b4_t">Pick your snack</strong><p data-i="b4">Choose what you&#x27;re snacking on, and Mısır puts on a chef&#x27;s hat to find the mood that goes with it.</p></li></ul></article><article class="fgroup"><h3><span class="ficon" aria-hidden="true">👯</span><span data-i="g_together">Watch together</span></h3><ul><li><strong data-i="c1_t">Watch together</strong><p data-i="c1">2 to 4 people pick in secret, one at a time. Nobody gets a title that fits them below 2/5, and if there&#x27;s no common ground: &quot;You tonight, them tomorrow&quot;.</p></li><li><strong data-i="c2_t">Match game</strong><p data-i="c2">Everyone secretly swipes the same 10 cards. The one you all like: 💘 It&#x27;s a match!</p></li><li><strong data-i="c3_t">Play at the same time</strong><p data-i="c3">Two people, one phone: the screen splits in two and the top half flips around.</p></li></ul></article><article class="fgroup"><h3><span class="ficon" aria-hidden="true">✨</span><span data-i="g_foryou">For you</span></h3><ul><li><strong data-i="d1_t">Your 5 favorite films</strong><p data-i="d1">Pick 5 favorites and the &quot;Based on your 5 films&quot; shelf explains every suggestion.</p></li><li><strong data-i="d2_t">Shelves</strong><p data-i="d2">Easy watch, Miniseries, Visual feast, plus special shelves for New Year&#x27;s, Halloween and Valentine&#x27;s Day.</p></li><li><strong data-i="d3_t">Pick of the day &amp; mood forecast</strong><p data-i="d3">A new pick from Mısır every day, and tonight&#x27;s mood forecast.</p></li><li><strong data-i="d4_t">Star sign shelf</strong><p data-i="d4">Choose your sign and get titles in its mood. Just for fun ✨</p></li><li><strong data-i="d5_t">Mısır gets to know you</strong><p data-i="d5">Your list, your &quot;How was it?&quot; answers and every &quot;Don&#x27;t suggest this&quot; tune the order to your taste.</p></li></ul></article><article class="fgroup"><h3><span class="ficon" aria-hidden="true">🔖</span><span data-i="g_list">My list</span></h3><ul><li><strong data-i="e1_t">My list</strong><p data-i="e1">Save what you like, sort it, or tap &quot;Pick from my list tonight&quot;.</p></li><li><strong data-i="e2_t">How was it? &amp; mood journal</strong><p data-i="e2">Rate what you watched and say how you feel now. Over time you&#x27;ll see which moods do you good.</p></li><li><strong data-i="e3_t">Share</strong><p data-i="e3">Send a pick as an image with Mısır to WhatsApp or your Instagram story.</p></li></ul></article><article class="fgroup"><h3><span class="ficon" aria-hidden="true">🍿</span><span data-i="g_fun">Mısır &amp; fun</span></h3><ul><li><strong data-i="f1_t">A mascot with feelings</strong><p data-i="f1">Mısır (Turkish for &quot;corn&quot;) changes faces with your mood, winks, wears accessories, dresses up on special days and gets sleepy after 11 PM.</p></li><li><strong data-i="f2_t">Music &amp; sounds</strong><p data-i="f2">Music that follows your mood, Mısır&#x27;s wordless voice and gentle vibrations. Each one can be turned off in Settings.</p></li><li><strong data-i="f3_t">Badges</strong><p data-i="f3">Collect 14 badges and grow your Mısır points.</p></li><li><strong data-i="f4_t">6 languages, light &amp; dark</strong><p data-i="f4">Türkçe, English, Español, Português, Français, Русский.</p></li></ul></article></div>
+    </div>
+  </section>
+
+  <section class="block" id="privacy">
+    <div class="wrap">
+      <h2 data-i="privacy_title">Everything stays on your phone</h2>
+      <ul class="privacy"><li><span class="pico" aria-hidden="true">🙈</span><strong data-i="p1_t">No account</strong><p data-i="p1">No sign-up. Your name, list and settings live only on your phone.</p></li><li><span class="pico" aria-hidden="true">📷</span><strong data-i="p2_t">Photos never leave your phone</strong><p data-i="p2">Show Mısır looks at photos right on your phone. They aren&#x27;t saved or sent, and nobody is identified.</p></li><li><span class="pico" aria-hidden="true">📶</span><strong data-i="p3_t">Works offline</strong><p data-i="p3">The title list ships inside the app. With internet, it only downloads a newer list.</p></li></ul>
+      <a id="privacyLink" href="privacy.html"><span data-i="privacy_link">Read the full privacy policy</span> →</a>
+    </div>
+  </section>
+
+  <section class="block" id="test">
+    <div class="wrap">
+      <div class="test">
+        <div class="mid" data-misir="wink" data-acc="beret" role="img" aria-label="Mısır"></div>
+        <div>
+          <h2 data-i="test_title">Try it before everyone else</h2>
+          <p data-i="test_text">Moodcorn is in closed testing. If you have an Android phone and a Gmail address, join the test group, keep the app on your phone for 14 days and tell us what you think.</p>
+          <div class="btns"><a class="btn primary" href="https://groups.google.com/g/moodcorn-testers" target="_blank" rel="noopener"><span data-i="test_cta">Join the test group</span> ↗</a></div>
+          <p class="mail"><span data-i="test_mail">Questions or ideas:</span> <a href="mailto:moodcorn.app@gmail.com">moodcorn.app@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap row">
+    <span>© 2026 Moodcorn · <span data-i="footer_made">Made with love by Mısır 🍿</span></span>
+    <nav aria-label="Footer">
+      <a id="privacyLink2" href="privacy.html"><span data-i="footer_privacy">Privacy policy</span></a>
+      <a href="mailto:moodcorn.app@gmail.com"><span data-i="footer_contact">Contact</span></a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+const I18N = {"tr":{"mood_pick":"Bir mod seç, nasıl tepki vereceğimi gör! 🍿","lang_name":"Türkçe","meta_title":"Moodcorn · Moduna göre film ve dizi","meta_desc":"Nasıl hissettiğini söyle, Mısır sana uygun film ve diziyi bulsun. 1.600 yapım, 13 mod, 6 dil. Yakında Google Play'de.","nav_features":"Özellikler","nav_privacy":"Gizlilik","nav_test":"Testçi ol","hero_kicker":"Yakında Google Play'de","hero_title":"Bu akşam ne izlesem?","hero_sub":"Nasıl hissettiğini söyle, Mısır sana en uygun film ve diziyi bulsun.","hero_cta":"Teste katıl","hero_more":"Neler yapabiliyor?","bubble":"Selam! Ben Mısır. Bugün modun ne? 🍿","st1":"1.600 film ve dizi","st2":"13 mod","st3":"18 tür","st4":"6 dil","st5":"İnternetsiz çalışır","st6":"Hesap yok","moods_title":"Önce modunu seç","moods_sub":"5 grupta 13 mod var. En fazla 2 tanesini seç, Mısır ikisine birden uyan yapımları bulsun. Bir moda dokun, Mısır'ın tepkisini gör.","how_title":"Üç adımda bu akşamın filmi","how1_t":"Modunu seç","how1":"Mutlu hissetmek mi, ağlamak mı, beyin yakmak mı?","how2_t":"Türünü seç","how2":"18 tür ya da \"Hepsi olur\". İstersen süreyi seç, \"Ailecek izliyorum\"u aç.","how3_t":"Öneriler gelsin","how3":"10 film ve 10 dizi, uyum puanı ve \"Neden önerdik?\" cümlesiyle.","feat_title":"Uygulamanın her şeyi","feat_sub":"Moodcorn'daki bütün özellikler, tek sayfada.","g_find":"Moduna göre bul","g_talk":"Mısır'la konuş","g_together":"Birlikte izle","g_foryou":"Sana özel","g_list":"Listem","g_fun":"Mısır ve eğlence","a1_t":"13 mod, en fazla 2 seçim","a1":"İki mod seçersen Mısır ikisine birden uyan yapımları öne çıkarır.","a2_t":"Tür, süre ve aile","a2":"18 tür ya da \"Hepsi olur\". \"1,5 saatim var\" diyebilir, \"Ailecek izliyorum\"u açabilirsin.","a3_t":"Uyum puanı","a3":"Her kartta \"Modunla uyumu: 4.6/5\", 10 üzerinden Moodcorn puanı 🍿 ve \"Neden önerdik?\" satırı.","a4_t":"Detay penceresi","a4":"Spoilersız özet, nerede izlenir, fragman, atıştırmalık önerisi, \"Şimdi başlarsan bitiş: 23:10\" ve buna benzer 3 yapım.","a5_t":"Arama, oyuncu ve yönetmen","a5":"Yapım ara ya da bir oyuncuya, yönetmene dokun; diğer yapımlarını gör.","a6_t":"Zar at, kartlarla seç","a6":"Kararsızsan zar at ya da kartları kaydır: sağa Listem, sola geç.","b1_t":"Mısır'a yaz","b1":"\"Ağlatmayan bir Kore dizisi\" gibi ne istediğini yaz. Mısır duyguyu, türü, süreyi, kiminle izleyeceğini, ülkeyi ve istemediklerini anlar. İnternetsiz, 6 dilde.","b2_t":"Mısır'a göster","b2":"Odanın, yağmurun ya da kedinin fotoğrafını çek. Mısır sahneyi okur ve \"Bu fotoğrafın filmi\"ni seçer. Selfie de olur.","b3_t":"Mısır'la seç","b3":"3 kısa soruya cevap ver, gerisini Mısır halletsin.","b4_t":"Atıştırmalığını seç","b4":"Elindeki atıştırmalığı seç; Mısır aşçı şapkasını takıp ona yakışan modu bulsun.","c1_t":"Arkadaş modu","c1":"2-4 kişi sırayla gizlice seçer. Kimseye 2/5'in altında uyan yapım gelmez; ortak nokta yoksa \"Bu akşam sen, yarın o\".","c2_t":"Eşleşme oyunu","c2":"Herkes aynı 10 kartı gizlice kaydırır. Hepinizin beğendiği yapım: 💘 Eşleşme!","c3_t":"Aynı anda oynayın","c3":"İki kişi tek telefonda: ekran ikiye bölünür, üst yarı karşındakine döner.","d1_t":"Sevdiğin 5 film","d1":"5 favorini seç; \"5 filmine göre\" rafı her öneriyi nedeniyle söyler.","d2_t":"Raflar","d2":"Kafa yormaz, Mini diziler, Görsel şölen; Yılbaşı, Cadılar Bayramı ve Sevgililer Günü'nde özel raflar.","d3_t":"Günün seçimi ve mod hava durumu","d3":"Her gün yeni bir Mısır seçimi ve bu akşamın mod hava durumu.","d4_t":"Burç rafı","d4":"Burcunu seç, ona yakışan moddan yapımlar gelsin. Yalnızca eğlence için ✨","d5_t":"Mısır seni tanısın","d5":"Listen, \"Nasıldı?\" cevapların ve \"Bunu bana önerme\" dediklerin önerileri sana göre sıralar.","e1_t":"Listem","e1":"Beğendiklerini kaydet, sırala ya da \"Bu akşam listemden seç\" de.","e2_t":"Nasıldı? ve mod günlüğü","e2":"İzleyince puan ver ve şimdi nasıl hissettiğini söyle. Zamanla hangi modların sana iyi geldiğini görürsün.","e3_t":"Paylaş","e3":"Önerini Mısır'la birlikte resim olarak WhatsApp'a ya da Instagram hikâyene gönder.","f1_t":"Yaşayan bir maskot","f1":"Mısır moduna göre yüz değiştirir, göz kırpar, aksesuar takar, özel günlerde kostüm giyer, gece 23'ten sonra uykulu olur.","f2_t":"Müzik ve sesler","f2":"Moduna göre çalan müzik, Mısır'ın kelimesiz sesi ve hafif titreşimler. Hepsi Ayarlar'dan ayrı ayrı kapanır.","f3_t":"Rozetler","f3":"14 rozet topla, Mısır puanını büyüt.","f4_t":"6 dil, açık ve koyu tema","f4":"Türkçe, English, Español, Português, Français, Русский.","privacy_title":"Her şey telefonunda kalır","p1_t":"Hesap yok","p1":"Kayıt olmazsın. İsmin, listen ve ayarların yalnızca senin telefonunda durur.","p2_t":"Fotoğraflar telefondan çıkmaz","p2":"Mısır'a göster fotoğrafları telefonda inceler. Fotoğraflar kaydedilmez, gönderilmez, kimse tanınmaz.","p3_t":"İnternetsiz çalışır","p3":"Film listesi uygulamanın içinde gelir. İnternet varsa yalnızca listenin yeni sürümünü indirir.","privacy_link":"Gizlilik politikasının tamamı","test_title":"Herkesten önce dene","test_text":"Moodcorn şu an kapalı testte. Android telefonun ve bir Gmail adresin varsa test grubuna katıl, uygulamayı 14 gün telefonunda tut ve ne düşündüğünü bize söyle.","test_cta":"Test grubuna katıl","test_mail":"Soru ya da fikir için:","footer_made":"Mısır'dan sevgilerle 🍿","footer_privacy":"Gizlilik politikası","footer_contact":"İletişim","moods":{"happy":"Mutlu hissetmek","laugh":"Kahkaha atmak","heartwarming":"İçimi ısıtsın","cry":"Ağlamak istiyorum","romantic":"Romantik","nostalgia":"Nostalji","adrenaline":"Adrenalin","adventure":"Macera","suspense":"Gerilim","horror":"Korku","mindBending":"Beyin yakmak","inspiring":"İlham / motivasyon","unwind":"Kafa dağıtmak"},"groups":{"joy":"Neşe","feelings":"Duygu","thrill":"Heyecan","mind":"Zihin","calm":"Huzur"}},"en":{"mood_pick":"Pick a mood and watch me react! 🍿","lang_name":"English","meta_title":"Moodcorn · Movies and series for your mood","meta_desc":"Tell Mısır how you feel and get the movie or series that fits. 1,600 titles, 13 moods, 6 languages. Coming soon to Google Play.","nav_features":"Features","nav_privacy":"Privacy","nav_test":"Become a tester","hero_kicker":"Coming soon to Google Play","hero_title":"What should I watch tonight?","hero_sub":"Tell Mısır how you feel, and it finds the movie or series that fits.","hero_cta":"Join the test","hero_more":"See what it does","bubble":"Hi! I'm Mısır. What's your mood today? 🍿","st1":"1,600 movies & series","st2":"13 moods","st3":"18 genres","st4":"6 languages","st5":"Works offline","st6":"No account","moods_title":"Start with your mood","moods_sub":"13 moods in 5 groups. Pick up to 2 and Mısır finds titles that fit both. Tap a mood to see Mısır react.","how_title":"Tonight's pick in three steps","how1_t":"Pick your mood","how1":"Feel happy, have a good cry, or get your mind bent?","how2_t":"Pick genres","how2":"18 genres or \"Anything goes\". Add a time limit or turn on \"Watching with family\".","how3_t":"Get your picks","how3":"10 movies and 10 series, each with a match score and a \"Why this pick?\" line.","feat_title":"Everything in the app","feat_sub":"Every Moodcorn feature, on one page.","g_find":"Find by mood","g_talk":"Talk to Mısır","g_together":"Watch together","g_foryou":"For you","g_list":"My list","g_fun":"Mısır & fun","a1_t":"13 moods, pick up to 2","a1":"Choose two and Mısır puts the titles that fit both at the top.","a2_t":"Genre, length and family","a2":"18 genres or \"Anything goes\". Say \"I have 1.5 hours\" or turn on \"Watching with family\".","a3_t":"Match score","a3":"Every card shows \"Mood match: 4.6/5\", a Moodcorn score 🍿 out of 10 and a \"Why this pick?\" line.","a4_t":"Details","a4":"Spoiler-free summary, where to watch, trailer, a snack idea, \"Start now and you're done by 11:10 PM\" and 3 similar titles.","a5_t":"Search, cast and directors","a5":"Search any title, or tap an actor or director to see their other work.","a6_t":"Roll the dice, swipe the cards","a6":"Can't decide? Roll the dice or swipe: right for My list, left to skip.","b1_t":"Write to Mısır","b1":"Type what you want, like \"a Korean series that won't make me cry\". Mısır gets the mood, genre, length, who you're watching with, the country and what to avoid. Offline, in 6 languages.","b2_t":"Show Mısır","b2":"Snap your room, the rain or your cat. Mısır reads the scene and picks \"this photo's movie\". Selfies work too.","b3_t":"Pick with Mısır","b3":"Answer 3 quick questions and let Mısır do the rest.","b4_t":"Pick your snack","b4":"Choose what you're snacking on, and Mısır puts on a chef's hat to find the mood that goes with it.","c1_t":"Watch together","c1":"2 to 4 people pick in secret, one at a time. Nobody gets a title that fits them below 2/5, and if there's no common ground: \"You tonight, them tomorrow\".","c2_t":"Match game","c2":"Everyone secretly swipes the same 10 cards. The one you all like: 💘 It's a match!","c3_t":"Play at the same time","c3":"Two people, one phone: the screen splits in two and the top half flips around.","d1_t":"Your 5 favorite films","d1":"Pick 5 favorites and the \"Based on your 5 films\" shelf explains every suggestion.","d2_t":"Shelves","d2":"Easy watch, Miniseries, Visual feast, plus special shelves for New Year's, Halloween and Valentine's Day.","d3_t":"Pick of the day & mood forecast","d3":"A new pick from Mısır every day, and tonight's mood forecast.","d4_t":"Star sign shelf","d4":"Choose your sign and get titles in its mood. Just for fun ✨","d5_t":"Mısır gets to know you","d5":"Your list, your \"How was it?\" answers and every \"Don't suggest this\" tune the order to your taste.","e1_t":"My list","e1":"Save what you like, sort it, or tap \"Pick from my list tonight\".","e2_t":"How was it? & mood journal","e2":"Rate what you watched and say how you feel now. Over time you'll see which moods do you good.","e3_t":"Share","e3":"Send a pick as an image with Mısır to WhatsApp or your Instagram story.","f1_t":"A mascot with feelings","f1":"Mısır (Turkish for \"corn\") changes faces with your mood, winks, wears accessories, dresses up on special days and gets sleepy after 11 PM.","f2_t":"Music & sounds","f2":"Music that follows your mood, Mısır's wordless voice and gentle vibrations. Each one can be turned off in Settings.","f3_t":"Badges","f3":"Collect 14 badges and grow your Mısır points.","f4_t":"6 languages, light & dark","f4":"Türkçe, English, Español, Português, Français, Русский.","privacy_title":"Everything stays on your phone","p1_t":"No account","p1":"No sign-up. Your name, list and settings live only on your phone.","p2_t":"Photos never leave your phone","p2":"Show Mısır looks at photos right on your phone. They aren't saved or sent, and nobody is identified.","p3_t":"Works offline","p3":"The title list ships inside the app. With internet, it only downloads a newer list.","privacy_link":"Read the full privacy policy","test_title":"Try it before everyone else","test_text":"Moodcorn is in closed testing. If you have an Android phone and a Gmail address, join the test group, keep the app on your phone for 14 days and tell us what you think.","test_cta":"Join the test group","test_mail":"Questions or ideas:","footer_made":"Made with love by Mısır 🍿","footer_privacy":"Privacy policy","footer_contact":"Contact","moods":{"happy":"Feel happy","laugh":"Laugh out loud","heartwarming":"Warm my heart","cry":"I want to cry","romantic":"Romantic","nostalgia":"Nostalgic","adrenaline":"Adrenaline","adventure":"Adventure","suspense":"Suspense","horror":"Scared","mindBending":"Mind-bending","inspiring":"Inspired","unwind":"Unwind"},"groups":{"joy":"Joy","feelings":"Feelings","thrill":"Thrill","mind":"Mind","calm":"Calm"}},"es":{"mood_pick":"¡Elige un ánimo y mira cómo reacciono! 🍿","lang_name":"Español","meta_title":"Moodcorn · Películas y series según tu ánimo","meta_desc":"Dile a Mısır cómo te sientes y encuentra la película o serie ideal. 1600 títulos, 13 estados de ánimo, 6 idiomas. Muy pronto en Google Play.","nav_features":"Funciones","nav_privacy":"Privacidad","nav_test":"Prueba la app","hero_kicker":"Muy pronto en Google Play","hero_title":"¿Qué veo esta noche?","hero_sub":"Dile a Mısır cómo te sientes y encontrará la película o serie ideal para ti.","hero_cta":"Únete a la prueba","hero_more":"Mira lo que hace","bubble":"¡Hola! Soy Mısır. ¿Cómo te sientes hoy? 🍿","st1":"1600 películas y series","st2":"13 estados de ánimo","st3":"18 géneros","st4":"6 idiomas","st5":"Funciona sin internet","st6":"Sin cuenta","moods_title":"Empieza por tu ánimo","moods_sub":"13 estados de ánimo en 5 grupos. Elige hasta 2 y Mısır encontrará títulos que encajen con ambos. Toca uno y mira cómo reacciona Mısır.","how_title":"La película de esta noche en tres pasos","how1_t":"Elige tu ánimo","how1":"¿Sentirte feliz, llorar un rato o que te vuele la cabeza?","how2_t":"Elige géneros","how2":"18 géneros o \"Cualquiera vale\". Si quieres, elige la duración o activa \"Veo con la familia\".","how3_t":"Recibe tus sugerencias","how3":"10 películas y 10 series, con su afinidad y la línea \"¿Por qué te la sugerimos?\".","feat_title":"Todo lo que trae la app","feat_sub":"Todas las funciones de Moodcorn en una sola página.","g_find":"Busca por ánimo","g_talk":"Habla con Mısır","g_together":"Vean juntos","g_foryou":"Para ti","g_list":"Mi lista","g_fun":"Mısır y diversión","a1_t":"13 estados de ánimo, hasta 2","a1":"Si eliges dos, Mısır pone arriba los títulos que encajan con ambos.","a2_t":"Género, duración y familia","a2":"18 géneros o \"Cualquiera vale\". Di \"tengo hora y media\" o activa \"Veo con la familia\".","a3_t":"Afinidad","a3":"Cada tarjeta muestra \"Afinidad con tu ánimo: 4.6/5\", el puntaje Moodcorn 🍿 sobre 10 y la línea \"¿Por qué te la sugerimos?\".","a4_t":"Detalles","a4":"Resumen sin spoilers, dónde verla, tráiler, una botana sugerida, \"Si empiezas ahora, terminas a las 23:10\" y 3 títulos parecidos.","a5_t":"Búsqueda, reparto y dirección","a5":"Busca cualquier título o toca a un actor o director para ver sus otros trabajos.","a6_t":"Tira el dado, desliza tarjetas","a6":"¿No te decides? Tira el dado o desliza: a la derecha, a Mi lista; a la izquierda, pasas.","b1_t":"Escríbele a Mısır","b1":"Escribe lo que quieres, como \"una serie coreana que no me haga llorar\". Mısır entiende el ánimo, el género, la duración, con quién la ves, el país y lo que no quieres. Sin internet, en 6 idiomas.","b2_t":"Muéstrale a Mısır","b2":"Toma una foto de tu cuarto, de la lluvia o de tu gato. Mısır lee la escena y elige \"la película de esta foto\". También con selfie.","b3_t":"Elige con Mısır","b3":"Responde 3 preguntas rápidas y deja que Mısır haga el resto.","b4_t":"Elige tu botana","b4":"Elige qué vas a comer y Mısır se pone el gorro de chef para encontrar el ánimo que le va.","c1_t":"Ver juntos","c1":"De 2 a 4 personas eligen en secreto, por turnos. Nadie recibe un título que le quede por debajo de 2/5 y, si no hay punto en común: \"Hoy tú, mañana el otro\".","c2_t":"Juego de coincidencias","c2":"Todos deslizan en secreto las mismas 10 tarjetas. La que les gusta a todos: 💘 ¡Coincidencia!","c3_t":"Jueguen al mismo tiempo","c3":"Dos personas, un teléfono: la pantalla se divide en dos y la mitad de arriba se voltea.","d1_t":"Tus 5 películas favoritas","d1":"Elige 5 favoritas y la sección \"Según tus 5 películas\" te explica cada sugerencia.","d2_t":"Secciones","d2":"Fácil de ver, Miniseries, Festín visual y secciones especiales para Año Nuevo, Halloween y San Valentín.","d3_t":"La elección del día y el pronóstico","d3":"Una elección nueva de Mısır cada día y el pronóstico de ánimo de esta noche.","d4_t":"Tu signo","d4":"Elige tu signo y recibe títulos con su ánimo. Solo por diversión ✨","d5_t":"Mısır te conoce","d5":"Tu lista, tus respuestas a \"¿Qué tal estuvo?\" y lo que marcas con \"No me sugieras esto\" ordenan todo a tu gusto.","e1_t":"Mi lista","e1":"Guarda lo que te gusta, ordénalo o toca \"Elige de mi lista esta noche\".","e2_t":"¿Qué tal estuvo? y diario de ánimo","e2":"Califica lo que viste y cuenta cómo te sientes ahora. Con el tiempo verás qué estados de ánimo te hacen bien.","e3_t":"Compartir","e3":"Manda una sugerencia como imagen con Mısır por WhatsApp o a tu historia de Instagram.","f1_t":"Una mascota con sentimientos","f1":"Mısır (\"maíz\" en turco) cambia de cara según tu ánimo, guiña el ojo, usa accesorios, se disfraza en fechas especiales y le da sueño después de las 11 de la noche.","f2_t":"Música y sonidos","f2":"Música que sigue tu ánimo, la voz sin palabras de Mısır y vibraciones suaves. Cada una se apaga por separado en Ajustes.","f3_t":"Insignias","f3":"Junta 14 insignias y haz crecer tus puntos Mısır.","f4_t":"6 idiomas, tema claro y oscuro","f4":"Türkçe, English, Español, Português, Français, Русский.","privacy_title":"Todo se queda en tu teléfono","p1_t":"Sin cuenta","p1":"No te registras. Tu nombre, tu lista y tus ajustes viven solo en tu teléfono.","p2_t":"Tus fotos no salen del teléfono","p2":"Muéstrale a Mısır revisa las fotos en tu teléfono. No se guardan ni se envían, y no se identifica a nadie.","p3_t":"Funciona sin internet","p3":"La lista de títulos viene dentro de la app. Con internet, solo descarga una lista más nueva.","privacy_link":"Lee la política de privacidad completa","test_title":"Pruébala antes que nadie","test_text":"Moodcorn está en prueba cerrada. Si tienes un teléfono Android y una cuenta de Gmail, únete al grupo de prueba, deja la app en tu teléfono 14 días y cuéntanos qué te parece.","test_cta":"Unirme al grupo de prueba","test_mail":"Preguntas o ideas:","footer_made":"Hecho con cariño por Mısır 🍿","footer_privacy":"Política de privacidad","footer_contact":"Contacto","moods":{"happy":"Sentirme feliz","laugh":"Reírme a carcajadas","heartwarming":"Que me reconforte","cry":"Quiero llorar","romantic":"Romántico","nostalgia":"Nostalgia","adrenaline":"Adrenalina","adventure":"Aventura","suspense":"Suspense","horror":"Miedo","mindBending":"Que me vuele la cabeza","inspiring":"Inspiración","unwind":"Desconectar"},"groups":{"joy":"Alegría","feelings":"Emoción","thrill":"Adrenalina","mind":"Mente","calm":"Calma"}},"pt":{"mood_pick":"Escolha um humor e veja como eu reajo! 🍿","lang_name":"Português","meta_title":"Moodcorn · Filmes e séries para o seu humor","meta_desc":"Conte ao Mısır como você está e encontre o filme ou a série certa. 1.600 títulos, 13 humores, 6 idiomas. Em breve no Google Play.","nav_features":"Recursos","nav_privacy":"Privacidade","nav_test":"Teste o app","hero_kicker":"Em breve no Google Play","hero_title":"O que eu assisto hoje?","hero_sub":"Conte ao Mısır como você está, e ele encontra o filme ou a série certa.","hero_cta":"Entre no teste","hero_more":"Veja o que ele faz","bubble":"Oi! Eu sou o Mısır. Qual é o seu humor hoje? 🍿","st1":"1.600 filmes e séries","st2":"13 humores","st3":"18 gêneros","st4":"6 idiomas","st5":"Funciona sem internet","st6":"Sem conta","moods_title":"Comece pelo seu humor","moods_sub":"13 humores em 5 grupos. Escolha até 2 e o Mısır encontra títulos que combinam com os dois. Toque em um e veja o Mısır reagir.","how_title":"O filme de hoje em três passos","how1_t":"Escolha seu humor","how1":"Ficar feliz, chorar um pouco ou fritar o cérebro?","how2_t":"Escolha os gêneros","how2":"18 gêneros ou \"Qualquer um serve\". Se quiser, escolha a duração ou ative \"Vendo com a família\".","how3_t":"Receba as sugestões","how3":"10 filmes e 10 séries, com a combinação e a linha \"Por que sugerimos?\".","feat_title":"Tudo o que o app faz","feat_sub":"Todos os recursos do Moodcorn em uma página só.","g_find":"Busque pelo humor","g_talk":"Converse com o Mısır","g_together":"Assistam juntos","g_foryou":"Para você","g_list":"Minha lista","g_fun":"Mısır e diversão","a1_t":"13 humores, escolha até 2","a1":"Escolhendo dois, o Mısır coloca no topo os títulos que combinam com ambos.","a2_t":"Gênero, duração e família","a2":"18 gêneros ou \"Qualquer um serve\". Diga \"tenho 1h30\" ou ative \"Vendo com a família\".","a3_t":"Combinação","a3":"Cada card mostra \"Combina com seu humor: 4.6/5\", a nota Moodcorn 🍿 de 0 a 10 e a linha \"Por que sugerimos?\".","a4_t":"Detalhes","a4":"Resumo sem spoilers, onde assistir, trailer, sugestão de petisco, \"Se começar agora, termina às 23:10\" e 3 títulos parecidos.","a5_t":"Busca, elenco e direção","a5":"Busque qualquer título ou toque em um ator ou diretor para ver outros trabalhos.","a6_t":"Jogue o dado, deslize os cards","a6":"Na dúvida? Jogue o dado ou deslize: para a direita, Minha lista; para a esquerda, pula.","b1_t":"Escreva para o Mısır","b1":"Escreva o que você quer, como \"uma série coreana que não me faça chorar\". O Mısır entende o humor, o gênero, a duração, com quem você vai assistir, o país e o que você não quer. Sem internet, em 6 idiomas.","b2_t":"Mostre para o Mısır","b2":"Tire uma foto do seu quarto, da chuva ou do seu gato. O Mısır lê a cena e escolhe \"o filme desta foto\". Selfie também vale.","b3_t":"Escolha com o Mısır","b3":"Responda 3 perguntas rápidas e deixe o resto com o Mısır.","b4_t":"Escolha seu petisco","b4":"Escolha o que você vai beliscar e o Mısır põe o chapéu de chef para achar o humor que combina.","c1_t":"Assistir juntos","c1":"De 2 a 4 pessoas escolhem em segredo, uma de cada vez. Ninguém recebe um título que combine menos de 2/5 com ela e, se não houver meio-termo: \"Hoje você, amanhã o outro\".","c2_t":"Jogo do match","c2":"Todo mundo desliza em segredo os mesmos 10 cards. O que todos curtirem: 💘 Deu match!","c3_t":"Joguem ao mesmo tempo","c3":"Duas pessoas, um celular: a tela se divide em duas e a metade de cima vira de cabeça para baixo.","d1_t":"Seus 5 filmes favoritos","d1":"Escolha 5 favoritos e a seleção \"Com base nos seus 5 filmes\" explica cada sugestão.","d2_t":"Seleções","d2":"Fácil de assistir, Minisséries, Banquete visual e seleções especiais no Ano-Novo, no Halloween e no Dia dos Namorados.","d3_t":"Escolha do dia e previsão de humor","d3":"Uma escolha nova do Mısır todo dia e a previsão de humor desta noite.","d4_t":"Seu signo","d4":"Escolha seu signo e receba títulos no humor dele. Só por diversão ✨","d5_t":"O Mısır te conhece","d5":"Sua lista, suas respostas em \"O que achou?\" e o que você marca com \"Não me sugira isso\" ajustam a ordem ao seu gosto.","e1_t":"Minha lista","e1":"Salve o que curtir, organize ou toque em \"Escolha da minha lista hoje\".","e2_t":"O que achou? e diário de humor","e2":"Avalie o que assistiu e conte como está se sentindo. Com o tempo, você vê quais humores te fazem bem.","e3_t":"Compartilhar","e3":"Envie uma sugestão como imagem com o Mısır pelo WhatsApp ou nos stories do Instagram.","f1_t":"Um mascote com sentimentos","f1":"O Mısır (\"milho\" em turco) muda de cara conforme seu humor, pisca, usa acessórios, se fantasia em datas especiais e fica com sono depois das 23h.","f2_t":"Música e sons","f2":"Música que acompanha seu humor, a voz sem palavras do Mısır e vibrações suaves. Cada um desliga separado nas Configurações.","f3_t":"Conquistas","f3":"Junte 14 conquistas e aumente seus pontos Mısır.","f4_t":"6 idiomas, tema claro e escuro","f4":"Türkçe, English, Español, Português, Français, Русский.","privacy_title":"Tudo fica no seu celular","p1_t":"Sem conta","p1":"Você não se cadastra. Seu nome, sua lista e suas configurações ficam só no seu celular.","p2_t":"As fotos não saem do celular","p2":"O \"Mostre para o Mısır\" analisa as fotos no seu celular. Elas não são salvas nem enviadas, e ninguém é identificado.","p3_t":"Funciona sem internet","p3":"A lista de títulos já vem no app. Com internet, ele só baixa uma lista mais nova.","privacy_link":"Leia a política de privacidade completa","test_title":"Teste antes de todo mundo","test_text":"O Moodcorn está em teste fechado. Se você tem um celular Android e um Gmail, entre no grupo de teste, mantenha o app no celular por 14 dias e conte o que achou.","test_cta":"Entrar no grupo de teste","test_mail":"Dúvidas ou ideias:","footer_made":"Feito com carinho pelo Mısır 🍿","footer_privacy":"Política de privacidade","footer_contact":"Contato","moods":{"happy":"Me sentir feliz","laugh":"Dar risada","heartwarming":"Aquecer o coração","cry":"Quero chorar","romantic":"Romântico","nostalgia":"Nostalgia","adrenaline":"Adrenalina","adventure":"Aventura","suspense":"Suspense","horror":"Medo","mindBending":"Fritar o cérebro","inspiring":"Inspiração","unwind":"Relaxar"},"groups":{"joy":"Alegria","feelings":"Emoção","thrill":"Adrenalina","mind":"Mente","calm":"Calma"}},"fr":{"mood_pick":"Choisis une humeur et regarde comment je réagis ! 🍿","lang_name":"Français","meta_title":"Moodcorn · Films et séries selon ton humeur","meta_desc":"Dis à Mısır comment tu te sens et trouve le film ou la série qui te va. 1 600 titres, 13 humeurs, 6 langues. Bientôt sur Google Play.","nav_features":"Fonctions","nav_privacy":"Confidentialité","nav_test":"Tester l'appli","hero_kicker":"Bientôt sur Google Play","hero_title":"Qu'est-ce que je regarde ce soir ?","hero_sub":"Dis à Mısır comment tu te sens, il trouve le film ou la série qui te va.","hero_cta":"Rejoindre le test","hero_more":"Voir ce qu'il sait faire","bubble":"Salut ! Moi, c'est Mısır. Tu es d'humeur à quoi ce soir ? 🍿","st1":"1 600 films et séries","st2":"13 humeurs","st3":"18 genres","st4":"6 langues","st5":"Fonctionne hors ligne","st6":"Sans compte","moods_title":"Commence par ton humeur","moods_sub":"13 humeurs réparties en 5 groupes. Choisis-en jusqu'à 2 et Mısır trouve des titres qui collent aux deux. Touche une humeur pour voir Mısır réagir.","how_title":"Le film de ce soir en trois étapes","how1_t":"Choisis ton humeur","how1":"Te sentir bien, pleurer un bon coup ou te retourner le cerveau ?","how2_t":"Choisis les genres","how2":"18 genres ou « Peu importe ». Ajoute une durée ou active « Je regarde en famille » si tu veux.","how3_t":"Reçois tes suggestions","how3":"10 films et 10 séries, avec leur accord et la ligne « Pourquoi cette suggestion ? ».","feat_title":"Tout ce que fait l'appli","feat_sub":"Toutes les fonctions de Moodcorn, sur une seule page.","g_find":"Trouver selon l'humeur","g_talk":"Parler à Mısır","g_together":"Regarder ensemble","g_foryou":"Pour toi","g_list":"Ma liste","g_fun":"Mısır et compagnie","a1_t":"13 humeurs, jusqu'à 2","a1":"Avec deux humeurs, Mısır place en tête les titres qui collent aux deux.","a2_t":"Genre, durée et famille","a2":"18 genres ou « Peu importe ». Dis « j'ai 1 h 30 » ou active « Je regarde en famille ».","a3_t":"Accord","a3":"Chaque carte affiche « Accord avec ton humeur : 4,6/5 », la note Moodcorn 🍿 sur 10 et la ligne « Pourquoi cette suggestion ? ».","a4_t":"Fiche détaillée","a4":"Résumé sans spoiler, où regarder, bande-annonce, idée d'en-cas, « Si tu commences maintenant, fin à 23 h 10 » et 3 titres similaires.","a5_t":"Recherche, acteurs et réalisateurs","a5":"Cherche un titre ou touche un acteur ou un réalisateur pour voir ses autres œuvres.","a6_t":"Lance le dé, fais glisser","a6":"Tu hésites ? Lance le dé ou fais glisser les cartes : à droite pour Ma liste, à gauche pour passer.","b1_t":"Écris à Mısır","b1":"Écris ce que tu veux, comme « une série coréenne qui ne me fera pas pleurer ». Mısır comprend l'humeur, le genre, la durée, avec qui tu regardes, le pays et ce que tu ne veux pas. Hors ligne, en 6 langues.","b2_t":"Montre à Mısır","b2":"Prends en photo ta chambre, la pluie ou ton chat. Mısır lit la scène et choisit « le film de cette photo ». Les selfies marchent aussi.","b3_t":"Choisir avec Mısır","b3":"Réponds à 3 petites questions, Mısır s'occupe du reste.","b4_t":"Choisis ton en-cas","b4":"Choisis ce que tu grignotes, et Mısır enfile sa toque pour trouver l'humeur qui va avec.","c1_t":"Regarder ensemble","c1":"De 2 à 4 personnes choisissent en secret, chacune son tour. Personne ne reçoit un titre qui lui convient à moins de 2/5 et, faute de terrain d'entente : « Ce soir toi, demain l'autre ».","c2_t":"Jeu du match","c2":"Chacun fait glisser en secret les mêmes 10 cartes. Celle que tout le monde aime : 💘 C'est un match !","c3_t":"Jouez en même temps","c3":"Deux personnes, un téléphone : l'écran se coupe en deux et la moitié du haut se retourne.","d1_t":"Tes 5 films préférés","d1":"Choisis 5 favoris et la sélection « D'après tes 5 films » explique chaque suggestion.","d2_t":"Sélections","d2":"Facile à regarder, Mini-séries, Régal pour les yeux, et des sélections spéciales pour le Nouvel An, Halloween et la Saint-Valentin.","d3_t":"Choix du jour et météo des humeurs","d3":"Un nouveau choix de Mısır chaque jour, et la météo des humeurs de ce soir.","d4_t":"Ton signe","d4":"Choisis ton signe et reçois des titres dans son humeur. Juste pour le fun ✨","d5_t":"Mısır apprend à te connaître","d5":"Ta liste, tes réponses à « C'était comment ? » et tes « Ne me propose plus ça » ajustent l'ordre à tes goûts.","e1_t":"Ma liste","e1":"Garde ce qui te plaît, trie-le ou touche « Choisis dans ma liste ce soir ».","e2_t":"C'était comment ? et journal d'humeur","e2":"Note ce que tu as regardé et dis comment tu te sens maintenant. Avec le temps, tu verras quelles humeurs te font du bien.","e3_t":"Partager","e3":"Envoie une suggestion en image avec Mısır sur WhatsApp ou dans ta story Instagram.","f1_t":"Une mascotte qui a du cœur","f1":"Mısır (« maïs » en turc) change de tête selon ton humeur, fait des clins d'œil, porte des accessoires, se déguise les jours de fête et a sommeil après 23 h.","f2_t":"Musique et sons","f2":"Une musique qui suit ton humeur, la voix sans paroles de Mısır et de légères vibrations. Chacun se coupe séparément dans les Réglages.","f3_t":"Badges","f3":"Collectionne 14 badges et fais grimper tes points Mısır.","f4_t":"6 langues, thème clair et sombre","f4":"Türkçe, English, Español, Português, Français, Русский.","privacy_title":"Tout reste sur ton téléphone","p1_t":"Sans compte","p1":"Pas d'inscription. Ton prénom, ta liste et tes réglages restent uniquement sur ton téléphone.","p2_t":"Tes photos restent sur ton téléphone","p2":"« Montre à Mısır » analyse les photos sur ton téléphone. Elles ne sont ni enregistrées ni envoyées, et personne n'est identifié.","p3_t":"Fonctionne hors ligne","p3":"La liste des titres est incluse dans l'appli. Avec internet, elle télécharge seulement une liste plus récente.","privacy_link":"Lire toute la politique de confidentialité","test_title":"Essaie-la avant tout le monde","test_text":"Moodcorn est en test fermé. Si tu as un téléphone Android et une adresse Gmail, rejoins le groupe de test, garde l'appli 14 jours sur ton téléphone et dis-nous ce que tu en penses.","test_cta":"Rejoindre le groupe de test","test_mail":"Questions ou idées :","footer_made":"Fait avec amour par Mısır 🍿","footer_privacy":"Politique de confidentialité","footer_contact":"Contact","moods":{"happy":"Me sentir bien","laugh":"Rire aux éclats","heartwarming":"Me réchauffer le cœur","cry":"J'ai envie de pleurer","romantic":"Romantique","nostalgia":"Nostalgie","adrenaline":"Adrénaline","adventure":"Aventure","suspense":"Suspense","horror":"Avoir peur","mindBending":"Me retourner le cerveau","inspiring":"Inspiration","unwind":"Décompresser"},"groups":{"joy":"Joie","feelings":"Émotion","thrill":"Frissons","mind":"Esprit","calm":"Calme"}},"ru":{"mood_pick":"Выбери настроение и посмотри, как я отреагирую! 🍿","lang_name":"Русский","meta_title":"Moodcorn · Фильмы и сериалы под настроение","meta_desc":"Расскажи Мысыру, как ты себя чувствуешь, и получи подходящий фильм или сериал. 1600 фильмов и сериалов, 13 настроений, 6 языков. Скоро в Google Play.","nav_features":"Возможности","nav_privacy":"Конфиденциальность","nav_test":"Тестировать","hero_kicker":"Скоро в Google Play","hero_title":"Что посмотреть сегодня вечером?","hero_sub":"Расскажи Мысыру, какое у тебя настроение, и он найдёт подходящий фильм или сериал.","hero_cta":"Присоединиться к тесту","hero_more":"Что он умеет","bubble":"Привет! Я Мысыр. Какое у тебя сегодня настроение? 🍿","st1":"1600 фильмов и сериалов","st2":"13 настроений","st3":"18 жанров","st4":"6 языков","st5":"Работает без интернета","st6":"Без аккаунта","moods_title":"Начни с настроения","moods_sub":"13 настроений в 5 группах. Выбери до двух, и Мысыр найдёт то, что подходит к обоим. Нажми на настроение и посмотри, как Мысыр отреагирует.","how_title":"Фильм на вечер за три шага","how1_t":"Выбери настроение","how1":"Порадоваться, поплакать или взорвать мозг?","how2_t":"Выбери жанры","how2":"18 жанров или «Любые». Можно указать длительность или включить «Смотрю с семьёй».","how3_t":"Получи подборку","how3":"10 фильмов и 10 сериалов, с оценкой «Под настроение» и строкой «Почему мы это советуем?».","feat_title":"Всё, что умеет приложение","feat_sub":"Все возможности Moodcorn на одной странице.","g_find":"Поиск по настроению","g_talk":"Поговори с Мысыром","g_together":"Смотрим вместе","g_foryou":"Для тебя","g_list":"Мой список","g_fun":"Мысыр и развлечения","a1_t":"13 настроений, до двух","a1":"Если выбрать два, Мысыр поднимет наверх то, что подходит к обоим.","a2_t":"Жанр, длительность и семья","a2":"18 жанров или «Любые». Скажи «у меня полтора часа» или включи «Смотрю с семьёй».","a3_t":"Под настроение","a3":"На каждой карточке: «Под настроение: 4,6/5», оценка Moodcorn 🍿 из 10 и строка «Почему мы это советуем?».","a4_t":"Подробности","a4":"Описание без спойлеров, где смотреть, трейлер, идея перекуса, «Если начать сейчас, закончится в 23:10» и 3 похожих фильма или сериала.","a5_t":"Поиск, актёры и режиссёры","a5":"Найди любой фильм или нажми на актёра или режиссёра, чтобы увидеть другие работы.","a6_t":"Брось кубик, листай карточки","a6":"Не можешь выбрать? Брось кубик или листай: вправо — в Мой список, влево — дальше.","b1_t":"Напиши Мысыру","b1":"Напиши, чего хочешь, например «корейский сериал, от которого не захочется плакать». Мысыр поймёт настроение, жанр, длительность, с кем ты смотришь, страну и то, чего ты не хочешь. Без интернета, на 6 языках.","b2_t":"Покажи Мысыру","b2":"Сфотографируй комнату, дождь или своего кота. Мысыр прочитает сцену и выберет «фильм этой фотографии». Селфи тоже подойдёт.","b3_t":"Выбрать с Мысыром","b3":"Ответь на 3 коротких вопроса, остальное Мысыр сделает сам.","b4_t":"Выбери перекус","b4":"Выбери, что будешь есть, а Мысыр наденет поварской колпак и подберёт подходящее настроение.","c1_t":"Смотрим вместе","c1":"От 2 до 4 человек выбирают тайно, по очереди. Никому не достанется то, что подходит ему меньше чем на 2/5, а если общего нет: «Сегодня ты, завтра другой».","c2_t":"Игра «Совпадение»","c2":"Все тайно листают одни и те же 10 карточек. То, что понравилось всем: 💘 Совпадение!","c3_t":"Играть одновременно","c3":"Двое, один телефон: экран делится пополам, а верхняя половина переворачивается.","d1_t":"Твои 5 любимых фильмов","d1":"Выбери 5 любимых, и подборка «По твоим 5 фильмам» объяснит каждый совет.","d2_t":"Подборки","d2":"Смотрится легко, Мини-сериалы, Визуальный пир и особые подборки на Новый год, Хеллоуин и День святого Валентина.","d3_t":"Выбор дня и прогноз настроения","d3":"Каждый день новый выбор Мысыра и прогноз настроения на вечер.","d4_t":"Знак зодиака","d4":"Выбери свой знак и получи фильмы в его настроении. Просто для веселья ✨","d5_t":"Мысыр узнаёт тебя","d5":"Твой список, ответы на «Как тебе?» и «Не предлагай мне это» подстраивают порядок под твой вкус.","e1_t":"Мой список","e1":"Сохраняй то, что нравится, сортируй или нажми «Выбери из моего списка на вечер».","e2_t":"«Как тебе?» и дневник настроения","e2":"Оцени просмотренное и расскажи, как ты себя сейчас чувствуешь. Со временем увидишь, какие настроения тебе на пользу.","e3_t":"Поделиться","e3":"Отправь совет картинкой с Мысыром в WhatsApp или в историю Instagram.","f1_t":"Живой талисман","f1":"Мысыр («кукуруза» по-турецки) меняет выражение лица под твоё настроение, подмигивает, носит аксессуары, наряжается в праздники и клюёт носом после 23:00.","f2_t":"Музыка и звуки","f2":"Музыка под настроение, голос Мысыра без слов и лёгкая вибрация. Каждое отключается отдельно в Настройках.","f3_t":"Значки","f3":"Собери 14 значков и копи очки Мысыра.","f4_t":"6 языков, светлая и тёмная тема","f4":"Türkçe, English, Español, Português, Français, Русский.","privacy_title":"Всё остаётся в твоём телефоне","p1_t":"Без аккаунта","p1":"Никакой регистрации. Имя, список и настройки хранятся только в твоём телефоне.","p2_t":"Фото не покидают телефон","p2":"«Покажи Мысыру» анализирует фото прямо на телефоне. Они не сохраняются и не отправляются, и никого не распознают.","p3_t":"Работает без интернета","p3":"Список фильмов встроен в приложение. При наличии интернета оно лишь скачивает более новый список.","privacy_link":"Политика конфиденциальности полностью","test_title":"Попробуй раньше всех","test_text":"Moodcorn сейчас на закрытом тестировании. Если у тебя есть телефон на Android и адрес Gmail, вступи в тестовую группу, держи приложение на телефоне 14 дней и расскажи, что думаешь.","test_cta":"Вступить в тестовую группу","test_mail":"Вопросы или идеи:","footer_made":"С любовью от Мысыра 🍿","footer_privacy":"Политика конфиденциальности","footer_contact":"Контакты","moods":{"happy":"Почувствовать радость","laugh":"Посмеяться от души","heartwarming":"Согреть душу","cry":"Хочу поплакать","romantic":"Романтика","nostalgia":"Ностальгия","adrenaline":"Адреналин","adventure":"Приключения","suspense":"Напряжение","horror":"Пощекотать нервы","mindBending":"Взорвать мозг","inspiring":"Вдохновение","unwind":"Отвлечься"},"groups":{"joy":"Радость","feelings":"Чувства","thrill":"Острые ощущения","mind":"Разум","calm":"Покой"}}};
+const LANGS = Object.keys(I18N);
+
+/* Mısır çizimi (uygulamadaki maskotla aynı) */
+const INK = '#3B2F3A', BODY = '#FFFBF0', OUT = '#F2C14E', HULL = '#FFD86B', BLUSH = '#F7A8BC';
+const PUFFS = [[50,30,20],[30,38,18],[70,38,18],[24,58,17],[76,58,17],[36,76,15],[64,76,15],[50,58,30]];
+const BERET = '<g><ellipse cx="50" cy="15" rx="26" ry="9" fill="#3B2F3A"/><path d="M28,14 Q50,2 72,14" fill="#4A3B48"/><circle cx="50" cy="5" r="2.6" fill="#3B2F3A"/></g>';
+function face(f, blink) {
+  const s = `stroke="${INK}" stroke-width="2.6" stroke-linecap="round"`;
+  const eye = (x) => blink ? `<path d="M${x-4},55.5 L${x+4},55.5" ${s}/>` : `<circle cx="${x}" cy="55.5" r="3.4" fill="${INK}"/>`;
+  const closed = (x) => `<path d="M${x-4.5},57 Q${x},51.5 ${x+4.5},57" fill="none" ${s}/>`;
+  const down = (x) => `<path d="M${x-4.5},54 Q${x},59 ${x+4.5},54" fill="none" ${s}/>`;
+  const smile = `<path d="M44,66 Q50,72 56,66" fill="none" ${s}/>`;
+  switch (f) {
+    case 'laugh': return closed(41) + closed(59) + `<path d="M43,64 Q50,75 57,64 Z" fill="${INK}"/><path d="M46,69 Q50,72.5 54,69" fill="#F7A8BC"/>`;
+    case 'love': return closed(41) + closed(59) + smile + `<path d="M28,35 c-2,-3 -6,-1 -4,2 l4,4 l4,-4 c2,-3 -2,-5 -4,-2z" fill="#D9577A"/>`;
+    case 'teary': return eye(41) + eye(59) + `<path d="M45,69 Q50,65 55,69" fill="none" ${s}/><path d="M61,60 q-2.5,4.5 0,6.5 q2.5,-2 0,-6.5z" fill="#7CC6F2"/>`;
+    case 'calm': return down(41) + down(59) + `<path d="M45,66 Q50,70 55,66" fill="none" ${s}/>`;
+    case 'excited': return `<path d="M37,58 L41,52 L45,58" fill="none" ${s} stroke-linejoin="round"/><path d="M55,58 L59,52 L63,58" fill="none" ${s} stroke-linejoin="round"/><path d="M43,64 Q50,75 57,64 Z" fill="${INK}"/>`;
+    case 'wow': return `<circle cx="41" cy="55" r="4.4" fill="${INK}"/><circle cx="59" cy="55" r="4.4" fill="${INK}"/><circle cx="42.2" cy="53.6" r="1.4" fill="#fff"/><circle cx="60.2" cy="53.6" r="1.4" fill="#fff"/><ellipse cx="50" cy="68" rx="4" ry="5" fill="${INK}"/>`;
+    case 'think': return eye(41) + eye(59) + `<circle cx="52" cy="68" r="2.8" fill="none" stroke="${INK}" stroke-width="2.4"/><path d="M54,48 L64,46" stroke="${INK}" stroke-width="2.2" stroke-linecap="round"/>`;
+    case 'wink': return eye(41) + closed(59) + `<path d="M43,65 Q50,73 57,65" fill="none" ${s}/>`;
+    default: return eye(41) + eye(59) + smile;
+  }
+}
+function misir(f, blink, acc) {
+  let o = `<svg viewBox="-6 -6 112 112" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">`;
+  o += `<ellipse cx="50" cy="92" rx="17" ry="8" fill="${OUT}"/><ellipse cx="50" cy="92" rx="15" ry="6" fill="${HULL}"/>`;
+  for (const [x,y,r] of PUFFS) o += `<circle cx="${x}" cy="${y}" r="${r+2.2}" fill="${OUT}"/>`;
+  for (const [x,y,r] of PUFFS) o += `<circle cx="${x}" cy="${y}" r="${r}" fill="${BODY}"/>`;
+  o += `<path d="M39.9,23.6 A11,11 0 0 1 46.9,17.0" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>`;
+  for (const x of [31,69]) o += `<ellipse cx="${x}" cy="65" rx="4.5" ry="2.75" fill="${BLUSH}" fill-opacity="0.55"/>`;
+  return o + face(f, blink) + (acc === 'beret' ? BERET : '') + `</svg>`;
+}
+function draw(el, blink) { el.innerHTML = misir(el.dataset.misir, blink, el.dataset.acc).replace('viewBox="-6 -6 112 112"', VB(el.dataset.acc)); }
+const VB = (acc) => acc === 'beret' ? 'viewBox="-6 -12 112 118"' : 'viewBox="-6 -6 112 112"';
+const all = () => document.querySelectorAll('[data-misir]');
+all().forEach((el) => draw(el, false));
+/* Göz kırpma */
+setInterval(() => {
+  all().forEach((el) => { if (['happy','think','teary'].includes(el.dataset.misir)) draw(el, true); });
+  setTimeout(() => all().forEach((el) => draw(el, false)), 140);
+}, 3200);
+function hop(el) { el.classList.remove('hop'); void el.offsetWidth; el.classList.add('hop'); }
+const hero = document.getElementById('heroMisir');
+const heroFaces = ['laugh', 'wink', 'love', 'excited', 'happy'];
+let hf = 0;
+hero.addEventListener('click', () => { hero.dataset.misir = heroFaces[hf++ % heroFaces.length]; draw(hero); hop(hero); });
+
+/* Dil */
+let lang = 'en';
+function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+function load(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+function pickLang() {
+  const q = new URLSearchParams(location.search).get('lang') || location.hash.replace('#', '');
+  if (LANGS.includes(q)) return q;
+  const saved = load('moodcorn-lang');
+  if (LANGS.includes(saved)) return saved;
+  for (const l of (navigator.languages || [navigator.language || 'en'])) {
+    const c = String(l).slice(0, 2).toLowerCase();
+    if (LANGS.includes(c)) return c;
+  }
+  return 'en';
+}
+const picked = [];
+function moodBubble() {
+  const T = I18N[lang], b = document.getElementById('moodBubble');
+  b.textContent = picked.length ? picked.map((m) => document.querySelector(`[data-mood="${m}"] span`).textContent + ' ' + T.moods[m]).join(' + ') : T.mood_pick;
+}
+function apply(l) {
+  lang = l; const T = I18N[l];
+  document.documentElement.lang = l;
+  document.title = T.meta_title;
+  document.querySelector('meta[name="description"]').content = T.meta_desc;
+  document.querySelectorAll('[data-i]').forEach((el) => { el.textContent = T[el.dataset.i]; });
+  document.querySelectorAll('[data-m]').forEach((el) => { el.textContent = T.moods[el.dataset.m]; });
+  document.querySelectorAll('[data-g]').forEach((el) => { el.textContent = T.groups[el.dataset.g]; });
+  document.getElementById('lang').value = l;
+  document.getElementById('privacyLink').href = 'privacy.html#' + l;
+  document.getElementById('privacyLink2').href = 'privacy.html#' + l;
+  moodBubble();
+}
+document.getElementById('lang').addEventListener('change', (e) => { store('moodcorn-lang', e.target.value); apply(e.target.value); });
+apply(pickLang());
+
+/* Mod seçimi: en fazla 2, uygulamadaki gibi */
+const mm = document.getElementById('moodMisir');
+document.querySelectorAll('.chip').forEach((c) => c.addEventListener('click', () => {
+  const m = c.dataset.mood, i = picked.indexOf(m);
+  if (i >= 0) picked.splice(i, 1); else { picked.push(m); if (picked.length > 2) picked.shift(); }
+  document.querySelectorAll('.chip').forEach((x) => x.setAttribute('aria-pressed', picked.includes(x.dataset.mood)));
+  const last = picked.length ? document.querySelector(`[data-mood="${picked[picked.length - 1]}"]`) : null;
+  mm.dataset.misir = last ? last.dataset.face : 'happy'; draw(mm); hop(mm); moodBubble();
+}));
+</script>
 </body>
 </html>
