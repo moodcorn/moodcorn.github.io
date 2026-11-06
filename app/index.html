@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Flutter derlerken /app/ yerine "/app/" yazılır
+       (flutter build web --base-href /app/). -->
+  <base href="/app/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Moodcorn: moduna göre film ve dizi. Mood-based movie and series picks.">
+  <meta name="theme-color" content="#FFFCF7">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Moodcorn">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <title>Moodcorn</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #FFFCF7; }
+    #splash {
+      position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center;
+      justify-content: center; gap: 14px; background: #FFFCF7; color: #3B2F3A;
+      font: 800 22px/1.2 "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+      transition: opacity .3s;
+    }
+    #splash svg { animation: bob 1.6s ease-in-out infinite; }
+    #splash b { color: #E8A93A; }
+    @keyframes bob { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-10px) rotate(3deg); } }
+    @media (prefers-color-scheme: dark) {
+      html, body, #splash { background: #1F1A20; color: #F8EEF1; }
+      #splash b { color: #FFD86B; }
+    }
+    @media (prefers-reduced-motion: reduce) { #splash svg { animation: none; } }
+  </style>
+</head>
+<body>
+  <!-- Uygulama yüklenirken Mısır bekler; ilk ekran çizilince kaybolur. -->
+  <div id="splash" role="status" aria-label="Moodcorn">
+    <svg viewBox="-6 -12 112 118" width="120" height="126" aria-hidden="true"><ellipse cx="50" cy="92" rx="17" ry="8" fill="#F2C14E"/><ellipse cx="50" cy="92" rx="15" ry="6" fill="#FFD86B"/><circle cx="50" cy="30" r="22.2" fill="#F2C14E"/><circle cx="30" cy="38" r="20.2" fill="#F2C14E"/><circle cx="70" cy="38" r="20.2" fill="#F2C14E"/><circle cx="24" cy="58" r="19.2" fill="#F2C14E"/><circle cx="76" cy="58" r="19.2" fill="#F2C14E"/><circle cx="36" cy="76" r="17.2" fill="#F2C14E"/><circle cx="64" cy="76" r="17.2" fill="#F2C14E"/><circle cx="50" cy="58" r="32.2" fill="#F2C14E"/><circle cx="50" cy="30" r="20" fill="#FFFBF0"/><circle cx="30" cy="38" r="18" fill="#FFFBF0"/><circle cx="70" cy="38" r="18" fill="#FFFBF0"/><circle cx="24" cy="58" r="17" fill="#FFFBF0"/><circle cx="76" cy="58" r="17" fill="#FFFBF0"/><circle cx="36" cy="76" r="15" fill="#FFFBF0"/><circle cx="64" cy="76" r="15" fill="#FFFBF0"/><circle cx="50" cy="58" r="30" fill="#FFFBF0"/><path d="M39.9,23.6 A11,11 0 0 1 46.9,17.0" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/><ellipse cx="31" cy="65" rx="4.5" ry="2.75" fill="#F7A8BC" fill-opacity="0.55"/><ellipse cx="69" cy="65" rx="4.5" ry="2.75" fill="#F7A8BC" fill-opacity="0.55"/><circle cx="41" cy="55.5" r="3.4" fill="#3B2F3A"/><circle cx="59" cy="55.5" r="3.4" fill="#3B2F3A"/><path d="M44,66 Q50,72 56,66" fill="none" stroke="#3B2F3A" stroke-width="2.6" stroke-linecap="round"/><g><ellipse cx="50" cy="15" rx="26" ry="9" fill="#3B2F3A"/><path d="M28,14 Q50,2 72,14" fill="#4A3B48"/><circle cx="50" cy="5" r="2.6" fill="#3B2F3A"/></g></svg>
+    <div>Mood<b>corn</b></div>
+  </div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var s = document.getElementById('splash');
+      if (!s) return;
+      s.style.opacity = '0';
+      setTimeout(function () { s.remove(); }, 350);
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
