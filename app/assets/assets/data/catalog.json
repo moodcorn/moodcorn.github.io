@@ -1,6 +1,6 @@
 {
- "version": 9,
- "updated": "2026-11-03",
+ "version": 10,
+ "updated": "2026-11-08",
  "items": [
   {
    "id": "paddington-2",
@@ -35,7 +35,9 @@
    "scale": "mid",
    "topics": [
     "animals",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Paul King",
@@ -86,7 +88,9 @@
    "scale": "mid",
    "topics": [
     "animals",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Paul King",
@@ -189,7 +193,8 @@
    "score": 8.4,
    "scale": "indie",
    "topics": [
-    "art"
+    "art",
+    "happy_ending"
    ],
    "occasions": [
     "valentines"
@@ -243,7 +248,9 @@
    "score": 8.5,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Olivier Nakache",
@@ -293,7 +300,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "sports"
+    "sports",
+    "based_on_book"
    ],
    "director": "Robert Zemeckis",
    "cast": [
@@ -345,7 +353,9 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "time_travel"
+    "time_travel",
+    "happy_ending",
+    "small_town"
    ],
    "easy": true,
    "director": "Harold Ramis",
@@ -395,7 +405,8 @@
    "scale": "mid",
    "topics": [
     "school",
-    "art"
+    "art",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Richard Linklater",
@@ -445,7 +456,9 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "revenge"
+    "revenge",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "occasions": [
@@ -498,7 +511,8 @@
    "scale": "indie",
    "topics": [
     "road_trip",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "director": "Jonathan Dayton",
    "cast": [
@@ -549,7 +563,9 @@
    "topics": [
     "road_trip",
     "family_ties",
-    "survival"
+    "survival",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Taika Waititi",
@@ -602,7 +618,9 @@
    "scale": "mid",
    "topics": [
     "road_trip",
-    "art"
+    "art",
+    "happy_ending",
+    "workplace"
    ],
    "visual": true,
    "director": "Ben Stiller",
@@ -653,7 +671,8 @@
    "score": 7.7,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -707,7 +726,10 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "magic"
+    "magic",
+    "happy_ending",
+    "based_on_book",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "director": "Andrew Adamson",
@@ -758,7 +780,10 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "sea"
+    "sea",
+    "happy_ending",
+    "second_chance",
+    "wedding"
    ],
    "easy": true,
    "director": "Phyllida Lloyd",
@@ -808,7 +833,8 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "dystopia"
+    "dystopia",
+    "happy_ending"
    ],
    "director": "Peter Weir",
    "cast": [
@@ -858,7 +884,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "director": "Taika Waititi",
    "cast": [
@@ -909,7 +936,8 @@
    "scale": "mid",
    "topics": [
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "John Hughes",
@@ -961,7 +989,8 @@
    "score": 6.4,
    "scale": "mid",
    "topics": [
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Steve Bendelack",
@@ -1013,7 +1042,9 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "twist_ending"
    ],
    "director": "Rian Johnson",
    "cast": [
@@ -1063,7 +1094,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -1119,7 +1151,10 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "food"
+    "food",
+    "happy_ending",
+    "based_on_book",
+    "wedding"
    ],
    "easy": true,
    "occasions": [
@@ -1172,7 +1207,9 @@
    "score": 7.4,
    "scale": "indie",
    "topics": [
-    "time_travel"
+    "time_travel",
+    "happy_ending",
+    "wedding"
    ],
    "easy": true,
    "director": "Max Barbakow",
@@ -1226,7 +1263,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Hayao Miyazaki",
@@ -1275,7 +1313,9 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "small_town"
    ],
    "visual": true,
    "easy": true,
@@ -1324,7 +1364,9 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Hayao Miyazaki",
@@ -1373,7 +1415,10 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending",
+    "based_on_book",
+    "small_town"
    ],
    "visual": true,
    "easy": true,
@@ -1420,7 +1465,9 @@
    "scale": "mid",
    "topics": [
     "time_travel",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending",
+    "small_town"
    ],
    "visual": true,
    "occasions": [
@@ -1472,7 +1519,8 @@
    "scale": "indie",
    "topics": [
     "survival",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "director": "Isao Takahata",
    "summary": {
@@ -1566,7 +1614,8 @@
    "scale": "indie",
    "topics": [
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "director": "Naoko Yamada",
    "summary": {
@@ -1615,7 +1664,8 @@
    "topics": [
     "road_trip",
     "friendship",
-    "animals"
+    "animals",
+    "happy_ending"
    ],
    "director": "Pete Docter",
    "cast": [
@@ -1668,7 +1718,8 @@
    "scale": "big",
    "topics": [
     "coming_of_age",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "director": "Pete Docter",
    "cast": [
@@ -1718,7 +1769,8 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "art"
+    "art",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Lee Unkrich",
@@ -1771,7 +1823,8 @@
    "score": 8.4,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "John Lasseter",
@@ -1825,7 +1878,8 @@
    "topics": [
     "sea",
     "animals",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -1877,7 +1931,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "robots_ai"
+    "robots_ai",
+    "happy_ending"
    ],
    "visual": true,
    "occasions": [
@@ -1933,7 +1988,9 @@
    "scale": "big",
    "topics": [
     "food",
-    "animals"
+    "animals",
+    "happy_ending",
+    "workplace"
    ],
    "easy": true,
    "director": "Brad Bird",
@@ -1987,7 +2044,8 @@
    "scale": "big",
    "topics": [
     "animals",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Roger Allers",
@@ -2041,7 +2099,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Bob Persichetti",
@@ -2095,7 +2154,9 @@
    "scale": "big",
    "topics": [
     "animals",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Dean DeBlois",
@@ -2149,7 +2210,8 @@
    "scale": "big",
    "topics": [
     "animals",
-    "detective"
+    "detective",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Byron Howard",
@@ -2201,7 +2263,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -2258,7 +2321,8 @@
    "topics": [
     "robots_ai",
     "road_trip",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Mike Rianda",
@@ -2309,7 +2373,8 @@
    "scale": "mid",
    "topics": [
     "animals",
-    "detective"
+    "detective",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Nick Park",
@@ -2361,7 +2426,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -2413,7 +2479,8 @@
    "score": 8.0,
    "scale": "big",
    "topics": [
-    "art"
+    "art",
+    "happy_ending"
    ],
    "director": "Pete Docter",
    "cast": [
@@ -2462,7 +2529,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "ghosts"
+    "ghosts",
+    "based_on_book"
    ],
    "visual": true,
    "occasions": [
@@ -2518,7 +2586,8 @@
    "scale": "big",
    "topics": [
     "sea",
-    "survival"
+    "survival",
+    "disaster"
    ],
    "visual": true,
    "occasions": [
@@ -2570,6 +2639,10 @@
     "inspiring": 1.5,
     "unwind": 1.5
    },
+   "topics": [
+    "based_on_book",
+    "second_chance"
+   ],
    "score": 7.6,
    "scale": "mid",
    "occasions": [
@@ -2625,7 +2698,8 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "dance"
    ],
    "visual": true,
    "occasions": [
@@ -2729,6 +2803,11 @@
     "inspiring": 2.5,
     "unwind": 3.5
    },
+   "topics": [
+    "happy_ending",
+    "based_on_book",
+    "enemies_to_lovers"
+   ],
    "score": 7.9,
    "scale": "mid",
    "visual": true,
@@ -2785,7 +2864,8 @@
    "scale": "mid",
    "topics": [
     "time_travel",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "occasions": [
     "valentines"
@@ -2833,6 +2913,9 @@
     "inspiring": 1.5,
     "unwind": 4.5
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 7.3,
    "scale": "mid",
    "easy": true,
@@ -2888,7 +2971,8 @@
    "score": 7.7,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -2940,6 +3024,9 @@
     "inspiring": 2,
     "unwind": 1.5
    },
+   "topics": [
+    "second_chance"
+   ],
    "score": 8.3,
    "scale": "indie",
    "occasions": [
@@ -2987,6 +3074,9 @@
     "inspiring": 2,
     "unwind": 3
    },
+   "topics": [
+    "second_chance"
+   ],
    "score": 7.8,
    "scale": "indie",
    "director": "Celine Song",
@@ -3080,7 +3170,9 @@
    "score": 7.4,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "second_chance"
    ],
    "easy": true,
    "occasions": [
@@ -3136,7 +3228,9 @@
    "scale": "mid",
    "topics": [
     "prison",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Frank Darabont",
    "cast": [
@@ -3188,7 +3282,8 @@
    "scale": "mid",
    "topics": [
     "prison",
-    "magic"
+    "magic",
+    "based_on_book"
    ],
    "director": "Frank Darabont",
    "cast": [
@@ -3239,7 +3334,8 @@
    "score": 9.0,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "director": "Steven Spielberg",
    "cast": [
@@ -3343,7 +3439,9 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Gabriele Muccino",
    "cast": [
@@ -3392,7 +3490,9 @@
    "scale": "mid",
    "topics": [
     "school",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Stephen Chbosky",
    "cast": [
@@ -3493,7 +3593,8 @@
    "score": 7.8,
    "scale": "indie",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "small_town"
    ],
    "director": "Kenneth Lonergan",
    "cast": [
@@ -3541,7 +3642,8 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "director": "Gus Van Sant",
    "cast": [
@@ -3645,7 +3747,8 @@
    "scale": "mid",
    "topics": [
     "animals",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "easy": true,
    "director": "David Frankel",
@@ -3697,7 +3800,8 @@
    "scale": "mid",
    "topics": [
     "hospital",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "director": "Josh Boone",
    "cast": [
@@ -3744,6 +3848,10 @@
     "inspiring": 4.5,
     "unwind": 0.5
    },
+   "topics": [
+    "happy_ending",
+    "based_on_book"
+   ],
    "score": 8.1,
    "scale": "mid",
    "director": "Ron Howard",
@@ -3793,7 +3901,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "road_trip"
+    "road_trip",
+    "based_on_book"
    ],
    "director": "Garth Davis",
    "cast": [
@@ -3845,7 +3954,8 @@
    "topics": [
     "family_ties",
     "art",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "director": "Sian Heder",
    "cast": [
@@ -3944,7 +4054,8 @@
    "scale": "indie",
    "topics": [
     "art",
-    "coming_of_age"
+    "coming_of_age",
+    "small_town"
    ],
    "director": "Giuseppe Tornatore",
    "cast": [
@@ -4048,7 +4159,9 @@
    "scale": "mid",
    "topics": [
     "time_travel",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "small_town"
    ],
    "easy": true,
    "director": "Robert Zemeckis",
@@ -4102,7 +4215,8 @@
    "scale": "mid",
    "topics": [
     "aliens",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "director": "Steven Spielberg",
    "cast": [
@@ -4150,7 +4264,9 @@
    "score": 7.7,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "small_town"
    ],
    "director": "Richard Donner",
    "cast": [
@@ -4203,7 +4319,9 @@
    "topics": [
     "friendship",
     "coming_of_age",
-    "road_trip"
+    "road_trip",
+    "based_on_book",
+    "small_town"
    ],
    "director": "Rob Reiner",
    "cast": [
@@ -4256,7 +4374,8 @@
    "scale": "big",
    "topics": [
     "ghosts",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -4310,7 +4429,9 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "survival"
+    "survival",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Joe Johnston",
@@ -4364,7 +4485,9 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "art"
+    "art",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Robert Wise",
@@ -4568,6 +4691,9 @@
     "inspiring": 4,
     "unwind": 1
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 8.3,
    "scale": "big",
    "visual": true,
@@ -4621,7 +4747,8 @@
    "score": 7.9,
    "scale": "big",
    "topics": [
-    "spy"
+    "spy",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Christopher McQuarrie",
@@ -4670,6 +4797,9 @@
     "inspiring": 1.5,
     "unwind": 0.5
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 8.2,
    "scale": "mid",
    "occasions": [
@@ -4724,7 +4854,8 @@
    "scale": "big",
    "topics": [
     "robots_ai",
-    "dystopia"
+    "dystopia",
+    "martial_arts"
    ],
    "visual": true,
    "director": "Lana Wachowski",
@@ -4886,7 +5017,8 @@
    "scale": "big",
    "topics": [
     "time_travel",
-    "aliens"
+    "aliens",
+    "based_on_book"
    ],
    "director": "Doug Liman",
    "cast": [
@@ -4933,6 +5065,9 @@
     "inspiring": 1.5,
     "unwind": 1.5
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 8.4,
    "scale": "big",
    "visual": true,
@@ -4986,7 +5121,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Peter Jackson",
@@ -5040,7 +5176,8 @@
    "scale": "big",
    "topics": [
     "sea",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -5092,7 +5229,10 @@
    "scale": "big",
    "topics": [
     "animals",
-    "survival"
+    "survival",
+    "happy_ending",
+    "based_on_book",
+    "dinosaurs"
    ],
    "visual": true,
    "director": "Steven Spielberg",
@@ -5147,7 +5287,9 @@
    "topics": [
     "magic",
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "occasions": [
     "christmas"
@@ -5204,7 +5346,10 @@
    "topics": [
     "sea",
     "animals",
-    "survival"
+    "survival",
+    "twist_ending",
+    "based_on_book",
+    "disaster"
    ],
    "visual": true,
    "director": "Ang Lee",
@@ -5256,7 +5401,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Denis Villeneuve",
@@ -5310,7 +5456,9 @@
    "scale": "big",
    "topics": [
     "space",
-    "survival"
+    "survival",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Ridley Scott",
@@ -5362,7 +5510,8 @@
    "score": 8.9,
    "scale": "big",
    "topics": [
-    "heist"
+    "heist",
+    "twist_ending"
    ],
    "visual": true,
    "director": "Christopher Nolan",
@@ -5416,7 +5565,8 @@
    "scale": "mid",
    "topics": [
     "serial_killer",
-    "detective"
+    "detective",
+    "twist_ending"
    ],
    "director": "David Fincher",
    "cast": [
@@ -5469,7 +5619,8 @@
    "scale": "mid",
    "topics": [
     "serial_killer",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "director": "Jonathan Demme",
    "cast": [
@@ -5517,6 +5668,10 @@
     "inspiring": 0,
     "unwind": 0
    },
+   "topics": [
+    "twist_ending",
+    "based_on_book"
+   ],
    "score": 8.1,
    "scale": "mid",
    "director": "David Fincher",
@@ -5567,7 +5722,8 @@
    "score": 8.5,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "director": "Alfred Hitchcock",
    "cast": [
@@ -5619,7 +5775,9 @@
    "score": 8.9,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "twist_ending",
+    "con_artists"
    ],
    "director": "Bong Joon-ho",
    "cast": [
@@ -5670,7 +5828,9 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "Martin Scorsese",
    "cast": [
@@ -5722,7 +5882,8 @@
    "score": 8.5,
    "scale": "mid",
    "topics": [
-    "heist"
+    "heist",
+    "twist_ending"
    ],
    "director": "Bryan Singer",
    "cast": [
@@ -5771,6 +5932,9 @@
     "inspiring": 0.5,
     "unwind": 0
    },
+   "topics": [
+    "twist_ending"
+   ],
    "score": 7.9,
    "scale": "indie",
    "director": "Jordan Peele",
@@ -5824,7 +5988,8 @@
    "topics": [
     "survival",
     "aliens",
-    "family_ties"
+    "family_ties",
+    "monsters"
    ],
    "director": "John Krasinski",
    "cast": [
@@ -5928,7 +6093,8 @@
    "score": 8.5,
    "scale": "mid",
    "topics": [
-    "ghosts"
+    "ghosts",
+    "based_on_book"
    ],
    "occasions": [
     "halloween"
@@ -6035,7 +6201,8 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "ghosts"
+    "ghosts",
+    "twist_ending"
    ],
    "occasions": [
     "halloween"
@@ -6091,7 +6258,8 @@
    "topics": [
     "space",
     "aliens",
-    "survival"
+    "survival",
+    "monsters"
    ],
    "director": "Ridley Scott",
    "cast": [
@@ -6198,7 +6366,9 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "aliens"
+    "aliens",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "Denis Villeneuve",
    "cast": [
@@ -6249,7 +6419,9 @@
    "score": 8.5,
    "scale": "indie",
    "topics": [
-    "revenge"
+    "revenge",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "Christopher Nolan",
    "cast": [
@@ -6300,7 +6472,9 @@
    "score": 8.6,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "Christopher Nolan",
    "cast": [
@@ -6352,7 +6526,9 @@
    "score": 8.3,
    "scale": "indie",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "martial_arts"
    ],
    "director": "Daniel Kwan",
    "cast": [
@@ -6451,7 +6627,9 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "space"
+    "space",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Theodore Melfi",
    "cast": [
@@ -6549,7 +6727,8 @@
    "score": 9.0,
    "scale": "indie",
    "topics": [
-    "courtroom"
+    "courtroom",
+    "happy_ending"
    ],
    "director": "Sidney Lumet",
    "cast": [
@@ -6600,7 +6779,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "happy_ending"
    ],
    "director": "Tom Hooper",
    "cast": [
@@ -6794,7 +6974,8 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "happy_ending"
    ],
    "director": "Bryan Singer",
    "cast": [
@@ -7046,7 +7227,8 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "small_town"
    ],
    "director": "Çağan Irmak",
    "cast": [
@@ -7146,7 +7328,8 @@
    "scale": "mid",
    "topics": [
     "space",
-    "aliens"
+    "aliens",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Ömer Faruk Sorak",
@@ -7192,6 +7375,9 @@
     "inspiring": 1.5,
     "unwind": 3.5
    },
+   "topics": [
+    "small_town"
+   ],
    "score": 7.8,
    "scale": "mid",
    "easy": true,
@@ -7241,7 +7427,9 @@
    "score": 7.7,
    "scale": "mid",
    "topics": [
-    "heist"
+    "heist",
+    "happy_ending",
+    "con_artists"
    ],
    "easy": true,
    "director": "Yılmaz Erdoğan",
@@ -7391,7 +7579,9 @@
    "scale": "indie",
    "topics": [
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Ertem Eğilmez",
@@ -7443,7 +7633,9 @@
    "score": 7.8,
    "scale": "mid",
    "topics": [
-    "school"
+    "school",
+    "happy_ending",
+    "small_town"
    ],
    "director": "Mahsun Kırmızıgül",
    "cast": [
@@ -7493,7 +7685,8 @@
    "score": 7.9,
    "scale": "indie",
    "topics": [
-    "detective"
+    "detective",
+    "small_town"
    ],
    "director": "Nuri Bilge Ceylan",
    "cast": [
@@ -7545,7 +7738,8 @@
    "score": 7.8,
    "scale": "mid",
    "topics": [
-    "ghosts"
+    "ghosts",
+    "twist_ending"
    ],
    "occasions": [
     "halloween"
@@ -7599,7 +7793,10 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book",
+    "small_town",
+    "monsters"
    ],
    "occasions": [
     "halloween"
@@ -7707,7 +7904,8 @@
    "scale": "mid",
    "topics": [
     "serial_killer",
-    "school"
+    "school",
+    "small_town"
    ],
    "occasions": [
     "halloween"
@@ -7761,7 +7959,8 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ongoing",
@@ -7812,7 +8011,8 @@
    "score": 8.9,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -7859,6 +8059,10 @@
     "inspiring": 1,
     "unwind": 5
    },
+   "topics": [
+    "happy_ending",
+    "workplace"
+   ],
    "score": 9.0,
    "scale": "mid",
    "easy": true,
@@ -7911,7 +8115,10 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "enemies_to_lovers",
+    "workplace"
    ],
    "easy": true,
    "status": "ended",
@@ -7962,7 +8169,10 @@
    "scale": "mid",
    "topics": [
     "politics",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "workplace",
+    "small_town"
    ],
    "easy": true,
    "status": "ended",
@@ -8012,7 +8222,9 @@
    "score": 8.5,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "small_town"
    ],
    "easy": true,
    "status": "ended",
@@ -8114,7 +8326,8 @@
    "score": 8.5,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -8215,7 +8428,8 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "school"
+    "school",
+    "workplace"
    ],
    "easy": true,
    "status": "ongoing",
@@ -8320,7 +8534,8 @@
    "topics": [
     "school",
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -8475,7 +8690,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "school"
+    "school",
+    "small_town"
    ],
    "easy": true,
    "status": "ended",
@@ -8528,7 +8744,9 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "school"
+    "school",
+    "happy_ending",
+    "small_town"
    ],
    "easy": true,
    "status": "ended",
@@ -8630,7 +8848,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -8681,7 +8900,8 @@
    "score": 8.6,
    "scale": "mid",
    "topics": [
-    "ghosts"
+    "ghosts",
+    "vampires"
    ],
    "easy": true,
    "occasions": [
@@ -8841,7 +9061,9 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -8944,7 +9166,8 @@
    "scale": "mid",
    "topics": [
     "food",
-    "family_ties"
+    "family_ties",
+    "workplace"
    ],
    "status": "ongoing",
    "director": "Christopher Storer",
@@ -8994,7 +9217,9 @@
    "score": 8.5,
    "scale": "indie",
    "topics": [
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book",
+    "second_chance"
    ],
    "status": "mini",
    "director": "Sally Rooney",
@@ -9099,7 +9324,8 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "visual": true,
    "status": "mini",
@@ -9151,7 +9377,10 @@
    "score": 7.3,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book",
+    "enemies_to_lovers",
+    "fake_dating"
    ],
    "visual": true,
    "occasions": [
@@ -9261,7 +9490,9 @@
    "score": 8.7,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "visual": true,
    "occasions": [
@@ -9317,7 +9548,8 @@
    "topics": [
     "family_ties",
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "status": "ended",
    "director": "Shin Won-ho",
@@ -9367,7 +9599,9 @@
    "score": 8.5,
    "scale": "mid",
    "topics": [
-    "courtroom"
+    "courtroom",
+    "happy_ending",
+    "workplace"
    ],
    "easy": true,
    "status": "ended",
@@ -9472,7 +9706,10 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "based_on_book",
+    "enemies_to_lovers",
+    "workplace"
    ],
    "status": "mini",
    "director": "Lee Eisenberg",
@@ -9574,7 +9811,8 @@
    "scale": "mid",
    "topics": [
     "courtroom",
-    "mafia"
+    "mafia",
+    "con_artists"
    ],
    "status": "ended",
    "director": "Vince Gilligan",
@@ -9625,7 +9863,8 @@
    "score": 9.0,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Steven Moffat",
@@ -9729,7 +9968,8 @@
    "scale": "mid",
    "topics": [
     "serial_killer",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Joe Penhall",
@@ -9891,7 +10131,9 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "family_ties"
+    "family_ties",
+    "twist_ending",
+    "small_town"
    ],
    "status": "mini",
    "director": "Brad Ingelsby",
@@ -9942,7 +10184,9 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "twist_ending",
+    "small_town"
    ],
    "status": "ended",
    "director": "Chris Chibnall",
@@ -10101,7 +10345,8 @@
    "topics": [
     "heist",
     "revenge",
-    "detective"
+    "detective",
+    "con_artists"
    ],
    "easy": true,
    "status": "ongoing",
@@ -10153,7 +10398,8 @@
    "scale": "mid",
    "topics": [
     "mafia",
-    "detective"
+    "detective",
+    "small_town"
    ],
    "status": "ongoing",
    "director": "Noah Hawley",
@@ -10204,7 +10450,9 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "spy"
+    "spy",
+    "based_on_book",
+    "workplace"
    ],
    "status": "ongoing",
    "cast": [
@@ -10256,7 +10504,8 @@
    "scale": "mid",
    "topics": [
     "ghosts",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "occasions": [
     "halloween"
@@ -10308,6 +10557,10 @@
     "inspiring": 0.5,
     "unwind": 0
    },
+   "topics": [
+    "small_town",
+    "vampires"
+   ],
    "score": 7.7,
    "scale": "mid",
    "occasions": [
@@ -10419,7 +10672,9 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "small_town",
+    "monsters"
    ],
    "occasions": [
     "halloween"
@@ -10476,7 +10731,8 @@
    "topics": [
     "politics",
     "magic",
-    "revenge"
+    "revenge",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -10630,7 +10886,9 @@
    "score": 7.9,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "based_on_book",
+    "monsters"
    ],
    "visual": true,
    "status": "ongoing",
@@ -10736,7 +10994,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "politics"
+    "politics",
+    "video_games"
    ],
    "visual": true,
    "status": "ended",
@@ -10791,7 +11050,8 @@
    "topics": [
     "zombies",
     "survival",
-    "family_ties"
+    "family_ties",
+    "video_games"
    ],
    "visual": true,
    "status": "ongoing",
@@ -10953,7 +11213,8 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "survival"
+    "survival",
+    "disaster"
    ],
    "status": "ended",
    "director": "J. J. Abrams",
@@ -11005,7 +11266,8 @@
    "score": 8.7,
    "scale": "mid",
    "topics": [
-    "dystopia"
+    "dystopia",
+    "workplace"
    ],
    "status": "ongoing",
    "director": "Dan Erickson",
@@ -11162,7 +11424,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "easy": true,
    "status": "ongoing",
@@ -11219,7 +11482,9 @@
    "topics": [
     "magic",
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending",
+    "martial_arts"
    ],
    "visual": true,
    "easy": true,
@@ -11273,7 +11538,9 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "magic"
+    "magic",
+    "happy_ending",
+    "small_town"
    ],
    "easy": true,
    "occasions": [
@@ -11380,7 +11647,8 @@
    "scale": "mid",
    "topics": [
     "survival",
-    "politics"
+    "politics",
+    "monsters"
    ],
    "visual": true,
    "status": "ended",
@@ -11428,7 +11696,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "status": "ended",
    "director": "Yasuhiro Irie",
@@ -12159,7 +12428,8 @@
    "score": 8.7,
    "scale": "indie",
    "topics": [
-    "friendship"
+    "friendship",
+    "small_town"
    ],
    "easy": true,
    "status": "ended",
@@ -12263,7 +12533,8 @@
    "score": 8.6,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Emrah Serbes",
@@ -12735,7 +13006,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "occasions": [
     "halloween"
@@ -12789,7 +13061,8 @@
    "score": 8.4,
    "scale": "big",
    "topics": [
-    "time_travel"
+    "time_travel",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -12840,7 +13113,8 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -13044,7 +13318,9 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book",
+    "small_town"
    ],
    "director": "Claude Berri",
    "cast": [
@@ -13139,6 +13415,9 @@
     "inspiring": 0.5,
     "unwind": 4.5
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 7.8,
    "scale": "indie",
    "easy": true,
@@ -13291,7 +13570,8 @@
    "score": 8.2,
    "scale": "indie",
    "topics": [
-    "art"
+    "art",
+    "workplace"
    ],
    "easy": true,
    "status": "ended",
@@ -13442,6 +13722,9 @@
     "inspiring": 0.5,
     "unwind": 0
    },
+   "topics": [
+    "twist_ending"
+   ],
    "score": 7.6,
    "scale": "indie",
    "director": "Alejandro Amenábar",
@@ -13539,6 +13822,9 @@
     "inspiring": 4,
     "unwind": 1
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 8.0,
    "scale": "indie",
    "director": "Alejandro Amenábar",
@@ -13637,7 +13923,8 @@
    "score": 7.4,
    "scale": "mid",
    "topics": [
-    "ghosts"
+    "ghosts",
+    "twist_ending"
    ],
    "occasions": [
     "halloween"
@@ -13687,7 +13974,11 @@
    "score": 6.6,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "enemies_to_lovers",
+    "fake_dating",
+    "wedding"
    ],
    "easy": true,
    "director": "Emilio Martínez-Lázaro",
@@ -13737,7 +14028,8 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Javier Fesser",
@@ -13837,7 +14129,8 @@
    "score": 7.6,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "workplace"
    ],
    "status": "ended",
    "director": "Ramón Campos",
@@ -13888,7 +14181,8 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "workplace"
    ],
    "visual": true,
    "status": "ended",
@@ -13939,7 +14233,8 @@
    "score": 8.4,
    "scale": "big",
    "topics": [
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Christopher Nolan",
@@ -13985,6 +14280,9 @@
     "inspiring": 4,
     "unwind": 3.5
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 6.9,
    "scale": "big",
    "visual": true,
@@ -14041,7 +14339,8 @@
    "topics": [
     "space",
     "politics",
-    "revenge"
+    "revenge",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Denis Villeneuve",
@@ -14147,7 +14446,8 @@
    "score": 7.6,
    "scale": "big",
    "topics": [
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Kelsey Mann",
@@ -14359,7 +14659,9 @@
    "score": 7.1,
    "scale": "big",
    "topics": [
-    "detective"
+    "detective",
+    "happy_ending",
+    "twist_ending"
    ],
    "easy": true,
    "director": "Rian Johnson",
@@ -14413,7 +14715,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -14467,7 +14770,9 @@
    "score": 7.0,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "video_games"
    ],
    "visual": true,
    "easy": true,
@@ -14519,7 +14824,8 @@
    "scale": "big",
    "topics": [
     "food",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Paul King",
@@ -14569,7 +14875,8 @@
    "score": 7.0,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "occasions": [
@@ -14626,7 +14933,8 @@
    "scale": "big",
    "topics": [
     "coming_of_age",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Domee Shi",
@@ -14677,7 +14985,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "sea"
+    "sea",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -14733,7 +15042,9 @@
    "topics": [
     "robots_ai",
     "animals",
-    "survival"
+    "survival",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Chris Sanders",
@@ -14945,7 +15256,8 @@
    "topics": [
     "space",
     "friendship",
-    "superhero"
+    "superhero",
+    "happy_ending"
    ],
    "visual": true,
    "director": "James Gunn",
@@ -15098,7 +15410,8 @@
    "score": 6.8,
    "scale": "mid",
    "topics": [
-    "aliens"
+    "aliens",
+    "monsters"
    ],
    "director": "Jordan Peele",
    "cast": [
@@ -15300,7 +15613,8 @@
    "scale": "big",
    "topics": [
     "spy",
-    "time_travel"
+    "time_travel",
+    "twist_ending"
    ],
    "visual": true,
    "director": "Christopher Nolan",
@@ -15354,7 +15668,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "politics"
+    "politics",
+    "disaster"
    ],
    "director": "Adam McKay",
    "cast": [
@@ -15406,7 +15721,9 @@
    "score": 7.1,
    "scale": "big",
    "topics": [
-    "robots_ai"
+    "robots_ai",
+    "happy_ending",
+    "video_games"
    ],
    "easy": true,
    "director": "Shawn Levy",
@@ -15502,6 +15819,10 @@
     "inspiring": 2,
     "unwind": 3
    },
+   "topics": [
+    "happy_ending",
+    "second_chance"
+   ],
    "score": 6.9,
    "scale": "big",
    "easy": true,
@@ -15551,7 +15872,8 @@
    "score": 6.6,
    "scale": "big",
    "topics": [
-    "survival"
+    "survival",
+    "disaster"
    ],
    "visual": true,
    "easy": true,
@@ -15602,7 +15924,8 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "survival"
+    "survival",
+    "monsters"
    ],
    "visual": true,
    "director": "Takashi Yamazaki",
@@ -15653,7 +15976,11 @@
    "score": 6.2,
    "scale": "mid",
    "topics": [
-    "sea"
+    "sea",
+    "happy_ending",
+    "enemies_to_lovers",
+    "fake_dating",
+    "wedding"
    ],
    "easy": true,
    "occasions": [
@@ -15814,7 +16141,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Hayao Miyazaki",
@@ -15860,7 +16188,9 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "road_trip"
+    "road_trip",
+    "happy_ending",
+    "disaster"
    ],
    "visual": true,
    "director": "Makoto Shinkai",
@@ -15908,7 +16238,8 @@
    "score": 7.4,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "twist_ending"
    ],
    "director": "Edward Berger",
    "cast": [
@@ -16214,7 +16545,8 @@
    "scale": "mid",
    "topics": [
     "survival",
-    "aliens"
+    "aliens",
+    "monsters"
    ],
    "director": "John Krasinski",
    "cast": [
@@ -16261,6 +16593,9 @@
     "inspiring": 1,
     "unwind": 0
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 8.1,
    "scale": "mid",
    "occasions": [
@@ -16315,7 +16650,8 @@
    "score": 7.7,
    "scale": "indie",
    "topics": [
-    "serial_killer"
+    "serial_killer",
+    "small_town"
    ],
    "occasions": [
     "halloween"
@@ -16369,7 +16705,9 @@
    "score": 8.5,
    "scale": "indie",
    "topics": [
-    "serial_killer"
+    "serial_killer",
+    "twist_ending",
+    "based_on_book"
    ],
    "occasions": [
     "halloween"
@@ -16422,7 +16760,10 @@
    "scale": "mid",
    "topics": [
     "sea",
-    "animals"
+    "animals",
+    "based_on_book",
+    "small_town",
+    "monsters"
    ],
    "director": "Steven Spielberg",
    "cast": [
@@ -16529,7 +16870,9 @@
    "scale": "mid",
    "topics": [
     "aliens",
-    "survival"
+    "survival",
+    "based_on_book",
+    "monsters"
    ],
    "director": "John Carpenter",
    "cast": [
@@ -16578,7 +16921,10 @@
    "score": 7.3,
    "scale": "mid",
    "topics": [
-    "animals"
+    "animals",
+    "happy_ending",
+    "small_town",
+    "monsters"
    ],
    "easy": true,
    "occasions": [
@@ -16631,7 +16977,8 @@
    "score": 7.5,
    "scale": "mid",
    "topics": [
-    "ghosts"
+    "ghosts",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -16943,7 +17290,8 @@
    "score": 6.9,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "twist_ending"
    ],
    "occasions": [
     "halloween"
@@ -16994,6 +17342,10 @@
     "inspiring": 1,
     "unwind": 0
    },
+   "topics": [
+    "twist_ending",
+    "based_on_book"
+   ],
    "score": 8.8,
    "scale": "mid",
    "director": "David Fincher",
@@ -17046,7 +17398,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "time_travel"
+    "time_travel",
+    "twist_ending"
    ],
    "director": "Terry Gilliam",
    "cast": [
@@ -17096,7 +17449,8 @@
    "scale": "indie",
    "topics": [
     "time_travel",
-    "school"
+    "school",
+    "twist_ending"
    ],
    "director": "Richard Kelly",
    "cast": [
@@ -17149,7 +17503,8 @@
    "scale": "big",
    "topics": [
     "detective",
-    "dystopia"
+    "dystopia",
+    "based_on_book"
    ],
    "director": "Steven Spielberg",
    "cast": [
@@ -17200,7 +17555,8 @@
    "score": 7.6,
    "scale": "mid",
    "topics": [
-    "time_travel"
+    "time_travel",
+    "twist_ending"
    ],
    "director": "Eric Bress",
    "cast": [
@@ -17251,7 +17607,8 @@
    "score": 7.5,
    "scale": "mid",
    "topics": [
-    "time_travel"
+    "time_travel",
+    "twist_ending"
    ],
    "director": "Duncan Jones",
    "cast": [
@@ -17357,7 +17714,9 @@
    "scale": "big",
    "topics": [
     "heist",
-    "art"
+    "art",
+    "happy_ending",
+    "twist_ending"
    ],
    "easy": true,
    "director": "Louis Leterrier",
@@ -17410,7 +17769,8 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "twist_ending"
    ],
    "director": "Denis Villeneuve",
    "cast": [
@@ -17459,7 +17819,8 @@
    "score": 7.7,
    "scale": "indie",
    "topics": [
-    "robots_ai"
+    "robots_ai",
+    "twist_ending"
    ],
    "director": "Alex Garland",
    "cast": [
@@ -17666,7 +18027,9 @@
    "scale": "mid",
    "topics": [
     "art",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending",
+    "dance"
    ],
    "occasions": [
     "valentines"
@@ -17716,6 +18079,10 @@
     "inspiring": 2,
     "unwind": 4
    },
+   "topics": [
+    "happy_ending",
+    "fake_dating"
+   ],
    "score": 7.1,
    "scale": "mid",
    "easy": true,
@@ -17825,7 +18192,8 @@
    "score": 6.9,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -17879,7 +18247,10 @@
    "score": 7.4,
    "scale": "mid",
    "topics": [
-    "school"
+    "school",
+    "happy_ending",
+    "enemies_to_lovers",
+    "fake_dating"
    ],
    "easy": true,
    "occasions": [
@@ -17934,7 +18305,8 @@
    "score": 7.6,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -17987,6 +18359,9 @@
     "inspiring": 2.5,
     "unwind": 5
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 6.9,
    "scale": "mid",
    "easy": true,
@@ -18040,6 +18415,12 @@
     "inspiring": 1.5,
     "unwind": 4.5
    },
+   "topics": [
+    "happy_ending",
+    "enemies_to_lovers",
+    "fake_dating",
+    "workplace"
+   ],
    "score": 6.8,
    "scale": "mid",
    "easy": true,
@@ -18095,7 +18476,9 @@
    "score": 7.7,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "happy_ending",
+    "dance"
    ],
    "director": "David O. Russell",
    "cast": [
@@ -18143,6 +18526,9 @@
     "inspiring": 3,
     "unwind": 2.5
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 7.4,
    "scale": "mid",
    "occasions": [
@@ -18250,7 +18636,10 @@
    "scale": "mid",
    "topics": [
     "school",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending",
+    "based_on_book",
+    "fake_dating"
    ],
    "easy": true,
    "occasions": [
@@ -18302,6 +18691,10 @@
     "inspiring": 1.5,
     "unwind": 0.5
    },
+   "topics": [
+    "twist_ending",
+    "based_on_book"
+   ],
    "score": 7.8,
    "scale": "mid",
    "visual": true,
@@ -18354,7 +18747,8 @@
    "score": 8.1,
    "scale": "indie",
    "topics": [
-    "road_trip"
+    "road_trip",
+    "second_chance"
    ],
    "occasions": [
     "valentines"
@@ -18407,7 +18801,9 @@
    "score": 7.7,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Ang Lee",
    "cast": [
@@ -18459,7 +18855,8 @@
    "score": 8.6,
    "scale": "big",
    "topics": [
-    "space"
+    "space",
+    "happy_ending"
    ],
    "visual": true,
    "director": "George Lucas",
@@ -18513,7 +18910,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "family_ties"
+    "family_ties",
+    "twist_ending"
    ],
    "visual": true,
    "director": "Irvin Kershner",
@@ -18565,7 +18963,8 @@
    "score": 8.2,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Steven Spielberg",
@@ -18666,6 +19065,9 @@
     "inspiring": 1.5,
     "unwind": 0
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 7.3,
    "scale": "mid",
    "easy": true,
@@ -18719,7 +19121,8 @@
    "score": 7.1,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Stephen Sommers",
@@ -18819,7 +19222,8 @@
    "score": 8.0,
    "scale": "big",
    "topics": [
-    "spy"
+    "spy",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Martin Campbell",
@@ -18872,7 +19276,8 @@
    "score": 7.9,
    "scale": "big",
    "topics": [
-    "superhero"
+    "superhero",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Jon Favreau",
@@ -18922,7 +19327,8 @@
    "score": 7.8,
    "scale": "big",
    "topics": [
-    "aliens"
+    "aliens",
+    "happy_ending"
    ],
    "visual": true,
    "director": "James Cameron",
@@ -18976,7 +19382,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "aliens"
+    "aliens",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Joss Whedon",
@@ -19031,7 +19438,8 @@
    "topics": [
     "space",
     "superhero",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -19086,7 +19494,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "politics"
+    "politics",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Ryan Coogler",
@@ -19139,7 +19548,8 @@
    "score": 7.3,
    "scale": "big",
    "topics": [
-    "heist"
+    "heist",
+    "racing"
    ],
    "easy": true,
    "director": "Justin Lin",
@@ -19192,7 +19602,8 @@
    "score": 7.6,
    "scale": "big",
    "topics": [
-    "spy"
+    "spy",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Matthew Vaughn",
@@ -19246,7 +19657,8 @@
    "scale": "mid",
    "topics": [
     "heist",
-    "art"
+    "art",
+    "happy_ending"
    ],
    "director": "Edgar Wright",
    "cast": [
@@ -19299,7 +19711,8 @@
    "scale": "big",
    "topics": [
     "dystopia",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "director": "Gary Ross",
    "cast": [
@@ -19352,7 +19765,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Peter Jackson",
@@ -19407,7 +19821,9 @@
    "topics": [
     "magic",
     "school",
-    "time_travel"
+    "time_travel",
+    "happy_ending",
+    "based_on_book"
    ],
    "occasions": [
     "christmas"
@@ -19463,7 +19879,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Brad Bird",
@@ -19516,7 +19933,8 @@
    "score": 8.1,
    "scale": "big",
    "topics": [
-    "sports"
+    "sports",
+    "racing"
    ],
    "director": "James Mangold",
    "cast": [
@@ -19567,7 +19985,8 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "sports"
+    "sports",
+    "racing"
    ],
    "director": "Ron Howard",
    "cast": [
@@ -19619,7 +20038,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -19673,7 +20093,8 @@
    "scale": "big",
    "topics": [
     "sea",
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -19726,7 +20147,9 @@
    "score": 8.0,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "occasions": [
     "valentines"
@@ -19777,7 +20200,8 @@
    "score": 8.0,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Ron Clements",
@@ -19827,7 +20251,8 @@
    "score": 7.7,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Tony Bancroft",
@@ -19879,7 +20304,9 @@
    "score": 8.1,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "monsters"
    ],
    "easy": true,
    "director": "Pete Docter",
@@ -19932,7 +20359,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "director": "Lee Unkrich",
    "cast": [
@@ -19981,7 +20409,9 @@
    "score": 7.6,
    "scale": "big",
    "topics": [
-    "animals"
+    "animals",
+    "happy_ending",
+    "martial_arts"
    ],
    "easy": true,
    "director": "Mark Osborne",
@@ -20034,7 +20464,8 @@
    "score": 7.6,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Pierre Coffin",
@@ -20087,7 +20518,9 @@
    "scale": "mid",
    "topics": [
     "robots_ai",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Brad Bird",
    "cast": [
@@ -20136,7 +20569,8 @@
    "score": 7.1,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Chris Columbus",
@@ -20188,7 +20622,10 @@
    "score": 7.3,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "happy_ending",
+    "based_on_book",
+    "workplace"
    ],
    "easy": true,
    "director": "David Frankel",
@@ -20241,7 +20678,9 @@
    "scale": "mid",
    "topics": [
     "school",
-    "courtroom"
+    "courtroom",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Robert Luketic",
@@ -20292,7 +20731,8 @@
    "score": 7.1,
    "scale": "mid",
    "topics": [
-    "school"
+    "school",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Mark Waters",
@@ -20343,7 +20783,9 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending",
+    "workplace"
    ],
    "easy": true,
    "director": "Penny Marshall",
@@ -20447,7 +20889,8 @@
    "scale": "big",
    "topics": [
     "sea",
-    "survival"
+    "survival",
+    "disaster"
    ],
    "director": "Robert Zemeckis",
    "cast": [
@@ -20498,7 +20941,10 @@
    "score": 8.1,
    "scale": "big",
    "topics": [
-    "detective"
+    "detective",
+    "happy_ending",
+    "based_on_book",
+    "con_artists"
    ],
    "director": "Steven Spielberg",
    "cast": [
@@ -20599,7 +21045,9 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Tate Taylor",
    "cast": [
@@ -20652,7 +21100,8 @@
    "scale": "mid",
    "topics": [
     "road_trip",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "director": "Peter Farrelly",
    "cast": [
@@ -20703,7 +21152,9 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "John Lee Hancock",
    "cast": [
@@ -20755,7 +21206,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Tim Burton",
@@ -20809,7 +21261,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "school"
+    "school",
+    "based_on_book"
    ],
    "director": "Gábor Csupó",
    "cast": [
@@ -20859,7 +21312,8 @@
    "score": 7.6,
    "scale": "big",
    "topics": [
-    "art"
+    "art",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -20911,7 +21365,8 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "sports"
+    "sports",
+    "based_on_book"
    ],
    "director": "Clint Eastwood",
    "cast": [
@@ -20963,7 +21418,9 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "art"
+    "art",
+    "happy_ending",
+    "based_on_book"
    ],
    "occasions": [
     "christmas"
@@ -21073,7 +21530,8 @@
    "score": 8.8,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "small_town"
    ],
    "status": "ended",
    "director": "David Lynch",
@@ -21175,7 +21633,8 @@
    "score": 8.4,
    "scale": "big",
    "topics": [
-    "robots_ai"
+    "robots_ai",
+    "twist_ending"
    ],
    "visual": true,
    "status": "ended",
@@ -21227,7 +21686,8 @@
    "score": 8.6,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "twist_ending"
    ],
    "status": "ended",
    "director": "Sam Esmail",
@@ -21384,7 +21844,8 @@
    "score": 7.3,
    "scale": "mid",
    "topics": [
-    "sea"
+    "sea",
+    "twist_ending"
    ],
    "status": "ended",
    "director": "Baran bo Odar",
@@ -21436,7 +21897,8 @@
    "scale": "mid",
    "topics": [
     "dystopia",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "Graham Yost",
@@ -21489,7 +21951,8 @@
    "scale": "big",
    "topics": [
     "aliens",
-    "space"
+    "space",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "David Benioff",
@@ -21647,7 +22110,8 @@
    "scale": "mid",
    "topics": [
     "serial_killer",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Carlton Cuse",
@@ -21753,7 +22217,8 @@
    "scale": "mid",
    "topics": [
     "serial_killer",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Bryan Fuller",
@@ -21804,7 +22269,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "David Kajganich",
@@ -21856,7 +22322,8 @@
    "score": 7.4,
    "scale": "mid",
    "topics": [
-    "ghosts"
+    "ghosts",
+    "based_on_book"
    ],
    "occasions": [
     "halloween"
@@ -21963,7 +22430,8 @@
    "score": 7.3,
    "scale": "mid",
    "topics": [
-    "survival"
+    "survival",
+    "monsters"
    ],
    "status": "ended",
    "director": "Lee Eung-bok",
@@ -22067,7 +22535,8 @@
    "score": 7.8,
    "scale": "mid",
    "topics": [
-    "survival"
+    "survival",
+    "monsters"
    ],
    "status": "ongoing",
    "director": "John Griffin",
@@ -22119,7 +22588,9 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "magic"
+    "magic",
+    "vampires",
+    "video_games"
    ],
    "status": "ended",
    "director": "Warren Ellis",
@@ -22172,7 +22643,10 @@
    "score": 8.8,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book",
+    "enemies_to_lovers"
    ],
    "occasions": [
     "valentines"
@@ -22221,6 +22695,10 @@
     "inspiring": 3,
     "unwind": 3
    },
+   "topics": [
+    "based_on_book",
+    "enemies_to_lovers"
+   ],
    "score": 8.5,
    "scale": "mid",
    "occasions": [
@@ -22274,7 +22752,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "sea"
+    "sea",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -22371,6 +22850,10 @@
     "inspiring": 3,
     "unwind": 4
    },
+   "topics": [
+    "based_on_book",
+    "small_town"
+   ],
    "score": 7.4,
    "scale": "mid",
    "easy": true,
@@ -22425,7 +22908,8 @@
    "score": 6.8,
    "scale": "big",
    "topics": [
-    "art"
+    "art",
+    "workplace"
    ],
    "visual": true,
    "easy": true,
@@ -22479,7 +22963,9 @@
    "scale": "mid",
    "topics": [
     "coming_of_age",
-    "sea"
+    "sea",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "status": "ended",
@@ -22528,6 +23014,10 @@
     "inspiring": 2,
     "unwind": 2.5
    },
+   "topics": [
+    "based_on_book",
+    "second_chance"
+   ],
    "score": 8.0,
    "scale": "mid",
    "occasions": [
@@ -22635,7 +23125,8 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "hospital"
+    "hospital",
+    "happy_ending"
    ],
    "occasions": [
     "valentines"
@@ -22684,6 +23175,12 @@
     "inspiring": 1.5,
     "unwind": 5
    },
+   "topics": [
+    "happy_ending",
+    "enemies_to_lovers",
+    "fake_dating",
+    "workplace"
+   ],
    "score": 8.1,
    "scale": "mid",
    "easy": true,
@@ -22738,7 +23235,9 @@
    "score": 8.6,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "second_chance"
    ],
    "occasions": [
     "valentines"
@@ -22842,7 +23341,8 @@
    "score": 9.4,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "status": "mini",
    "director": "Steven Spielberg",
@@ -22893,7 +23393,8 @@
    "score": 9.3,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "disaster"
    ],
    "status": "mini",
    "director": "Craig Mazin",
@@ -22943,7 +23444,8 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "school"
+    "school",
+    "small_town"
    ],
    "status": "ended",
    "director": "Peter Berg",
@@ -23043,7 +23545,8 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "hospital"
+    "hospital",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "Heidi Thomas",
@@ -23142,7 +23645,8 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "status": "mini",
    "director": "Molly Smith Metzler",
@@ -23192,7 +23696,8 @@
    "score": 8.0,
    "scale": "indie",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "status": "mini",
    "director": "Anna Winger",
@@ -23243,7 +23748,8 @@
    "scale": "mid",
    "topics": [
     "hospital",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -23295,7 +23801,8 @@
    "score": 8.7,
    "scale": "mid",
    "topics": [
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -23344,7 +23851,9 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book",
+    "small_town"
    ],
    "easy": true,
    "status": "ended",
@@ -23497,7 +24006,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ongoing",
@@ -23595,7 +24105,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -23647,7 +24158,9 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "politics"
+    "politics",
+    "happy_ending",
+    "martial_arts"
    ],
    "visual": true,
    "status": "ended",
@@ -23750,7 +24263,8 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -23856,7 +24370,9 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "school"
+    "school",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "status": "ended",
@@ -24117,7 +24633,8 @@
    "topics": [
     "magic",
     "road_trip",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "Jonathan E. Steinberg",
@@ -24221,7 +24738,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "politics"
+    "politics",
+    "workplace"
    ],
    "status": "ended",
    "director": "Jesse Armstrong",
@@ -24274,7 +24792,8 @@
    "scale": "big",
    "topics": [
     "politics",
-    "magic"
+    "magic",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ongoing",
@@ -24327,7 +24846,8 @@
    "score": 6.9,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ongoing",
@@ -24430,7 +24950,9 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "courtroom"
+    "courtroom",
+    "workplace",
+    "con_artists"
    ],
    "easy": true,
    "status": "ended",
@@ -24890,7 +25412,8 @@
    "scale": "big",
    "topics": [
     "dystopia",
-    "survival"
+    "survival",
+    "video_games"
    ],
    "visual": true,
    "status": "ongoing",
@@ -24941,7 +25464,8 @@
    "score": 8.6,
    "scale": "big",
    "topics": [
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ongoing",
@@ -24993,7 +25517,8 @@
    "scale": "mid",
    "topics": [
     "spy",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "easy": true,
    "status": "ongoing",
@@ -25096,7 +25621,8 @@
    "scale": "mid",
    "topics": [
     "serial_killer",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "James Manos Jr.",
@@ -25194,7 +25720,8 @@
    "score": 8.6,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "easy": true,
    "status": "ended",
@@ -25298,7 +25825,8 @@
    "scale": "mid",
    "topics": [
     "hospital",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -25349,7 +25877,8 @@
    "score": 7.8,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -25401,7 +25930,8 @@
    "score": 8.6,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "happy_ending"
    ],
    "visual": true,
    "status": "ended",
@@ -25699,7 +26229,8 @@
    "scale": "mid",
    "topics": [
     "time_travel",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "status": "ended",
    "director": "Hiroshi Hamasaki",
@@ -25856,7 +26387,8 @@
    "scale": "mid",
    "topics": [
     "mafia",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Fernando Meirelles",
@@ -26063,7 +26595,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Guel Arraes",
@@ -26117,7 +26650,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "director": "Walter Salles",
    "cast": [
@@ -26167,7 +26701,8 @@
    "scale": "indie",
    "topics": [
     "survival",
-    "revenge"
+    "revenge",
+    "small_town"
    ],
    "director": "Kleber Mendonça Filho",
    "cast": [
@@ -26375,7 +26910,8 @@
    "scale": "indie",
    "topics": [
     "food",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "occasions": [
     "valentines"
@@ -26428,7 +26964,8 @@
    "score": 6.9,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Gary Alazraki",
@@ -26530,7 +27067,8 @@
    "scale": "indie",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "vampires"
    ],
    "occasions": [
     "halloween"
@@ -26586,7 +27124,9 @@
    "topics": [
     "detective",
     "revenge",
-    "courtroom"
+    "courtroom",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "Juan José Campanella",
    "cast": [
@@ -26637,7 +27177,8 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "revenge"
+    "revenge",
+    "wedding"
    ],
    "director": "Damián Szifron",
    "cast": [
@@ -26689,7 +27230,9 @@
    "score": 7.8,
    "scale": "indie",
    "topics": [
-    "heist"
+    "heist",
+    "twist_ending",
+    "con_artists"
    ],
    "director": "Fabián Bielinsky",
    "cast": [
@@ -26791,7 +27334,9 @@
    "scale": "indie",
    "topics": [
     "family_ties",
-    "food"
+    "food",
+    "happy_ending",
+    "wedding"
    ],
    "director": "Juan José Campanella",
    "cast": [
@@ -27056,7 +27601,8 @@
    "score": 6.9,
    "scale": "big",
    "topics": [
-    "sports"
+    "sports",
+    "racing"
    ],
    "status": "mini",
    "director": "Vicente Amorim",
@@ -27325,7 +27871,8 @@
    "scale": "indie",
    "topics": [
     "heist",
-    "friendship"
+    "friendship",
+    "con_artists"
    ],
    "easy": true,
    "status": "ended",
@@ -27483,7 +28030,9 @@
    "score": 7.2,
    "scale": "mid",
    "topics": [
-    "ghosts"
+    "ghosts",
+    "based_on_book",
+    "vampires"
    ],
    "visual": true,
    "occasions": [
@@ -27540,7 +28089,8 @@
    "scale": "big",
    "topics": [
     "art",
-    "family_ties"
+    "family_ties",
+    "vampires"
    ],
    "visual": true,
    "director": "Ryan Coogler",
@@ -27794,7 +28344,8 @@
    "scale": "indie",
    "topics": [
     "art",
-    "family_ties"
+    "family_ties",
+    "dance"
    ],
    "occasions": [
     "halloween"
@@ -27893,7 +28444,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "robots_ai"
+    "robots_ai",
+    "video_games"
    ],
    "occasions": [
     "halloween"
@@ -27945,6 +28497,9 @@
     "inspiring": 2,
     "unwind": 0
    },
+   "topics": [
+    "twist_ending"
+   ],
    "score": 7.1,
    "scale": "mid",
    "occasions": [
@@ -27996,7 +28551,8 @@
    "score": 6.5,
    "scale": "mid",
    "topics": [
-    "heist"
+    "heist",
+    "vampires"
    ],
    "occasions": [
     "halloween"
@@ -28103,7 +28659,8 @@
    "score": 6.9,
    "scale": "mid",
    "topics": [
-    "robots_ai"
+    "robots_ai",
+    "twist_ending"
    ],
    "director": "Drew Hancock",
    "cast": [
@@ -28205,6 +28762,9 @@
     "inspiring": 0,
     "unwind": 0
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 8.0,
    "scale": "mid",
    "occasions": [
@@ -28365,7 +28925,8 @@
    "scale": "indie",
    "topics": [
     "survival",
-    "friendship"
+    "friendship",
+    "monsters"
    ],
    "occasions": [
     "halloween"
@@ -28527,7 +29088,11 @@
    "scale": "mid",
    "topics": [
     "survival",
-    "family_ties"
+    "family_ties",
+    "twist_ending",
+    "based_on_book",
+    "small_town",
+    "monsters"
    ],
    "director": "Frank Darabont",
    "cast": [
@@ -28576,7 +29141,8 @@
    "score": 7.0,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "twist_ending"
    ],
    "occasions": [
     "halloween"
@@ -28683,7 +29249,8 @@
    "topics": [
     "zombies",
     "road_trip",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -28738,7 +29305,8 @@
    "topics": [
     "space",
     "aliens",
-    "robots_ai"
+    "robots_ai",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Bong Joon-ho",
@@ -28792,7 +29360,8 @@
    "scale": "mid",
    "topics": [
     "road_trip",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Yorgos Lanthimos",
@@ -28844,7 +29413,8 @@
    "scale": "indie",
    "topics": [
     "road_trip",
-    "family_ties"
+    "family_ties",
+    "twist_ending"
    ],
    "director": "Charlie Kaufman",
    "cast": [
@@ -29001,7 +29571,8 @@
    "score": 6.9,
    "scale": "mid",
    "topics": [
-    "school"
+    "school",
+    "twist_ending"
    ],
    "visual": true,
    "director": "Emerald Fennell",
@@ -29053,7 +29624,8 @@
    "score": 8.2,
    "scale": "indie",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "twist_ending"
    ],
    "director": "Florian Zeller",
    "cast": [
@@ -29105,7 +29677,8 @@
    "scale": "mid",
    "topics": [
     "aliens",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Alex Garland",
@@ -29155,7 +29728,8 @@
    "score": 7.2,
    "scale": "indie",
    "topics": [
-    "friendship"
+    "friendship",
+    "twist_ending"
    ],
    "director": "James Ward Byrkit",
    "cast": [
@@ -29204,7 +29778,9 @@
    "scale": "indie",
    "topics": [
     "time_travel",
-    "detective"
+    "detective",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "Michael Spierig",
    "cast": [
@@ -29256,7 +29832,8 @@
    "scale": "indie",
    "topics": [
     "art",
-    "detective"
+    "detective",
+    "twist_ending"
    ],
    "director": "David Lynch",
    "cast": [
@@ -29309,7 +29886,8 @@
    "scale": "mid",
    "topics": [
     "revenge",
-    "prison"
+    "prison",
+    "twist_ending"
    ],
    "director": "Park Chan-wook",
    "cast": [
@@ -29409,7 +29987,8 @@
    "scale": "indie",
    "topics": [
     "space",
-    "robots_ai"
+    "robots_ai",
+    "twist_ending"
    ],
    "director": "Duncan Jones",
    "cast": [
@@ -29458,7 +30037,8 @@
    "scale": "mid",
    "topics": [
     "robots_ai",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Satoshi Kon",
@@ -29504,7 +30084,9 @@
    "scale": "indie",
    "topics": [
     "art",
-    "serial_killer"
+    "serial_killer",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "Satoshi Kon",
    "summary": {
@@ -29551,7 +30133,8 @@
    "score": 7.7,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "twist_ending"
    ],
    "director": "David Fincher",
    "cast": [
@@ -29603,7 +30186,8 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "family_ties"
+    "family_ties",
+    "twist_ending"
    ],
    "director": "Aneesh Chaganty",
    "cast": [
@@ -29651,7 +30235,8 @@
    "score": 6.6,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "second_chance"
    ],
    "occasions": [
     "valentines"
@@ -29703,7 +30288,8 @@
    "score": 6.9,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "occasions": [
@@ -29756,7 +30342,8 @@
    "score": 6.5,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "fake_dating"
    ],
    "occasions": [
     "valentines"
@@ -29808,7 +30395,9 @@
    "score": 6.4,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "occasions": [
@@ -29914,7 +30503,9 @@
    "score": 6.1,
    "scale": "big",
    "topics": [
-    "road_trip"
+    "road_trip",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "occasions": [
@@ -29970,7 +30561,10 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "sea"
+    "sea",
+    "happy_ending",
+    "second_chance",
+    "wedding"
    ],
    "visual": true,
    "easy": true,
@@ -30022,7 +30616,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "politics"
+    "politics",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Greg Berlanti",
@@ -30122,7 +30717,8 @@
    "scale": "indie",
    "topics": [
     "coming_of_age",
-    "art"
+    "art",
+    "based_on_book"
    ],
    "visual": true,
    "occasions": [
@@ -30231,7 +30827,9 @@
    "score": 6.7,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "occasions": [
@@ -30285,7 +30883,9 @@
    "score": 7.1,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "wedding"
    ],
    "occasions": [
     "valentines"
@@ -30335,6 +30935,10 @@
     "inspiring": 2,
     "unwind": 4
    },
+   "topics": [
+    "happy_ending",
+    "based_on_book"
+   ],
    "score": 6.8,
    "scale": "mid",
    "easy": true,
@@ -30392,7 +30996,8 @@
    "scale": "mid",
    "topics": [
     "sea",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -30448,7 +31053,9 @@
    "scale": "mid",
    "topics": [
     "school",
-    "magic"
+    "magic",
+    "based_on_book",
+    "vampires"
    ],
    "occasions": [
     "valentines"
@@ -30556,7 +31163,8 @@
    "scale": "mid",
    "topics": [
     "art",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "John Carney",
@@ -30610,7 +31218,10 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "road_trip"
+    "road_trip",
+    "happy_ending",
+    "based_on_book",
+    "enemies_to_lovers"
    ],
    "visual": true,
    "easy": true,
@@ -30662,7 +31273,8 @@
    "score": 7.3,
    "scale": "indie",
    "topics": [
-    "road_trip"
+    "road_trip",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Chloé Zhao",
@@ -30813,7 +31425,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "director": "Marc Forster",
    "cast": [
@@ -30965,7 +31578,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "director": "Mark Herman",
    "cast": [
@@ -31019,7 +31633,8 @@
    "topics": [
     "revenge",
     "prison",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Tom Hooper",
@@ -31069,7 +31684,8 @@
    "scale": "indie",
    "topics": [
     "family_ties",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "director": "Lenny Abrahamson",
    "cast": [
@@ -31121,7 +31737,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "director": "J. A. Bayona",
@@ -31175,7 +31792,8 @@
    "scale": "mid",
    "topics": [
     "survival",
-    "art"
+    "art",
+    "based_on_book"
    ],
    "director": "Roman Polanski",
    "cast": [
@@ -31225,7 +31843,8 @@
    "topics": [
     "superhero",
     "time_travel",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Shawn Levy",
@@ -31279,7 +31898,8 @@
    "scale": "big",
    "topics": [
     "sea",
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -31330,7 +31950,9 @@
    "scale": "big",
    "topics": [
     "animals",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "martial_arts"
    ],
    "easy": true,
    "director": "Mike Mitchell",
@@ -31387,7 +32009,8 @@
    "score": 6.1,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Chris Renaud",
@@ -31438,7 +32061,8 @@
    "topics": [
     "superhero",
     "politics",
-    "animals"
+    "animals",
+    "happy_ending"
    ],
    "visual": true,
    "director": "James Gunn",
@@ -31589,7 +32213,8 @@
    "score": 7.6,
    "scale": "big",
    "topics": [
-    "sports"
+    "sports",
+    "racing"
    ],
    "visual": true,
    "director": "Joseph Kosinski",
@@ -31643,7 +32268,8 @@
    "scale": "big",
    "topics": [
     "spy",
-    "robots_ai"
+    "robots_ai",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Christopher McQuarrie",
@@ -31702,7 +32328,9 @@
    "topics": [
     "animals",
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Dean DeBlois",
@@ -31757,7 +32385,8 @@
    "topics": [
     "aliens",
     "family_ties",
-    "animals"
+    "animals",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Dean Fleischer Camp",
@@ -31810,7 +32439,9 @@
    "score": 5.8,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "video_games"
    ],
    "easy": true,
    "director": "Jared Hess",
@@ -31863,7 +32494,8 @@
    "topics": [
     "friendship",
     "art",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Maggie Kang",
@@ -31921,7 +32553,9 @@
    "topics": [
     "sea",
     "magic",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "small_town"
    ],
    "visual": true,
    "easy": true,
@@ -31971,7 +32605,9 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "video_games"
    ],
    "easy": true,
    "director": "Jeff Fowler",
@@ -32081,7 +32717,8 @@
    "scale": "big",
    "topics": [
     "mafia",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Martin Scorsese",
@@ -32136,7 +32773,9 @@
    "topics": [
     "heist",
     "animals",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Pierre Perifel",
@@ -32188,7 +32827,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Nick Bruno",
@@ -32239,7 +32879,8 @@
    "topics": [
     "aliens",
     "space",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -32289,7 +32930,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "animals"
+    "animals",
+    "small_town"
    ],
    "visual": true,
    "director": "Martin McDonagh",
@@ -32342,7 +32984,8 @@
    "topics": [
     "aliens",
     "survival",
-    "animals"
+    "animals",
+    "monsters"
    ],
    "visual": true,
    "director": "Dan Trachtenberg",
@@ -32503,7 +33146,8 @@
    "topics": [
     "superhero",
     "family_ties",
-    "magic"
+    "magic",
+    "martial_arts"
    ],
    "visual": true,
    "director": "Destin Daniel Cretton",
@@ -32609,7 +33253,9 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Harry Bradbeer",
@@ -32912,7 +33558,8 @@
    "score": 7.3,
    "scale": "mid",
    "topics": [
-    "sports"
+    "sports",
+    "happy_ending"
    ],
    "director": "Ben Affleck",
    "cast": [
@@ -32962,7 +33609,8 @@
    "score": 6.8,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "con_artists"
    ],
    "easy": true,
    "director": "Richard Linklater",
@@ -33014,7 +33662,8 @@
    "topics": [
     "animals",
     "robots_ai",
-    "revenge"
+    "revenge",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Nick Park",
@@ -33068,7 +33717,9 @@
    "topics": [
     "animals",
     "family_ties",
-    "road_trip"
+    "road_trip",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -33127,7 +33778,8 @@
    "topics": [
     "mafia",
     "family_ties",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "director": "Francis Ford Coppola",
    "cast": [
@@ -33238,7 +33890,8 @@
    "score": 8.7,
    "scale": "mid",
    "topics": [
-    "mafia"
+    "mafia",
+    "based_on_book"
    ],
    "director": "Martin Scorsese",
    "cast": [
@@ -33295,7 +33948,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Peter Jackson",
@@ -33349,7 +34003,8 @@
    "score": 8.0,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -33402,7 +34057,8 @@
    "topics": [
     "magic",
     "family_ties",
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Andrew Adamson",
@@ -33453,7 +34109,9 @@
    "scale": "big",
    "topics": [
     "heist",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "twist_ending"
    ],
    "easy": true,
    "director": "Steven Soderbergh",
@@ -33512,7 +34170,8 @@
    "topics": [
     "mafia",
     "detective",
-    "spy"
+    "spy",
+    "twist_ending"
    ],
    "director": "Martin Scorsese",
    "cast": [
@@ -33568,7 +34227,8 @@
    "topics": [
     "school",
     "courtroom",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "director": "David Fincher",
    "cast": [
@@ -33626,7 +34286,9 @@
    "topics": [
     "magic",
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "David Yates",
@@ -33683,7 +34345,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "director": "Sam Raimi",
    "cast": [
@@ -33741,7 +34404,8 @@
    "topics": [
     "robots_ai",
     "superhero",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -33799,7 +34463,9 @@
    "scale": "big",
    "topics": [
     "magic",
-    "road_trip"
+    "road_trip",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "visual": true,
    "easy": true,
@@ -33852,7 +34518,9 @@
    "topics": [
     "magic",
     "school",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Danny DeVito",
@@ -33907,7 +34575,10 @@
    "topics": [
     "magic",
     "family_ties",
-    "animals"
+    "animals",
+    "happy_ending",
+    "based_on_book",
+    "dinosaurs"
    ],
    "easy": true,
    "director": "Shawn Levy",
@@ -33963,7 +34634,9 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "road_trip"
+    "road_trip",
+    "happy_ending",
+    "wedding"
    ],
    "easy": true,
    "director": "Todd Phillips",
@@ -34014,7 +34687,9 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "small_town"
    ],
    "easy": true,
    "director": "Edgar Wright",
@@ -34126,7 +34801,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "survival"
+    "survival",
+    "disaster"
    ],
    "visual": true,
    "director": "Alfonso Cuarón",
@@ -34291,7 +34967,8 @@
    "topics": [
     "survival",
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "disaster"
    ],
    "occasions": [
     "halloween"
@@ -34671,7 +35348,9 @@
    "scale": "mid",
    "topics": [
     "ghosts",
-    "art"
+    "art",
+    "based_on_book",
+    "vampires"
    ],
    "visual": true,
    "status": "ongoing",
@@ -34725,7 +35404,8 @@
    "topics": [
     "magic",
     "road_trip",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Misha Green",
@@ -34777,7 +35457,9 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "serial_killer"
+    "serial_killer",
+    "based_on_book",
+    "small_town"
    ],
    "occasions": [
     "halloween"
@@ -34833,7 +35515,8 @@
    "topics": [
     "friendship",
     "hospital",
-    "ghosts"
+    "ghosts",
+    "based_on_book"
    ],
    "occasions": [
     "halloween"
@@ -34888,7 +35571,9 @@
    "topics": [
     "zombies",
     "survival",
-    "hospital"
+    "hospital",
+    "based_on_book",
+    "vampires"
    ],
    "status": "ended",
    "director": "Guillermo del Toro",
@@ -35253,7 +35938,8 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "small_town"
    ],
    "status": "ended",
    "director": "Damon Lindelof",
@@ -35306,7 +35992,9 @@
    "topics": [
     "art",
     "survival",
-    "dystopia"
+    "dystopia",
+    "based_on_book",
+    "disaster"
    ],
    "visual": true,
    "status": "mini",
@@ -35464,7 +36152,8 @@
    "score": 7.4,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "Blake Crouch",
@@ -35568,7 +36257,8 @@
    "topics": [
     "time_travel",
     "serial_killer",
-    "school"
+    "school",
+    "happy_ending"
    ],
    "status": "ended",
    "director": "Tomohiko Itō",
@@ -35618,7 +36308,9 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "school"
+    "school",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "status": "ongoing",
@@ -35667,7 +36359,8 @@
    "topics": [
     "school",
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -35716,7 +36409,10 @@
    "topics": [
     "school",
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending",
+    "based_on_book",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "status": "ended",
@@ -35764,7 +36460,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "status": "ended",
    "director": "Yoshihide Ibata",
@@ -35810,7 +36507,9 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "aliens"
+    "aliens",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "status": "ended",
    "director": "Park Ji-eun",
@@ -35913,7 +36612,9 @@
    "scale": "mid",
    "topics": [
     "time_travel",
-    "art"
+    "art",
+    "happy_ending",
+    "second_chance"
    ],
    "status": "ended",
    "director": "Lee Si-eun",
@@ -35968,7 +36669,8 @@
    "scale": "big",
    "topics": [
     "politics",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "occasions": [
@@ -36128,7 +36830,8 @@
    "scale": "mid",
    "topics": [
     "school",
-    "coming_of_age"
+    "coming_of_age",
+    "fake_dating"
    ],
    "easy": true,
    "status": "ongoing",
@@ -36234,7 +36937,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "status": "ended",
    "director": "Tatsuya Ishihara",
@@ -36588,7 +37292,8 @@
    "topics": [
     "hospital",
     "courtroom",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "status": "mini",
    "director": "Danny Strong",
@@ -36790,7 +37495,8 @@
    "scale": "mid",
    "topics": [
     "art",
-    "friendship"
+    "friendship",
+    "workplace"
    ],
    "easy": true,
    "status": "ongoing",
@@ -37158,7 +37864,8 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "workplace"
    ],
    "easy": true,
    "status": "ended",
@@ -37208,7 +37915,9 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "workplace"
    ],
    "easy": true,
    "status": "ended",
@@ -37317,7 +38026,8 @@
    "topics": [
     "sports",
     "school",
-    "revenge"
+    "revenge",
+    "martial_arts"
    ],
    "easy": true,
    "status": "ended",
@@ -37372,7 +38082,8 @@
    "topics": [
     "magic",
     "heist",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -37426,7 +38137,8 @@
    "topics": [
     "magic",
     "animals",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -37481,7 +38193,8 @@
    "topics": [
     "space",
     "politics",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -37542,7 +38255,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ongoing",
@@ -37810,7 +38524,8 @@
    "scale": "mid",
    "topics": [
     "revenge",
-    "road_trip"
+    "road_trip",
+    "martial_arts"
    ],
    "visual": true,
    "status": "ongoing",
@@ -38065,7 +38780,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "survival"
+    "survival",
+    "monsters"
    ],
    "visual": true,
    "status": "ongoing",
@@ -38318,7 +39034,8 @@
    "scale": "mid",
    "topics": [
     "art",
-    "family_ties"
+    "family_ties",
+    "workplace"
    ],
    "visual": true,
    "status": "ended",
@@ -38371,7 +39088,8 @@
    "scale": "mid",
    "topics": [
     "spy",
-    "serial_killer"
+    "serial_killer",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -38579,7 +39297,9 @@
    "scale": "mid",
    "topics": [
     "art",
-    "road_trip"
+    "road_trip",
+    "based_on_book",
+    "con_artists"
    ],
    "visual": true,
    "status": "mini",
@@ -38950,7 +39670,8 @@
    "topics": [
     "school",
     "friendship",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -39007,7 +39728,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "ghosts"
+    "ghosts",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -39067,7 +39789,8 @@
    "scale": "mid",
    "topics": [
     "ghosts",
-    "magic"
+    "magic",
+    "wedding"
    ],
    "visual": true,
    "occasions": [
@@ -39120,7 +39843,9 @@
    "score": 7.0,
    "scale": "mid",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending",
+    "small_town"
    ],
    "easy": true,
    "occasions": [
@@ -39178,7 +39903,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "ghosts"
+    "ghosts",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -39291,7 +40017,9 @@
    "score": 8.6,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "small_town"
    ],
    "occasions": [
     "christmas"
@@ -39347,7 +40075,9 @@
    "score": 7.0,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "occasions": [
@@ -39402,7 +40132,9 @@
    "score": 6.3,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -39458,7 +40190,8 @@
    "score": 7.0,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -39515,7 +40248,8 @@
    "scale": "mid",
    "topics": [
     "ghosts",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -39566,7 +40300,8 @@
    "score": 7.1,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -39617,7 +40352,8 @@
    "score": 7.5,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -39724,7 +40460,9 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "ghosts"
+    "ghosts",
+    "vampires",
+    "monsters"
    ],
    "easy": true,
    "occasions": [
@@ -39778,7 +40516,8 @@
    "scale": "mid",
    "topics": [
     "ghosts",
-    "zombies"
+    "zombies",
+    "small_town"
    ],
    "visual": true,
    "occasions": [
@@ -39832,6 +40571,9 @@
     "inspiring": 2,
     "unwind": 4.5
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 8.2,
    "scale": "mid",
    "easy": true,
@@ -39887,7 +40629,8 @@
    "score": 6.7,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -39943,7 +40686,8 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "courtroom"
+    "courtroom",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -39995,7 +40739,10 @@
    "score": 7.1,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book",
+    "second_chance"
    ],
    "occasions": [
     "valentines"
@@ -40050,7 +40797,8 @@
    "score": 6.8,
    "scale": "mid",
    "topics": [
-    "time_travel"
+    "time_travel",
+    "happy_ending"
    ],
    "occasions": [
     "valentines"
@@ -40097,6 +40845,10 @@
     "inspiring": 2.5,
     "unwind": 4
    },
+   "topics": [
+    "happy_ending",
+    "second_chance"
+   ],
    "score": 6.8,
    "scale": "mid",
    "easy": true,
@@ -40150,7 +40902,10 @@
    "scale": "mid",
    "topics": [
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "director": "Amy Heckerling",
@@ -40206,7 +40961,9 @@
    "topics": [
     "school",
     "coming_of_age",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Garry Marshall",
@@ -40255,7 +41012,8 @@
    "score": 7.1,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -40368,7 +41126,8 @@
    "score": 7.1,
    "scale": "mid",
    "topics": [
-    "time_travel"
+    "time_travel",
+    "based_on_book"
    ],
    "occasions": [
     "valentines"
@@ -40420,7 +41179,9 @@
    "scale": "mid",
    "topics": [
     "food",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "second_chance"
    ],
    "easy": true,
    "occasions": [
@@ -40474,7 +41235,8 @@
    "scale": "indie",
    "topics": [
     "hospital",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "director": "Michael Showalter",
    "cast": [
@@ -40523,7 +41285,8 @@
    "score": 6.8,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Danny Boyle",
@@ -40573,6 +41336,9 @@
     "inspiring": 2.5,
     "unwind": 4
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 7.6,
    "scale": "mid",
    "visual": true,
@@ -40624,7 +41390,8 @@
    "topics": [
     "school",
     "coming_of_age",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "director": "Greg Berlanti",
    "cast": [
@@ -40673,7 +41440,9 @@
    "scale": "indie",
    "topics": [
     "coming_of_age",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "John Crowley",
@@ -40730,7 +41499,8 @@
    "scale": "big",
    "topics": [
     "mafia",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "director": "Francis Ford Coppola",
    "cast": [
@@ -40784,7 +41554,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Richard Marquand",
@@ -40891,7 +41662,8 @@
    "scale": "big",
    "topics": [
     "animals",
-    "survival"
+    "survival",
+    "dinosaurs"
    ],
    "visual": true,
    "director": "Colin Trevorrow",
@@ -40944,7 +41716,8 @@
    "score": 7.4,
    "scale": "big",
    "topics": [
-    "spy"
+    "spy",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Brad Bird",
@@ -41051,7 +41824,8 @@
    "score": 7.8,
    "scale": "big",
    "topics": [
-    "detective"
+    "detective",
+    "happy_ending"
    ],
    "director": "Andrew Davis",
    "cast": [
@@ -41159,7 +41933,8 @@
    "topics": [
     "aliens",
     "space",
-    "survival"
+    "survival",
+    "monsters"
    ],
    "visual": true,
    "director": "James Cameron",
@@ -41321,7 +42096,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -41484,7 +42260,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "revenge"
+    "revenge",
+    "happy_ending"
    ],
    "director": "Tim Miller",
    "cast": [
@@ -41590,7 +42367,8 @@
    "scale": "big",
    "topics": [
     "dystopia",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "director": "Francis Lawrence",
    "cast": [
@@ -41645,7 +42423,9 @@
    "topics": [
     "magic",
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Chris Columbus",
@@ -41700,7 +42480,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "school"
+    "school",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Mike Newell",
@@ -41754,7 +42535,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "road_trip"
+    "road_trip",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Peter Jackson",
@@ -41864,7 +42646,10 @@
    "scale": "big",
    "topics": [
     "robots_ai",
-    "dystopia"
+    "dystopia",
+    "happy_ending",
+    "based_on_book",
+    "video_games"
    ],
    "visual": true,
    "director": "Steven Spielberg",
@@ -41918,7 +42703,9 @@
    "score": 6.9,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "video_games"
    ],
    "easy": true,
    "director": "Jake Kasdan",
@@ -41974,7 +42761,8 @@
    "topics": [
     "zombies",
     "survival",
-    "animals"
+    "animals",
+    "based_on_book"
    ],
    "director": "Francis Lawrence",
    "cast": [
@@ -42027,7 +42815,8 @@
    "scale": "big",
    "topics": [
     "aliens",
-    "spy"
+    "spy",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Barry Sonnenfeld",
@@ -42134,7 +42923,8 @@
    "scale": "mid",
    "topics": [
     "dystopia",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Alfonso Cuarón",
@@ -42342,7 +43132,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "robots_ai"
+    "robots_ai",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Hayao Miyazaki",
@@ -42391,7 +43182,8 @@
    "scale": "mid",
    "topics": [
     "dystopia",
-    "animals"
+    "animals",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Hayao Miyazaki",
@@ -42440,7 +43232,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Makoto Shinkai",
@@ -42489,7 +43282,8 @@
    "scale": "mid",
    "topics": [
     "coming_of_age",
-    "art"
+    "art",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Yoshifumi Kondō",
@@ -42539,7 +43333,8 @@
    "topics": [
     "time_travel",
     "school",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "director": "Mamoru Hosoda",
    "summary": {
@@ -42637,7 +43432,8 @@
    "scale": "mid",
    "topics": [
     "robots_ai",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Mamoru Hosoda",
@@ -42736,7 +43532,8 @@
    "topics": [
     "school",
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "director": "Shin'ichirō Ushijima",
    "summary": {
@@ -42838,7 +43635,8 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "revenge"
+    "revenge",
+    "martial_arts"
    ],
    "visual": true,
    "director": "Ang Lee",
@@ -42887,6 +43685,10 @@
     "inspiring": 2,
     "unwind": 3.5
    },
+   "topics": [
+    "happy_ending",
+    "martial_arts"
+   ],
    "score": 7.7,
    "scale": "mid",
    "easy": true,
@@ -43104,7 +43906,9 @@
    "scale": "mid",
    "topics": [
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Rajkumar Hirani",
    "cast": [
@@ -43158,7 +43962,8 @@
    "topics": [
     "friendship",
     "revenge",
-    "politics"
+    "politics",
+    "dance"
    ],
    "visual": true,
    "director": "S. S. Rajamouli",
@@ -43268,7 +44073,8 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "serial_killer"
+    "serial_killer",
+    "based_on_book"
    ],
    "director": "David Fincher",
    "cast": [
@@ -43372,7 +44178,9 @@
    "scale": "big",
    "topics": [
     "detective",
-    "serial_killer"
+    "serial_killer",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "David Fincher",
    "cast": [
@@ -43424,7 +44232,9 @@
    "score": 6.5,
    "scale": "big",
    "topics": [
-    "detective"
+    "detective",
+    "twist_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Kenneth Branagh",
@@ -43529,7 +44339,9 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "twist_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Alfred Hitchcock",
@@ -43635,7 +44447,8 @@
    "scale": "big",
    "topics": [
     "heist",
-    "detective"
+    "detective",
+    "twist_ending"
    ],
    "director": "Spike Lee",
    "cast": [
@@ -43686,7 +44499,8 @@
    "score": 7.8,
    "scale": "mid",
    "topics": [
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "director": "Rob Reiner",
    "cast": [
@@ -43734,6 +44548,9 @@
     "inspiring": 1,
     "unwind": 0
    },
+   "topics": [
+    "twist_ending"
+   ],
    "score": 7.3,
    "scale": "mid",
    "director": "M. Night Shyamalan",
@@ -43944,7 +44761,8 @@
    "score": 7.5,
    "scale": "indie",
    "topics": [
-    "serial_killer"
+    "serial_killer",
+    "twist_ending"
    ],
    "director": "James Wan",
    "cast": [
@@ -43998,7 +44816,8 @@
    "scale": "mid",
    "topics": [
     "time_travel",
-    "school"
+    "school",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -44105,7 +44924,8 @@
    "scale": "mid",
    "topics": [
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Greg Mottola",
@@ -44158,7 +44978,9 @@
    "score": 6.8,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "wedding"
    ],
    "easy": true,
    "director": "Paul Feig",
@@ -44262,7 +45084,8 @@
    "topics": [
     "school",
     "detective",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Phil Lord",
@@ -44314,7 +45137,8 @@
    "score": 6.9,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "John Francis Daley",
@@ -44367,7 +45191,9 @@
    "score": 7.0,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "wedding"
    ],
    "easy": true,
    "director": "Jay Roach",
@@ -44420,7 +45246,9 @@
    "score": 7.1,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "workplace"
    ],
    "easy": true,
    "director": "Nancy Meyers",
@@ -44469,6 +45297,9 @@
     "inspiring": 2,
     "unwind": 4
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 6.6,
    "scale": "big",
    "easy": true,
@@ -44521,6 +45352,9 @@
     "inspiring": 0.5,
     "unwind": 4.5
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 7.7,
    "scale": "mid",
    "easy": true,
@@ -44576,7 +45410,8 @@
    "topics": [
     "food",
     "road_trip",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Jon Favreau",
@@ -44629,7 +45464,10 @@
    "scale": "mid",
    "topics": [
     "food",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book",
+    "small_town"
    ],
    "visual": true,
    "easy": true,
@@ -44684,7 +45522,8 @@
    "scale": "mid",
    "topics": [
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Jason Moore",
@@ -44737,7 +45576,9 @@
    "score": 7.2,
    "scale": "big",
    "topics": [
-    "school"
+    "school",
+    "happy_ending",
+    "dance"
    ],
    "easy": true,
    "director": "Randal Kleiser",
@@ -44790,7 +45631,9 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "happy_ending",
+    "dance"
    ],
    "visual": true,
    "easy": true,
@@ -44847,7 +45690,9 @@
    "topics": [
     "magic",
     "road_trip",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Victor Fleming",
@@ -44901,7 +45746,9 @@
    "scale": "big",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -44956,7 +45803,8 @@
    "topics": [
     "sports",
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "director": "Boaz Yakin",
    "cast": [
@@ -45007,7 +45855,8 @@
    "score": 7.6,
    "scale": "big",
    "topics": [
-    "sports"
+    "sports",
+    "based_on_book"
    ],
    "director": "Bennett Miller",
    "cast": [
@@ -45060,7 +45909,8 @@
    "score": 7.7,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "director": "James Marsh",
@@ -45112,7 +45962,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "spy"
+    "spy",
+    "based_on_book"
    ],
    "director": "Morten Tyldum",
    "cast": [
@@ -45160,6 +46011,10 @@
     "inspiring": 4.5,
     "unwind": 1.5
    },
+   "topics": [
+    "happy_ending",
+    "based_on_book"
+   ],
    "score": 8.0,
    "scale": "mid",
    "director": "Danny Boyle",
@@ -45214,7 +46069,9 @@
    "topics": [
     "art",
     "coming_of_age",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "dance"
    ],
    "director": "Stephen Daldry",
    "cast": [
@@ -45265,7 +46122,9 @@
    "score": 7.4,
    "scale": "big",
    "topics": [
-    "courtroom"
+    "courtroom",
+    "happy_ending",
+    "workplace"
    ],
    "director": "Steven Soderbergh",
    "cast": [
@@ -45423,7 +46282,9 @@
    "scale": "mid",
    "topics": [
     "animals",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Lasse Hallström",
@@ -45636,7 +46497,10 @@
    "scale": "big",
    "topics": [
     "space",
-    "survival"
+    "survival",
+    "happy_ending",
+    "based_on_book",
+    "disaster"
    ],
    "director": "Ron Howard",
    "cast": [
@@ -45690,7 +46554,8 @@
    "scale": "big",
    "topics": [
     "sea",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "director": "Paul Greengrass",
    "cast": [
@@ -45743,7 +46608,8 @@
    "scale": "mid",
    "topics": [
     "road_trip",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Sean Penn",
@@ -45798,7 +46664,8 @@
    "scale": "big",
    "topics": [
     "survival",
-    "revenge"
+    "revenge",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Alejandro González Iñárritu",
@@ -46022,7 +46889,9 @@
    "scale": "mid",
    "topics": [
     "art",
-    "friendship"
+    "friendship",
+    "based_on_book",
+    "small_town"
    ],
    "visual": true,
    "director": "Michael Radford",
@@ -46132,7 +47001,8 @@
    "score": 7.7,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "twist_ending"
    ],
    "director": "Paolo Genovese",
    "cast": [
@@ -46185,7 +47055,9 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "sea"
+    "sea",
+    "happy_ending",
+    "small_town"
    ],
    "visual": true,
    "easy": true,
@@ -46243,7 +47115,8 @@
    "topics": [
     "friendship",
     "coming_of_age",
-    "school"
+    "school",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -46299,7 +47172,8 @@
    "scale": "mid",
    "topics": [
     "mafia",
-    "revenge"
+    "revenge",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Stefano Sollima",
@@ -46357,7 +47231,8 @@
    "topics": [
     "detective",
     "food",
-    "sea"
+    "sea",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -46577,7 +47452,8 @@
    "scale": "mid",
    "topics": [
     "sea",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "director": "Wolfgang Petersen",
    "cast": [
@@ -46634,7 +47510,8 @@
    "score": 7.8,
    "scale": "big",
    "topics": [
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Edward Berger",
@@ -46798,7 +47675,8 @@
    "scale": "big",
    "topics": [
     "detective",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ongoing",
@@ -46965,7 +47843,8 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "director": "Atıf Yılmaz",
    "cast": [
@@ -47015,7 +47894,8 @@
    "score": 8.5,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Kartal Tibet",
@@ -47067,7 +47947,9 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "wedding"
    ],
    "easy": true,
    "director": "Selçuk Aydemir",
@@ -47120,7 +48002,8 @@
    "topics": [
     "family_ties",
     "coming_of_age",
-    "politics"
+    "politics",
+    "small_town"
    ],
    "director": "Çağan Irmak",
    "cast": [
@@ -47226,7 +48109,8 @@
    "scale": "mid",
    "topics": [
     "road_trip",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Ömer Faruk Sorak",
@@ -47442,7 +48326,8 @@
    "score": 7.5,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Ece Yörenç",
@@ -47498,7 +48383,8 @@
    "score": 7.7,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -47609,7 +48495,8 @@
    "score": 8.5,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "workplace"
    ],
    "easy": true,
    "status": "ended",
@@ -47924,7 +48811,9 @@
    "score": 8.2,
    "scale": "big",
    "topics": [
-    "art"
+    "art",
+    "happy_ending",
+    "workplace"
    ],
    "easy": true,
    "status": "ended",
@@ -47978,7 +48867,8 @@
    "score": 8.5,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "workplace"
    ],
    "status": "ended",
    "director": "Mike Judge",
@@ -48031,7 +48921,8 @@
    "score": 7.5,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "workplace"
    ],
    "easy": true,
    "status": "ended",
@@ -48085,7 +48976,9 @@
    "score": 7.9,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "small_town"
    ],
    "easy": true,
    "status": "ended",
@@ -48258,7 +49151,9 @@
    "score": 7.3,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "second_chance"
    ],
    "status": "ended",
    "director": "Darren Star",
@@ -48315,7 +49210,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "small_town"
    ],
    "status": "ended",
    "director": "Kevin Williamson",
@@ -48433,7 +49329,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "school"
+    "school",
+    "twist_ending"
    ],
    "status": "ended",
    "director": "I. Marlene King",
@@ -48492,7 +49389,9 @@
    "scale": "big",
    "topics": [
     "school",
-    "magic"
+    "magic",
+    "based_on_book",
+    "vampires"
    ],
    "occasions": [
     "halloween"
@@ -48555,7 +49454,8 @@
    "topics": [
     "school",
     "friendship",
-    "magic"
+    "magic",
+    "vampires"
    ],
    "occasions": [
     "halloween"
@@ -48785,7 +49685,8 @@
    "scale": "big",
    "topics": [
     "spy",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Carlton Cuse",
@@ -48838,7 +49739,8 @@
    "score": 7.8,
    "scale": "big",
    "topics": [
-    "detective"
+    "detective",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "status": "ended",
@@ -48892,7 +49794,8 @@
    "score": 8.1,
    "scale": "big",
    "topics": [
-    "detective"
+    "detective",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "status": "ended",
@@ -49174,7 +50077,8 @@
    "score": 8.9,
    "scale": "big",
    "topics": [
-    "politics"
+    "politics",
+    "workplace"
    ],
    "status": "ended",
    "director": "Aaron Sorkin",
@@ -49229,7 +50133,8 @@
    "scale": "big",
    "topics": [
     "politics",
-    "revenge"
+    "revenge",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Beau Willimon",
@@ -49283,7 +50188,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -49396,7 +50302,8 @@
    "scale": "big",
    "topics": [
     "mafia",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -49455,7 +50362,9 @@
    "scale": "big",
    "topics": [
     "detective",
-    "family_ties"
+    "family_ties",
+    "twist_ending",
+    "small_town"
    ],
    "status": "mini",
    "director": "Marti Noxon",
@@ -49513,7 +50422,9 @@
    "scale": "big",
    "topics": [
     "courtroom",
-    "family_ties"
+    "family_ties",
+    "twist_ending",
+    "based_on_book"
    ],
    "visual": true,
    "status": "mini",
@@ -49572,7 +50483,8 @@
    "scale": "big",
    "topics": [
     "revenge",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -49745,7 +50657,8 @@
    "score": 7.2,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -49863,7 +50776,8 @@
    "topics": [
     "survival",
     "animals",
-    "road_trip"
+    "road_trip",
+    "disaster"
    ],
    "visual": true,
    "status": "ended",
@@ -49916,7 +50830,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "robots_ai"
+    "robots_ai",
+    "workplace"
    ],
    "status": "ended",
    "director": "Christopher Cantwell",
@@ -50553,7 +51468,8 @@
    "scale": "big",
    "topics": [
     "detective",
-    "magic"
+    "magic",
+    "monsters"
    ],
    "occasions": [
     "halloween"
@@ -50670,7 +51586,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "visual": true,
    "occasions": [
@@ -50730,7 +51647,8 @@
    "topics": [
     "family_ties",
     "friendship",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "visual": true,
    "status": "ended",
@@ -50787,7 +51705,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "animals"
+    "animals",
+    "happy_ending"
    ],
    "visual": true,
    "status": "ended",
@@ -50847,7 +51766,9 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "magic"
+    "magic",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "visual": true,
    "status": "ended",
@@ -51135,7 +52056,8 @@
    "topics": [
     "friendship",
     "coming_of_age",
-    "school"
+    "school",
+    "martial_arts"
    ],
    "status": "ended",
    "director": "Hayato Date",
@@ -51185,7 +52107,8 @@
    "topics": [
     "aliens",
     "superhero",
-    "family_ties"
+    "family_ties",
+    "martial_arts"
    ],
    "status": "ended",
    "director": "Daisuke Nishio",
@@ -51515,7 +52438,8 @@
    "topics": [
     "detective",
     "hospital",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ongoing",
@@ -51570,7 +52494,8 @@
    "topics": [
     "food",
     "magic",
-    "friendship"
+    "friendship",
+    "monsters"
    ],
    "visual": true,
    "status": "ongoing",
@@ -51621,7 +52546,8 @@
    "scale": "mid",
    "topics": [
     "road_trip",
-    "friendship"
+    "friendship",
+    "martial_arts"
    ],
    "visual": true,
    "status": "ended",
@@ -51670,7 +52596,10 @@
    "scale": "mid",
    "topics": [
     "sea",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "enemies_to_lovers",
+    "small_town"
    ],
    "visual": true,
    "easy": true,
@@ -51729,7 +52658,9 @@
    "topics": [
     "family_ties",
     "hospital",
-    "art"
+    "art",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "visual": true,
    "status": "ended",
@@ -52121,7 +53052,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "family_ties"
+    "family_ties",
+    "workplace"
    ],
    "easy": true,
    "status": "ended",
@@ -52286,7 +53218,8 @@
    "scale": "mid",
    "topics": [
     "art",
-    "family_ties"
+    "family_ties",
+    "workplace"
    ],
    "visual": true,
    "status": "ended",
@@ -52561,7 +53494,8 @@
    "score": 8.5,
    "scale": "big",
    "topics": [
-    "sports"
+    "sports",
+    "racing"
    ],
    "status": "ongoing",
    "director": "James Gay-Rees",
@@ -52612,7 +53546,8 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "director": "Vladimir Menshov",
    "cast": [
@@ -52666,7 +53601,8 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "prison"
+    "prison",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Aleksandr Seryy",
@@ -52721,7 +53657,8 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "time_travel"
+    "time_travel",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Leonid Gaidai",
@@ -52776,7 +53713,8 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "sea"
+    "sea",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Leonid Gaidai",
@@ -52829,6 +53767,10 @@
     "inspiring": 3,
     "unwind": 4.5
    },
+   "topics": [
+    "happy_ending",
+    "workplace"
+   ],
    "score": 8.2,
    "scale": "mid",
    "easy": true,
@@ -52883,7 +53825,8 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "school"
+    "school",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Leonid Gaidai",
@@ -52933,6 +53876,9 @@
     "inspiring": 3,
     "unwind": 1
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 8.0,
    "scale": "mid",
    "visual": true,
@@ -53142,7 +54088,9 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "sports"
+    "sports",
+    "happy_ending",
+    "small_town"
    ],
    "director": "Ashutosh Gowariker",
    "cast": [
@@ -53191,7 +54139,9 @@
    "scale": "big",
    "topics": [
     "road_trip",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "wedding"
    ],
    "director": "Aditya Chopra",
    "cast": [
@@ -53239,7 +54189,8 @@
    "scale": "big",
    "topics": [
     "sports",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "director": "Nitesh Tiwari",
    "cast": [
@@ -53293,7 +54244,8 @@
    "scale": "mid",
    "topics": [
     "school",
-    "art"
+    "art",
+    "happy_ending"
    ],
    "director": "Aamir Khan",
    "cast": [
@@ -53341,7 +54293,8 @@
    "score": 8.1,
    "scale": "big",
    "topics": [
-    "aliens"
+    "aliens",
+    "happy_ending"
    ],
    "director": "Rajkumar Hirani",
    "cast": [
@@ -53390,7 +54343,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "revenge"
+    "revenge",
+    "small_town"
    ],
    "director": "Ramesh Sippy",
    "cast": [
@@ -53599,7 +54553,9 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "road_trip"
+    "road_trip",
+    "happy_ending",
+    "wedding"
    ],
    "visual": true,
    "director": "Zoya Akhtar",
@@ -53656,7 +54612,9 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "heist"
+    "heist",
+    "twist_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Park Chan-wook",
@@ -53709,7 +54667,8 @@
    "score": 7.1,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "monsters"
    ],
    "director": "Bong Joon-ho",
    "cast": [
@@ -53813,7 +54772,8 @@
    "scale": "mid",
    "topics": [
     "ghosts",
-    "detective"
+    "detective",
+    "small_town"
    ],
    "occasions": [
     "halloween"
@@ -53970,6 +54930,9 @@
     "inspiring": 2,
     "unwind": 3.5
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 7.9,
    "scale": "mid",
    "easy": true,
@@ -54136,7 +55099,8 @@
    "scale": "mid",
    "topics": [
     "prison",
-    "friendship"
+    "friendship",
+    "dance"
    ],
    "director": "Kang Hyeong-cheol",
    "cast": [
@@ -54293,6 +55257,11 @@
     "inspiring": 1,
     "unwind": 1.5
    },
+   "topics": [
+    "based_on_book",
+    "workplace",
+    "con_artists"
+   ],
    "score": 8.2,
    "scale": "big",
    "director": "Martin Scorsese",
@@ -54404,7 +55373,9 @@
    "score": 7.5,
    "scale": "mid",
    "topics": [
-    "survival"
+    "survival",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Danny Boyle",
    "cast": [
@@ -54567,7 +55538,8 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "revenge"
+    "revenge",
+    "small_town"
    ],
    "director": "Martin McDonagh",
    "cast": [
@@ -54680,7 +55652,8 @@
    "score": 7.4,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Steven Spielberg",
@@ -54890,7 +55863,8 @@
    "scale": "mid",
    "topics": [
     "hospital",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "director": "Miloš Forman",
    "cast": [
@@ -54946,7 +55920,8 @@
    "scale": "big",
    "topics": [
     "sea",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Ron Clements",
@@ -55003,7 +55978,10 @@
    "score": 7.7,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "racing",
+    "video_games"
    ],
    "easy": true,
    "director": "Rich Moore",
@@ -55062,7 +56040,8 @@
    "topics": [
     "animals",
     "friendship",
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Chris Wedge",
@@ -55114,6 +56093,9 @@
     "inspiring": 1,
     "unwind": 5
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 6.4,
    "scale": "big",
    "easy": true,
@@ -55168,6 +56150,9 @@
     "inspiring": 3,
     "unwind": 4
    },
+   "topics": [
+    "happy_ending"
+   ],
    "score": 7.7,
    "scale": "big",
    "easy": true,
@@ -55226,7 +56211,8 @@
    "topics": [
     "animals",
     "heist",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -55396,7 +56382,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "school"
+    "school",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Jon Watts",
@@ -55617,7 +56604,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "sea"
+    "sea",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -55676,7 +56664,8 @@
    "topics": [
     "superhero",
     "family_ties",
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -55843,7 +56832,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "aliens"
+    "aliens",
+    "happy_ending"
    ],
    "director": "Anna Boden",
    "cast": [
@@ -55900,7 +56890,8 @@
    "topics": [
     "superhero",
     "heist",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Peyton Reed",
@@ -55957,7 +56948,8 @@
    "score": 6.8,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "racing"
    ],
    "director": "Rob Cohen",
    "cast": [
@@ -56010,7 +57002,8 @@
    "scale": "big",
    "topics": [
     "detective",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "director": "Guy Ritchie",
    "cast": [
@@ -56122,7 +57115,8 @@
    "scale": "big",
    "topics": [
     "heist",
-    "revenge"
+    "revenge",
+    "happy_ending"
    ],
    "easy": true,
    "director": "F. Gary Gray",
@@ -56176,7 +57170,8 @@
    "score": 8.2,
    "scale": "big",
    "topics": [
-    "revenge"
+    "revenge",
+    "martial_arts"
    ],
    "visual": true,
    "director": "Quentin Tarantino",
@@ -56280,6 +57275,9 @@
     "inspiring": 0,
     "unwind": 0
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 8.2,
    "scale": "mid",
    "director": "Joel Coen",
@@ -56494,7 +57492,8 @@
    "score": 7.8,
    "scale": "big",
    "topics": [
-    "mafia"
+    "mafia",
+    "based_on_book"
    ],
    "director": "Martin Scorsese",
    "cast": [
@@ -56653,7 +57652,8 @@
    "score": 7.1,
    "scale": "big",
    "topics": [
-    "art"
+    "art",
+    "happy_ending"
    ],
    "director": "Ben Stiller",
    "cast": [
@@ -56706,7 +57706,8 @@
    "score": 6.9,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Adam McKay",
@@ -56756,6 +57757,10 @@
     "inspiring": 0.5,
     "unwind": 4.5
    },
+   "topics": [
+    "happy_ending",
+    "workplace"
+   ],
    "score": 7.2,
    "scale": "big",
    "easy": true,
@@ -56811,7 +57816,8 @@
    "score": 7.0,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Chuck Russell",
@@ -56866,7 +57872,8 @@
    "scale": "big",
    "topics": [
     "animals",
-    "detective"
+    "detective",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Tom Shadyac",
@@ -56920,7 +57927,8 @@
    "score": 6.8,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Tom Shadyac",
@@ -56976,7 +57984,9 @@
    "scale": "mid",
    "topics": [
     "school",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book",
+    "enemies_to_lovers"
    ],
    "occasions": [
     "valentines"
@@ -57030,7 +58040,8 @@
    "score": 7.3,
    "scale": "big",
    "topics": [
-    "art"
+    "art",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Dexter Fletcher",
@@ -57085,7 +58096,8 @@
    "score": 7.8,
    "scale": "big",
    "topics": [
-    "art"
+    "art",
+    "happy_ending"
    ],
    "director": "James Mangold",
    "cast": [
@@ -57195,7 +58207,8 @@
    "score": 8.1,
    "scale": "mid",
    "topics": [
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "director": "Steve McQueen",
    "cast": [
@@ -57251,7 +58264,8 @@
    "score": 7.7,
    "scale": "big",
    "topics": [
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "director": "Ridley Scott",
    "cast": [
@@ -57307,7 +58321,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Damien Chazelle",
@@ -57359,7 +58374,8 @@
    "score": 7.1,
    "scale": "big",
    "topics": [
-    "survival"
+    "survival",
+    "disaster"
    ],
    "visual": true,
    "director": "Baltasar Kormákur",
@@ -57414,7 +58430,8 @@
    "score": 7.0,
    "scale": "big",
    "topics": [
-    "aliens"
+    "aliens",
+    "happy_ending"
    ],
    "director": "Roland Emmerich",
    "cast": [
@@ -57472,7 +58489,8 @@
    "topics": [
     "aliens",
     "family_ties",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "director": "Steven Spielberg",
    "cast": [
@@ -57527,7 +58545,8 @@
    "scale": "big",
    "topics": [
     "robots_ai",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "director": "Alex Proyas",
    "cast": [
@@ -57582,7 +58601,8 @@
    "score": 6.8,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "video_games"
    ],
    "visual": true,
    "director": "Joseph Kosinski",
@@ -57641,7 +58661,8 @@
    "topics": [
     "dystopia",
     "survival",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "director": "Wes Ball",
    "cast": [
@@ -57697,7 +58718,8 @@
    "scale": "big",
    "topics": [
     "dystopia",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "director": "Neil Burger",
    "cast": [
@@ -57754,7 +58776,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "occasions": [
@@ -57929,7 +58952,8 @@
    "score": 6.9,
    "scale": "big",
    "topics": [
-    "heist"
+    "heist",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Jon Turteltaub",
@@ -57988,7 +59012,9 @@
    "topics": [
     "food",
     "magic",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -58045,7 +59071,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "aliens"
+    "aliens",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Tom McGrath",
@@ -58102,7 +59129,8 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "dystopia"
+    "dystopia",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Stanley Kubrick",
@@ -58151,6 +59179,9 @@
     "inspiring": 0.5,
     "unwind": 0
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 8.4,
    "scale": "big",
    "visual": true,
@@ -58423,7 +59454,9 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "magic"
+    "magic",
+    "happy_ending",
+    "wedding"
    ],
    "easy": true,
    "director": "Nisha Ganatra",
@@ -58530,7 +59563,8 @@
    "topics": [
     "coming_of_age",
     "family_ties",
-    "school"
+    "school",
+    "happy_ending"
    ],
    "director": "Jason Reitman",
    "cast": [
@@ -58586,7 +59620,8 @@
    "topics": [
     "coming_of_age",
     "friendship",
-    "school"
+    "school",
+    "based_on_book"
    ],
    "director": "Stephen Chbosky",
    "cast": [
@@ -58639,6 +59674,9 @@
     "inspiring": 3,
     "unwind": 2
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 7.8,
    "scale": "big",
    "visual": true,
@@ -58747,6 +59785,9 @@
     "inspiring": 1.5,
     "unwind": 0.5
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 7.8,
    "scale": "big",
    "director": "Adam McKay",
@@ -58800,7 +59841,9 @@
    "scale": "big",
    "topics": [
     "spy",
-    "politics"
+    "politics",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Ben Affleck",
    "cast": [
@@ -59012,7 +60055,8 @@
    "score": 6.7,
    "scale": "big",
    "topics": [
-    "space"
+    "space",
+    "disaster"
    ],
    "director": "Michael Bay",
    "cast": [
@@ -59067,7 +60111,8 @@
    "score": 7.3,
    "scale": "big",
    "topics": [
-    "revenge"
+    "revenge",
+    "happy_ending"
    ],
    "director": "John Woo",
    "cast": [
@@ -59120,7 +60165,8 @@
    "score": 6.5,
    "scale": "big",
    "topics": [
-    "politics"
+    "politics",
+    "happy_ending"
    ],
    "director": "Wolfgang Petersen",
    "cast": [
@@ -59230,7 +60276,8 @@
    "score": 6.3,
    "scale": "big",
    "topics": [
-    "heist"
+    "heist",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Rawson Marshall Thurber",
@@ -59344,7 +60391,8 @@
    "scale": "big",
    "topics": [
     "time_travel",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Shawn Levy",
@@ -59462,7 +60510,9 @@
    "topics": [
     "survival",
     "friendship",
-    "sports"
+    "sports",
+    "based_on_book",
+    "disaster"
    ],
    "visual": true,
    "director": "J. A. Bayona",
@@ -59519,7 +60569,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -59579,7 +60630,8 @@
    "topics": [
     "sea",
     "animals",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Andrew Stanton",
@@ -59637,7 +60689,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Brad Bird",
@@ -59691,7 +60744,9 @@
    "scale": "big",
    "topics": [
     "animals",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "martial_arts"
    ],
    "easy": true,
    "director": "Jennifer Yuh Nelson",
@@ -59749,7 +60804,8 @@
    "scale": "big",
    "topics": [
     "animals",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Dean DeBlois",
@@ -59802,6 +60858,10 @@
     "inspiring": 2.5,
     "unwind": 4.5
    },
+   "topics": [
+    "happy_ending",
+    "based_on_book"
+   ],
    "score": 6.3,
    "scale": "big",
    "easy": true,
@@ -59861,7 +60921,9 @@
    "score": 6.8,
    "scale": "big",
    "topics": [
-    "ghosts"
+    "ghosts",
+    "happy_ending",
+    "based_on_book"
    ],
    "occasions": [
     "christmas"
@@ -59919,7 +60981,10 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book",
+    "small_town"
    ],
    "occasions": [
     "halloween"
@@ -59974,7 +61039,8 @@
    "scale": "big",
    "topics": [
     "ghosts",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -60144,7 +61210,9 @@
    "scale": "big",
    "topics": [
     "animals",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Kevin Lima",
@@ -60201,7 +61269,8 @@
    "score": 7.3,
    "scale": "big",
    "topics": [
-    "magic"
+    "magic",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Ron Clements",
@@ -60259,7 +61328,10 @@
    "scale": "big",
    "topics": [
     "magic",
-    "food"
+    "food",
+    "happy_ending",
+    "based_on_book",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "director": "Ron Clements",
@@ -60318,7 +61390,8 @@
    "topics": [
     "friendship",
     "road_trip",
-    "animals"
+    "animals",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Mark Dindal",
@@ -60375,7 +61448,8 @@
    "scale": "big",
    "topics": [
     "animals",
-    "prison"
+    "prison",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Peter Lord",
@@ -60488,7 +61562,8 @@
    "scale": "big",
    "topics": [
     "robots_ai",
-    "sea"
+    "sea",
+    "monsters"
    ],
    "visual": true,
    "director": "Guillermo del Toro",
@@ -60650,7 +61725,9 @@
    "scale": "big",
    "topics": [
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "monsters"
    ],
    "easy": true,
    "director": "Dan Scanlon",
@@ -60707,7 +61784,9 @@
    "scale": "big",
    "topics": [
     "animals",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Jon Favreau",
@@ -60763,7 +61842,8 @@
    "score": 8.6,
    "scale": "mid",
    "topics": [
-    "spy"
+    "spy",
+    "based_on_book"
    ],
    "status": "mini",
    "director": "Tatyana Lioznova",
@@ -60818,7 +61898,8 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "status": "mini",
    "director": "Stanislav Govorukhin",
@@ -60872,7 +61953,8 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "easy": true,
    "status": "ended",
@@ -60973,7 +62055,8 @@
    "scale": "mid",
    "topics": [
     "politics",
-    "friendship"
+    "friendship",
+    "small_town"
    ],
    "easy": true,
    "status": "ongoing",
@@ -61028,7 +62111,9 @@
    "score": 9.2,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "based_on_book",
+    "con_artists"
    ],
    "status": "mini",
    "director": "Hansal Mehta",
@@ -61234,7 +62319,8 @@
    "scale": "big",
    "topics": [
     "mafia",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Vikramaditya Motwane",
@@ -61392,7 +62478,9 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "workplace"
    ],
    "status": "ended",
    "director": "Oh Choong-hwan",
@@ -61971,7 +63059,8 @@
    "score": 8.4,
    "scale": "big",
    "topics": [
-    "dystopia"
+    "dystopia",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Bruce Miller",
@@ -62142,7 +63231,8 @@
    "topics": [
     "heist",
     "detective",
-    "friendship"
+    "friendship",
+    "con_artists"
    ],
    "easy": true,
    "status": "ended",
@@ -62304,7 +63394,8 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Eric Overmyer",
@@ -62357,7 +63448,8 @@
    "score": 7.6,
    "scale": "mid",
    "topics": [
-    "courtroom"
+    "courtroom",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "David E. Kelley",
@@ -62411,7 +63503,8 @@
    "scale": "big",
    "topics": [
     "school",
-    "detective"
+    "detective",
+    "small_town"
    ],
    "status": "ended",
    "director": "Roberto Aguirre-Sacasa",
@@ -62466,7 +63559,8 @@
    "topics": [
     "sports",
     "school",
-    "family_ties"
+    "family_ties",
+    "small_town"
    ],
    "status": "ended",
    "director": "Mark Schwahn",
@@ -62633,7 +63727,9 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "family_ties"
+    "family_ties",
+    "based_on_book",
+    "small_town"
    ],
    "easy": true,
    "status": "ongoing",
@@ -62687,7 +63783,8 @@
    "score": 7.3,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Maggie Friedman",
@@ -62740,7 +63837,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "easy": true,
    "status": "ongoing",
@@ -62793,7 +63891,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "hospital"
+    "hospital",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "David Schulner",
@@ -63012,7 +64111,8 @@
    "score": 7.3,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "status": "ended",
@@ -63067,7 +64167,8 @@
    "score": 8.0,
    "scale": "big",
    "topics": [
-    "spy"
+    "spy",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ongoing",
@@ -63226,7 +64327,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "Neil Gaiman",
@@ -63281,7 +64383,8 @@
    "scale": "mid",
    "topics": [
     "ghosts",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "occasions": [
     "halloween"
@@ -63445,7 +64548,8 @@
    "scale": "big",
    "topics": [
     "dystopia",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -63724,7 +64828,8 @@
    "scale": "big",
    "topics": [
     "survival",
-    "animals"
+    "animals",
+    "monsters"
    ],
    "visual": true,
    "director": "Jordan Vogt-Roberts",
@@ -63997,7 +65102,8 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "twist_ending"
    ],
    "status": "ended",
    "director": "Derek Simonds",
@@ -64214,7 +65320,9 @@
    "scale": "big",
    "topics": [
     "courtroom",
-    "family_ties"
+    "family_ties",
+    "twist_ending",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "David E. Kelley",
@@ -64754,7 +65862,8 @@
    "score": 8.2,
    "scale": "big",
    "topics": [
-    "politics"
+    "politics",
+    "workplace"
    ],
    "status": "ongoing",
    "director": "Kerry Ehrin",
@@ -64805,7 +65914,8 @@
    "scale": "indie",
    "topics": [
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "small_town"
    ],
    "status": "ended",
    "director": "Sterlin Harjo",
@@ -64913,7 +66023,8 @@
    "score": 8.6,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "workplace"
    ],
    "status": "ended",
    "director": "Aaron Sorkin",
@@ -64967,7 +66078,8 @@
    "score": 8.2,
    "scale": "big",
    "topics": [
-    "sea"
+    "sea",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -65181,7 +66293,8 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "based_on_book"
    ],
    "status": "mini",
    "director": "Scott Neustadter",
@@ -65234,7 +66347,8 @@
    "score": 7.8,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "status": "mini",
    "director": "Liz Tigelaar",
@@ -65286,6 +66400,9 @@
     "inspiring": 1,
     "unwind": 2
    },
+   "topics": [
+    "con_artists"
+   ],
    "score": 6.8,
    "scale": "big",
    "status": "mini",
@@ -65332,6 +66449,9 @@
     "inspiring": 1.5,
     "unwind": 0.5
    },
+   "topics": [
+    "con_artists"
+   ],
    "score": 7.6,
    "scale": "mid",
    "status": "mini",
@@ -65384,7 +66504,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -65587,7 +66708,8 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -65700,7 +66822,8 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "easy": true,
    "status": "ongoing",
@@ -65756,7 +66879,8 @@
    "score": 7.9,
    "scale": "big",
    "topics": [
-    "mafia"
+    "mafia",
+    "based_on_book"
    ],
    "status": "ended",
    "cast": [
@@ -65869,7 +66993,8 @@
    "scale": "mid",
    "topics": [
     "mafia",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Daniele Cesarano",
@@ -65922,7 +67047,8 @@
    "score": 8.4,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
@@ -65973,6 +67099,9 @@
     "inspiring": 1.5,
     "unwind": 1
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 6.9,
    "scale": "big",
    "status": "ongoing",
@@ -66029,7 +67158,8 @@
    "score": 8.0,
    "scale": "big",
    "topics": [
-    "spy"
+    "spy",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ongoing",
@@ -66192,7 +67322,8 @@
    "score": 7.5,
    "scale": "big",
    "topics": [
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Steven Spielberg",
@@ -66243,7 +67374,8 @@
    "scale": "big",
    "topics": [
     "animals",
-    "survival"
+    "survival",
+    "dinosaurs"
    ],
    "visual": true,
    "director": "Gareth Edwards",
@@ -66298,7 +67430,9 @@
    "scale": "big",
    "topics": [
     "animals",
-    "survival"
+    "survival",
+    "based_on_book",
+    "dinosaurs"
    ],
    "visual": true,
    "director": "Steven Spielberg",
@@ -66351,7 +67485,8 @@
    "scale": "big",
    "topics": [
     "revenge",
-    "family_ties"
+    "family_ties",
+    "racing"
    ],
    "visual": true,
    "director": "James Wan",
@@ -66404,7 +67539,8 @@
    "score": 7.4,
    "scale": "big",
    "topics": [
-    "spy"
+    "spy",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Christopher McQuarrie",
@@ -66454,7 +67590,8 @@
    "score": 7.2,
    "scale": "big",
    "topics": [
-    "spy"
+    "spy",
+    "happy_ending"
    ],
    "director": "Martin Campbell",
    "cast": [
@@ -66558,7 +67695,8 @@
    "score": 7.4,
    "scale": "big",
    "topics": [
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Guy Ritchie",
@@ -66612,7 +67750,8 @@
    "score": 7.2,
    "scale": "big",
    "topics": [
-    "spy"
+    "spy",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Guy Ritchie",
@@ -66665,7 +67804,8 @@
    "scale": "mid",
    "topics": [
     "friendship",
-    "aliens"
+    "aliens",
+    "small_town"
    ],
    "director": "Edgar Wright",
    "cast": [
@@ -66714,7 +67854,9 @@
    "score": 7.5,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "video_games"
    ],
    "visual": true,
    "director": "Edgar Wright",
@@ -66765,7 +67907,8 @@
    "scale": "big",
    "topics": [
     "school",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Phil Lord",
@@ -66815,7 +67958,8 @@
    "scale": "mid",
    "topics": [
     "road_trip",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Rawson Marshall Thurber",
@@ -66861,6 +68005,11 @@
     "inspiring": 1.5,
     "unwind": 4
    },
+   "topics": [
+    "happy_ending",
+    "workplace",
+    "wedding"
+   ],
    "score": 6.1,
    "scale": "mid",
    "easy": true,
@@ -66909,6 +68058,12 @@
     "inspiring": 1,
     "unwind": 4
    },
+   "topics": [
+    "happy_ending",
+    "enemies_to_lovers",
+    "fake_dating",
+    "workplace"
+   ],
    "score": 6.4,
    "scale": "mid",
    "easy": true,
@@ -66958,7 +68113,8 @@
    "score": 8.1,
    "scale": "indie",
    "topics": [
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "director": "Danny Boyle",
    "cast": [
@@ -67008,7 +68164,8 @@
    "scale": "indie",
    "topics": [
     "coming_of_age",
-    "school"
+    "school",
+    "happy_ending"
    ],
    "director": "John Carney",
    "cast": [
@@ -67059,7 +68216,8 @@
    "score": 7.3,
    "scale": "indie",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "director": "Jonathan Glazer",
    "cast": [
@@ -67167,7 +68325,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "school"
+    "school",
+    "based_on_book"
    ],
    "visual": true,
    "director": "David Yates",
@@ -67222,7 +68381,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "school"
+    "school",
+    "based_on_book"
    ],
    "visual": true,
    "director": "David Yates",
@@ -67281,7 +68441,8 @@
    "topics": [
     "magic",
     "friendship",
-    "road_trip"
+    "road_trip",
+    "based_on_book"
    ],
    "visual": true,
    "director": "David Yates",
@@ -67337,7 +68498,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "road_trip"
+    "road_trip",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Peter Jackson",
@@ -67393,7 +68555,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Peter Jackson",
@@ -68263,7 +69426,8 @@
    "score": 7.6,
    "scale": "big",
    "topics": [
-    "superhero"
+    "superhero",
+    "happy_ending"
    ],
    "director": "David Leitch",
    "cast": [
@@ -68320,7 +69484,8 @@
    "scale": "big",
    "topics": [
     "superhero",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Chris McKay",
@@ -68378,7 +69543,8 @@
    "scale": "big",
    "topics": [
     "animals",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Eric Darnell",
@@ -68436,7 +69602,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "director": "Josh Cooley",
    "cast": [
@@ -68493,7 +69660,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Don Hall",
@@ -68550,7 +69718,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Kenneth Branagh",
@@ -68665,7 +69834,8 @@
    "score": 8.2,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Victor Fleming",
@@ -68722,7 +69892,8 @@
    "score": 8.2,
    "scale": "mid",
    "topics": [
-    "mafia"
+    "mafia",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Billy Wilder",
@@ -68780,7 +69951,8 @@
    "topics": [
     "courtroom",
     "family_ties",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "director": "Robert Mulligan",
    "cast": [
@@ -68832,6 +70004,9 @@
     "inspiring": 4,
     "unwind": 1.5
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 8.3,
    "scale": "big",
    "visual": true,
@@ -68889,7 +70064,8 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "director": "Martin Scorsese",
    "cast": [
@@ -68943,7 +70119,8 @@
    "topics": [
     "robots_ai",
     "dystopia",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Ridley Scott",
@@ -69050,7 +70227,8 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "director": "Phil Alden Robinson",
    "cast": [
@@ -69099,7 +70277,8 @@
    "score": 7.3,
    "scale": "big",
    "topics": [
-    "sports"
+    "sports",
+    "happy_ending"
    ],
    "director": "Cameron Crowe",
    "cast": [
@@ -69152,6 +70331,11 @@
     "inspiring": 0.5,
     "unwind": 1
    },
+   "topics": [
+    "twist_ending",
+    "based_on_book",
+    "con_artists"
+   ],
    "score": 7.4,
    "scale": "mid",
    "visual": true,
@@ -69299,7 +70483,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "revenge"
+    "revenge",
+    "martial_arts"
    ],
    "visual": true,
    "director": "Quentin Tarantino",
@@ -69356,7 +70541,9 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "Clint Eastwood",
    "cast": [
@@ -69577,6 +70764,9 @@
     "inspiring": 1.5,
     "unwind": 1.5
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 7.7,
    "scale": "mid",
    "visual": true,
@@ -69798,7 +70988,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "art"
+    "art",
+    "dance"
    ],
    "visual": true,
    "director": "Darren Aronofsky",
@@ -69848,7 +71039,8 @@
    "scale": "mid",
    "topics": [
     "revenge",
-    "road_trip"
+    "road_trip",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Joel Coen",
@@ -70003,7 +71195,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "heist"
+    "heist",
+    "small_town"
    ],
    "director": "David Mackenzie",
    "cast": [
@@ -70228,7 +71421,8 @@
    "score": 7.5,
    "scale": "mid",
    "topics": [
-    "revenge"
+    "revenge",
+    "twist_ending"
    ],
    "visual": true,
    "director": "Emerald Fennell",
@@ -70284,7 +71478,8 @@
    "score": 6.8,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Jane Campion",
@@ -70338,6 +71533,9 @@
     "inspiring": 3,
     "unwind": 2
    },
+   "topics": [
+    "dance"
+   ],
    "score": 7.1,
    "scale": "big",
    "visual": true,
@@ -70396,7 +71594,8 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "director": "Reinaldo Marcus Green",
    "cast": [
@@ -70655,7 +71854,8 @@
    "topics": [
     "superhero",
     "friendship",
-    "coming_of_age"
+    "coming_of_age",
+    "martial_arts"
    ],
    "visual": true,
    "director": "Jeff Rowe",
@@ -70707,7 +71907,8 @@
    "topics": [
     "space",
     "aliens",
-    "survival"
+    "survival",
+    "monsters"
    ],
    "visual": true,
    "director": "Fede Álvarez",
@@ -70805,7 +72006,8 @@
    "score": 6.4,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Akiva Schaffer",
@@ -70855,7 +72057,8 @@
    "score": 7.4,
    "scale": "big",
    "topics": [
-    "detective"
+    "detective",
+    "twist_ending"
    ],
    "director": "Rian Johnson",
    "cast": [
@@ -71076,6 +72279,9 @@
     "inspiring": 4,
     "unwind": 1.5
    },
+   "topics": [
+    "martial_arts"
+   ],
    "score": 7.8,
    "scale": "big",
    "visual": true,
@@ -71134,7 +72340,8 @@
    "scale": "big",
    "topics": [
     "dystopia",
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Francis Lawrence",
@@ -71193,7 +72400,8 @@
    "topics": [
     "animals",
     "detective",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Jared Bush",
@@ -71252,7 +72460,8 @@
    "topics": [
     "animals",
     "friendship",
-    "survival"
+    "survival",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Carlos Saldanha",
@@ -71309,7 +72518,8 @@
    "score": 7.9,
    "scale": "mid",
    "topics": [
-    "courtroom"
+    "courtroom",
+    "twist_ending"
    ],
    "director": "Oriol Paulo",
    "cast": [
@@ -71365,7 +72575,9 @@
    "scale": "mid",
    "topics": [
     "food",
-    "magic"
+    "magic",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Mel Stuart",
@@ -71477,7 +72689,8 @@
    "scale": "big",
    "topics": [
     "heist",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Steven Soderbergh",
@@ -71645,7 +72858,8 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "school"
+    "school",
+    "happy_ending"
    ],
    "director": "Thomas Carter",
    "cast": [
@@ -71699,7 +72913,9 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "politics"
+    "politics",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Clint Eastwood",
    "cast": [
@@ -71756,7 +72972,8 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Chris Sanders",
@@ -71814,7 +73031,8 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "spy"
+    "spy",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Pierre Coffin",
@@ -71873,7 +73091,8 @@
    "scale": "big",
    "topics": [
     "animals",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Chris Renaud",
@@ -71928,6 +73147,9 @@
     "inspiring": 0.5,
     "unwind": 0
    },
+   "topics": [
+    "twist_ending"
+   ],
    "score": 6.5,
    "scale": "mid",
    "director": "Tate Taylor",
@@ -72041,7 +73263,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "spy"
+    "spy",
+    "based_on_book"
    ],
    "director": "Paul Verhoeven",
    "cast": [
@@ -72097,7 +73320,8 @@
    "score": 7.0,
    "scale": "mid",
    "topics": [
-    "food"
+    "food",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Nora Ephron",
@@ -72154,7 +73378,8 @@
    "score": 6.6,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -72210,7 +73435,8 @@
    "scale": "indie",
    "topics": [
     "road_trip",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "director": "Tyler Nilson",
    "cast": [
@@ -72264,7 +73490,8 @@
    "scale": "indie",
    "topics": [
     "family_ties",
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Matt Ross",
@@ -72319,7 +73546,9 @@
    "score": 6.8,
    "scale": "mid",
    "topics": [
-    "hospital"
+    "hospital",
+    "happy_ending",
+    "based_on_book"
    ],
    "director": "Tom Shadyac",
    "cast": [
@@ -72431,7 +73660,9 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "magic"
+    "magic",
+    "happy_ending",
+    "wedding"
    ],
    "easy": true,
    "director": "Mark Waters",
@@ -72488,7 +73719,9 @@
    "scale": "mid",
    "topics": [
     "coming_of_age",
-    "magic"
+    "magic",
+    "happy_ending",
+    "workplace"
    ],
    "easy": true,
    "director": "Gary Winick",
@@ -72544,7 +73777,8 @@
    "scale": "mid",
    "topics": [
     "sports",
-    "school"
+    "school",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Andy Fickman",
@@ -72598,6 +73832,10 @@
     "inspiring": 2,
     "unwind": 4
    },
+   "topics": [
+    "happy_ending",
+    "wedding"
+   ],
    "score": 6.9,
    "scale": "mid",
    "easy": true,
@@ -72654,7 +73892,8 @@
    "scale": "indie",
    "topics": [
     "coming_of_age",
-    "road_trip"
+    "road_trip",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Wes Anderson",
@@ -72881,7 +74120,8 @@
    "scale": "big",
    "topics": [
     "heist",
-    "friendship"
+    "friendship",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Steven Soderbergh",
@@ -72938,7 +74178,9 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "magic"
+    "magic",
+    "happy_ending",
+    "martial_arts"
    ],
    "visual": true,
    "director": "Jennifer Yuh Nelson",
@@ -72995,7 +74237,9 @@
    "score": 6.7,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "video_games"
    ],
    "visual": true,
    "easy": true,
@@ -73109,7 +74353,9 @@
    "score": 6.5,
    "scale": "big",
    "topics": [
-    "spy"
+    "spy",
+    "happy_ending",
+    "enemies_to_lovers"
    ],
    "easy": true,
    "director": "Doug Liman",
@@ -73164,7 +74410,9 @@
    "score": 7.6,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "Ben Affleck",
    "cast": [
@@ -73395,7 +74643,9 @@
    "scale": "indie",
    "topics": [
     "coming_of_age",
-    "friendship"
+    "friendship",
+    "based_on_book",
+    "vampires"
    ],
    "visual": true,
    "occasions": [
@@ -73455,7 +74705,9 @@
    "scale": "indie",
    "topics": [
     "coming_of_age",
-    "family_ties"
+    "family_ties",
+    "based_on_book",
+    "small_town"
    ],
    "director": "Lasse Hallström",
    "cast": [
@@ -73509,7 +74761,8 @@
    "score": 7.7,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "director": "Hannes Holm",
    "cast": [
@@ -73563,7 +74816,9 @@
    "score": 7.0,
    "scale": "mid",
    "topics": [
-    "road_trip"
+    "road_trip",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Felix Herngren",
@@ -73609,7 +74864,8 @@
    "score": 8.3,
    "scale": "indie",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "small_town"
    ],
    "director": "Thomas Vinterberg",
    "cast": [
@@ -73765,7 +75021,10 @@
    "score": 7.7,
    "scale": "indie",
    "topics": [
-    "food"
+    "food",
+    "happy_ending",
+    "based_on_book",
+    "small_town"
    ],
    "visual": true,
    "director": "Gabriel Axel",
@@ -73823,7 +75082,8 @@
    "scale": "indie",
    "topics": [
     "family_ties",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Bille August",
@@ -73879,7 +75139,8 @@
    "score": 7.5,
    "scale": "mid",
    "topics": [
-    "politics"
+    "politics",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Nikolaj Arcel",
@@ -73926,6 +75187,9 @@
     "inspiring": 1,
     "unwind": 0
    },
+   "topics": [
+    "twist_ending"
+   ],
    "score": 7.4,
    "scale": "indie",
    "director": "Gustav Möller",
@@ -73973,7 +75237,8 @@
    "score": 7.2,
    "scale": "mid",
    "topics": [
-    "spy"
+    "spy",
+    "based_on_book"
    ],
    "director": "Joachim Rønning",
    "cast": [
@@ -74022,7 +75287,9 @@
    "scale": "mid",
    "topics": [
     "sea",
-    "survival"
+    "survival",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Joachim Rønning",
@@ -74128,7 +75395,9 @@
    "score": 7.5,
    "scale": "mid",
    "topics": [
-    "heist"
+    "heist",
+    "twist_ending",
+    "based_on_book"
    ],
    "director": "Morten Tyldum",
    "cast": [
@@ -74178,7 +75447,8 @@
    "scale": "mid",
    "topics": [
     "survival",
-    "family_ties"
+    "family_ties",
+    "disaster"
    ],
    "visual": true,
    "director": "Roar Uthaug",
@@ -74226,7 +75496,9 @@
    "score": 7.5,
    "scale": "indie",
    "topics": [
-    "friendship"
+    "friendship",
+    "happy_ending",
+    "based_on_book"
    ],
    "easy": true,
    "director": "Petter Næss",
@@ -74281,7 +75553,8 @@
    "score": 7.1,
    "scale": "indie",
    "topics": [
-    "friendship"
+    "friendship",
+    "small_town"
    ],
    "easy": true,
    "director": "Bent Hamer",
@@ -74450,7 +75723,8 @@
    "scale": "mid",
    "topics": [
     "revenge",
-    "family_ties"
+    "family_ties",
+    "twist_ending"
    ],
    "status": "ended",
    "director": "José Ignacio Valenzuela",
@@ -74611,7 +75885,8 @@
    "score": 6.6,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "enemies_to_lovers"
    ],
    "status": "ended",
    "director": "Ebru Kocaağa",
@@ -74714,7 +75989,8 @@
    "score": 7.7,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Ece Yörenç",
@@ -74927,7 +76203,8 @@
    "score": 7.6,
    "scale": "mid",
    "topics": [
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "Scott Frank",
@@ -74985,7 +76262,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "status": "mini",
    "director": "Bruce McKenna",
@@ -75037,7 +76315,8 @@
    "score": 7.6,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "visual": true,
    "status": "mini",
@@ -75202,7 +76481,8 @@
    "score": 8.1,
    "scale": "big",
    "topics": [
-    "courtroom"
+    "courtroom",
+    "twist_ending"
    ],
    "status": "ended",
    "director": "Peter Nowalk",
@@ -75300,7 +76580,8 @@
    "score": 8.4,
    "scale": "indie",
    "topics": [
-    "friendship"
+    "friendship",
+    "small_town"
    ],
    "easy": true,
    "status": "ended",
@@ -75403,7 +76684,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "animals"
+    "animals",
+    "small_town"
    ],
    "easy": true,
    "status": "ongoing",
@@ -75514,7 +76796,8 @@
    "scale": "big",
    "topics": [
     "prison",
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Jenji Kohan",
@@ -75705,7 +76988,8 @@
    "scale": "big",
    "topics": [
     "road_trip",
-    "friendship"
+    "friendship",
+    "racing"
    ],
    "easy": true,
    "status": "ended",
@@ -77099,7 +78383,8 @@
    "topics": [
     "magic",
     "friendship",
-    "school"
+    "school",
+    "happy_ending"
    ],
    "visual": true,
    "status": "ended",
@@ -77156,7 +78441,9 @@
    "topics": [
     "animals",
     "friendship",
-    "survival"
+    "survival",
+    "happy_ending",
+    "monsters"
    ],
    "visual": true,
    "status": "ended",
@@ -77311,7 +78598,9 @@
    "scale": "mid",
    "topics": [
     "robots_ai",
-    "survival"
+    "survival",
+    "based_on_book",
+    "video_games"
    ],
    "visual": true,
    "status": "ongoing",
@@ -77361,7 +78650,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "time_travel"
+    "time_travel",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "Masaharu Watanabe",
@@ -77758,7 +79048,8 @@
    "score": 7.8,
    "scale": "mid",
    "topics": [
-    "superhero"
+    "superhero",
+    "monsters"
    ],
    "visual": true,
    "status": "ongoing",
@@ -77903,7 +79194,8 @@
    "score": 8.3,
    "scale": "mid",
    "topics": [
-    "dystopia"
+    "dystopia",
+    "video_games"
    ],
    "visual": true,
    "status": "ongoing",
@@ -77954,7 +79246,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ongoing",
@@ -78254,7 +79547,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "superhero"
+    "superhero",
+    "happy_ending"
    ],
    "easy": true,
    "status": "mini",
@@ -78308,6 +79602,10 @@
     "inspiring": 1.5,
     "unwind": 4
    },
+   "topics": [
+    "happy_ending",
+    "workplace"
+   ],
    "score": 7.9,
    "scale": "mid",
    "easy": true,
@@ -78365,7 +79663,8 @@
    "scale": "mid",
    "topics": [
     "school",
-    "coming_of_age"
+    "coming_of_age",
+    "happy_ending"
    ],
    "easy": true,
    "status": "mini",
@@ -78526,6 +79825,11 @@
     "inspiring": 1.5,
     "unwind": 4
    },
+   "topics": [
+    "happy_ending",
+    "enemies_to_lovers",
+    "workplace"
+   ],
    "score": 7.1,
    "scale": "mid",
    "easy": true,
@@ -78638,7 +79942,8 @@
    "score": 6.9,
    "scale": "big",
    "topics": [
-    "survival"
+    "survival",
+    "monsters"
    ],
    "visual": true,
    "status": "ended",
@@ -78744,7 +80049,8 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "animals"
+    "animals",
+    "monsters"
    ],
    "visual": true,
    "status": "ongoing",
@@ -78797,7 +80103,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "mafia"
+    "mafia",
+    "small_town"
    ],
    "status": "ended",
    "director": "Eilif Skodvin",
@@ -79048,7 +80355,8 @@
    "score": 7.8,
    "scale": "indie",
    "topics": [
-    "friendship"
+    "friendship",
+    "workplace"
    ],
    "easy": true,
    "status": "ended",
@@ -79204,7 +80512,8 @@
    "scale": "mid",
    "topics": [
     "courtroom",
-    "school"
+    "school",
+    "based_on_book"
    ],
    "status": "mini",
    "director": "Per-Olav Sørensen",
@@ -79363,7 +80672,8 @@
    "scale": "mid",
    "topics": [
     "detective",
-    "serial_killer"
+    "serial_killer",
+    "based_on_book"
    ],
    "occasions": [
     "halloween"
@@ -79627,7 +80937,8 @@
    "topics": [
     "magic",
     "friendship",
-    "politics"
+    "politics",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Jon M. Chu",
@@ -79678,7 +80989,8 @@
    "scale": "big",
    "topics": [
     "dystopia",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Edgar Wright",
@@ -79729,7 +81041,9 @@
    "score": 7.6,
    "scale": "big",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "based_on_book",
+    "monsters"
    ],
    "visual": true,
    "occasions": [
@@ -79831,7 +81145,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "art"
+    "art",
+    "based_on_book"
    ],
    "director": "Chloé Zhao",
    "cast": [
@@ -80024,7 +81339,8 @@
    "score": 7.6,
    "scale": "mid",
    "topics": [
-    "coming_of_age"
+    "coming_of_age",
+    "based_on_book"
    ],
    "director": "Mike Flanagan",
    "cast": [
@@ -80073,7 +81389,8 @@
    "score": 6.3,
    "scale": "big",
    "topics": [
-    "heist"
+    "heist",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -80127,7 +81444,8 @@
     "space",
     "aliens",
     "friendship",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Phil Lord",
@@ -80172,6 +81490,9 @@
     "inspiring": 0.5,
     "unwind": 0.5
    },
+   "topics": [
+    "based_on_book"
+   ],
    "score": 6.8,
    "scale": "big",
    "visual": true,
@@ -80227,7 +81548,8 @@
    "score": 6.5,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "workplace"
    ],
    "easy": true,
    "director": "David Frankel",
@@ -80278,7 +81600,8 @@
    "scale": "big",
    "topics": [
     "space",
-    "friendship"
+    "friendship",
+    "video_games"
    ],
    "visual": true,
    "easy": true,
@@ -80383,7 +81706,8 @@
    "scale": "mid",
    "topics": [
     "animals",
-    "family_ties"
+    "family_ties",
+    "monsters"
    ],
    "director": "Alex Scharfman",
    "cast": [
@@ -80634,7 +81958,8 @@
    "scale": "mid",
    "topics": [
     "survival",
-    "family_ties"
+    "family_ties",
+    "wedding"
    ],
    "director": "Matt Bettinelli-Olpin",
    "cast": [
@@ -80789,7 +82114,8 @@
    "score": 8.0,
    "scale": "mid",
    "topics": [
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "easy": true,
    "occasions": [
@@ -80842,7 +82168,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "friendship"
+    "friendship",
+    "vampires"
    ],
    "occasions": [
     "halloween"
@@ -80890,6 +82217,9 @@
     "inspiring": 1,
     "unwind": 1.5
    },
+   "topics": [
+    "vampires"
+   ],
    "score": 7.0,
    "scale": "mid",
    "occasions": [
@@ -81149,7 +82479,9 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "magic"
+    "magic",
+    "based_on_book",
+    "monsters"
    ],
    "visual": true,
    "easy": true,
@@ -81207,7 +82539,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "ghosts"
+    "ghosts",
+    "monsters"
    ],
    "visual": true,
    "easy": true,
@@ -81263,7 +82596,8 @@
    "topics": [
     "magic",
     "animals",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "occasions": [
     "halloween"
@@ -81371,7 +82705,8 @@
    "scale": "big",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -81429,7 +82764,8 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "ghosts"
+    "ghosts",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -81591,7 +82927,8 @@
    "topics": [
     "time_travel",
     "friendship",
-    "school"
+    "school",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Christopher Landon",
@@ -81691,7 +83028,9 @@
    "topics": [
     "magic",
     "coming_of_age",
-    "animals"
+    "animals",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Wolfgang Petersen",
@@ -81746,7 +83085,9 @@
    "topics": [
     "time_travel",
     "family_ties",
-    "robots_ai"
+    "robots_ai",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -81802,7 +83143,8 @@
    "topics": [
     "time_travel",
     "family_ties",
-    "animals"
+    "animals",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -81857,7 +83199,8 @@
    "scale": "mid",
    "topics": [
     "spy",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -81913,7 +83256,9 @@
    "topics": [
     "space",
     "coming_of_age",
-    "robots_ai"
+    "robots_ai",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Ron Clements",
@@ -81966,7 +83311,8 @@
    "score": 6.9,
    "scale": "big",
    "topics": [
-    "sea"
+    "sea",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Gary Trousdale",
@@ -82017,7 +83363,9 @@
    "scale": "mid",
    "topics": [
     "space",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -82070,7 +83418,8 @@
    "topics": [
     "aliens",
     "time_travel",
-    "family_ties"
+    "family_ties",
+    "happy_ending"
    ],
    "director": "Randal Kleiser",
    "cast": [
@@ -82123,7 +83472,8 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "animals"
+    "animals",
+    "happy_ending"
    ],
    "visual": true,
    "easy": true,
@@ -82283,7 +83633,9 @@
    "scale": "big",
    "topics": [
     "art",
-    "family_ties"
+    "family_ties",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Martin Scorsese",
@@ -82337,7 +83689,8 @@
    "scale": "mid",
    "topics": [
     "magic",
-    "family_ties"
+    "family_ties",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Mark Waters",
@@ -82390,7 +83743,9 @@
    "score": 6.9,
    "scale": "big",
    "topics": [
-    "food"
+    "food",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -82443,7 +83798,8 @@
    "topics": [
     "time_travel",
     "friendship",
-    "school"
+    "school",
+    "happy_ending"
    ],
    "easy": true,
    "director": "Stephen Herek",
@@ -82498,7 +83854,8 @@
    "topics": [
     "friendship",
     "coming_of_age",
-    "space"
+    "space",
+    "based_on_book"
    ],
    "visual": true,
    "director": "Mark Osborne",
@@ -82606,7 +83963,8 @@
    "scale": "big",
    "topics": [
     "detective",
-    "sea"
+    "sea",
+    "happy_ending"
    ],
    "visual": true,
    "director": "Steven Spielberg",
@@ -82859,7 +84217,8 @@
    "scale": "big",
    "topics": [
     "robots_ai",
-    "space"
+    "space",
+    "based_on_book"
    ],
    "easy": true,
    "status": "ongoing",
@@ -83168,7 +84527,8 @@
    "topics": [
     "dystopia",
     "friendship",
-    "survival"
+    "survival",
+    "based_on_book"
    ],
    "director": "Francis Lawrence",
    "cast": [
@@ -83317,6 +84677,9 @@
     "inspiring": 0,
     "unwind": 1
    },
+   "topics": [
+    "workplace"
+   ],
    "score": 7.6,
    "scale": "mid",
    "status": "ongoing",
@@ -83372,7 +84735,9 @@
    "topics": [
     "heist",
     "friendship",
-    "animals"
+    "animals",
+    "happy_ending",
+    "based_on_book"
    ],
    "visual": true,
    "easy": true,
@@ -83424,7 +84789,9 @@
    "score": 7.7,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "based_on_book",
+    "small_town"
    ],
    "occasions": [
     "halloween"
@@ -83478,7 +84845,8 @@
    "scale": "big",
    "topics": [
     "aliens",
-    "robots_ai"
+    "robots_ai",
+    "monsters"
    ],
    "visual": true,
    "status": "ongoing",
@@ -83530,7 +84898,8 @@
    "score": 8.0,
    "scale": "big",
    "topics": [
-    "friendship"
+    "friendship",
+    "based_on_book"
    ],
    "status": "ongoing",
    "director": "Ira Parker",
@@ -83785,7 +85154,8 @@
    "score": 6.7,
    "scale": "mid",
    "topics": [
-    "friendship"
+    "friendship",
+    "monsters"
    ],
    "easy": true,
    "occasions": [
@@ -83840,7 +85210,8 @@
    "scale": "mid",
    "topics": [
     "family_ties",
-    "courtroom"
+    "courtroom",
+    "disaster"
    ],
    "status": "mini",
    "director": "Jack Thorne",
@@ -84345,6 +85716,9 @@
     "inspiring": 0,
     "unwind": 0
    },
+   "topics": [
+    "twist_ending"
+   ],
    "score": 6.6,
    "scale": "mid",
    "status": "mini",
@@ -84448,7 +85822,9 @@
    "score": 6.9,
    "scale": "mid",
    "topics": [
-    "serial_killer"
+    "serial_killer",
+    "twist_ending",
+    "wedding"
    ],
    "status": "mini",
    "director": "Ari Schlossberg",
@@ -84501,7 +85877,8 @@
    "scale": "big",
    "topics": [
     "friendship",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "status": "ended",
    "director": "Phil Hay",
@@ -84557,7 +85934,8 @@
    "scale": "big",
    "topics": [
     "family_ties",
-    "detective"
+    "detective",
+    "based_on_book"
    ],
    "visual": true,
    "status": "ended",
