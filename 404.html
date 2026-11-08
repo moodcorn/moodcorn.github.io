@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Moodcorn</title>
+  <script>
+    // Yanlış yazılan adresleri düzeltir: /App, /APP/ → /app/ ;
+    // /Privacy.html → /privacy.html ; diğerleri → ana sayfa.
+    (function () {
+      var p = location.pathname.toLowerCase(), to = '/';
+      if (p.indexOf('/app') === 0) to = '/app/';
+      else if (p.indexOf('privacy') >= 0 || p.indexOf('gizlilik') >= 0) to = '/privacy.html';
+      location.replace(to + location.search + location.hash);
+    })();
+  </script>
+  <style>
+    body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+           background: #FFFCF7; color: #3B2F3A; font: 800 22px system-ui, -apple-system, "Segoe UI", sans-serif; }
+    a { color: #E8A93A; }
+    @media (prefers-color-scheme: dark) { body { background: #1F1A20; color: #F8EEF1; } a { color: #FFD86B; } }
+  </style>
+</head>
+<body>
+  <a href="/">moodcorn.app 🍿</a>
+</body>
+</html>

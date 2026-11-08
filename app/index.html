@@ -31,22 +31,110 @@
       #splash b { color: #FFD86B; }
     }
     @media (prefers-reduced-motion: reduce) { #splash svg { animation: none; } }
+    /* Yükleme takılırsa Mısır'ın altında çıkan not (aşağıdaki betik doldurur). */
+    #load-note { display: none; max-width: 320px; padding: 0 20px; text-align: center; font: 600 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    #load-note.show { display: block; }
+    #load-note h1 { margin: 6px 0 6px; font-size: 18px; font-weight: 800; }
+    #load-note p { margin: 0 0 12px; opacity: .85; }
+    #load-note button { font: 800 16px system-ui, -apple-system, "Segoe UI", sans-serif; border: 0; border-radius: 999px; padding: 11px 26px; background: #3B2F3A; color: #FFFCF7; cursor: pointer; }
+    #load-note small { display: block; margin-top: 14px; font-size: 13px; opacity: .75; }
+    #load-note a { color: inherit; }
+    #splash.stuck svg { animation: none; }
+    @media (prefers-color-scheme: dark) { #load-note button { background: #FFD86B; color: #1F1A20; } }
   </style>
 </head>
 <body>
   <!-- Uygulama yüklenirken Mısır bekler; ilk ekran çizilince kaybolur. -->
-  <div id="splash" role="status" aria-label="Moodcorn">
+  <div id="splash" role="status">
     <svg viewBox="-6 -12 112 118" width="120" height="126" aria-hidden="true"><ellipse cx="50" cy="92" rx="17" ry="8" fill="#F2C14E"/><ellipse cx="50" cy="92" rx="15" ry="6" fill="#FFD86B"/><circle cx="50" cy="30" r="22.2" fill="#F2C14E"/><circle cx="30" cy="38" r="20.2" fill="#F2C14E"/><circle cx="70" cy="38" r="20.2" fill="#F2C14E"/><circle cx="24" cy="58" r="19.2" fill="#F2C14E"/><circle cx="76" cy="58" r="19.2" fill="#F2C14E"/><circle cx="36" cy="76" r="17.2" fill="#F2C14E"/><circle cx="64" cy="76" r="17.2" fill="#F2C14E"/><circle cx="50" cy="58" r="32.2" fill="#F2C14E"/><circle cx="50" cy="30" r="20" fill="#FFFBF0"/><circle cx="30" cy="38" r="18" fill="#FFFBF0"/><circle cx="70" cy="38" r="18" fill="#FFFBF0"/><circle cx="24" cy="58" r="17" fill="#FFFBF0"/><circle cx="76" cy="58" r="17" fill="#FFFBF0"/><circle cx="36" cy="76" r="15" fill="#FFFBF0"/><circle cx="64" cy="76" r="15" fill="#FFFBF0"/><circle cx="50" cy="58" r="30" fill="#FFFBF0"/><path d="M39.9,23.6 A11,11 0 0 1 46.9,17.0" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/><ellipse cx="31" cy="65" rx="4.5" ry="2.75" fill="#F7A8BC" fill-opacity="0.55"/><ellipse cx="69" cy="65" rx="4.5" ry="2.75" fill="#F7A8BC" fill-opacity="0.55"/><circle cx="41" cy="55.5" r="3.4" fill="#3B2F3A"/><circle cx="59" cy="55.5" r="3.4" fill="#3B2F3A"/><path d="M44,66 Q50,72 56,66" fill="none" stroke="#3B2F3A" stroke-width="2.6" stroke-linecap="round"/><g><ellipse cx="50" cy="15" rx="26" ry="9" fill="#3B2F3A"/><path d="M28,14 Q50,2 72,14" fill="#4A3B48"/><circle cx="50" cy="5" r="2.6" fill="#3B2F3A"/></g></svg>
     <div>Mood<b>corn</b></div>
+    <div id="load-note" role="alert"></div>
   </div>
   <script>
-    window.addEventListener('flutter-first-frame', function () {
-      var s = document.getElementById('splash');
-      if (!s) return;
-      s.style.opacity = '0';
-      setTimeout(function () { s.remove(); }, 350);
-    });
+    // Yükleme takılırsa uyarı: tarayıcı WebAssembly desteklemiyorsa
+    // (ör. iPhone'da Kilitlenme Modu) ya da yükleme hata verirse
+    // "açılamadı" notu; 20 saniyede açılmazsa "biraz uzun sürüyor" notu.
+    // Dil: önce uygulamada seçilen dil, yoksa tarayıcının dili.
+    (function () {
+      var T = {
+        tr: { slowT: 'Biraz uzun sürüyor…', slowB: 'Bağlantın yavaşsa biraz daha bekle. Olmazsa sayfayı yenile.',
+              failT: 'Moodcorn bu tarayıcıda açılamadı', failB: "Tarayıcını (iPhone ve iPad'de iOS'u) güncelleyip tekrar dene. Kilitlenme Modu açıksa Safari'de aA menüsü → Web Sitesi Ayarları'ndan bu site için kapatabilirsin.",
+              btn: 'Yenile', mail: 'Yine olmadıysa bize yaz:' },
+        en: { slowT: 'Taking a little longer…', slowB: 'If your connection is slow, wait a bit more. If nothing happens, reload the page.',
+              failT: "Moodcorn couldn't open in this browser", failB: 'Update your browser (on iPhone and iPad, update iOS) and try again. If Lockdown Mode is on, you can turn it off for this site in Safari: aA menu → Website Settings.',
+              btn: 'Reload', mail: 'Still not working? Write to us:' },
+        es: { slowT: 'Está tardando un poco más…', slowB: 'Si tu conexión es lenta, espera un poco más. Si no pasa nada, recarga la página.',
+              failT: 'Moodcorn no pudo abrirse en este navegador', failB: 'Actualiza tu navegador (en iPhone y iPad, actualiza iOS) y vuelve a intentarlo. Si el Modo de aislamiento está activado, puedes desactivarlo para este sitio en Safari: menú aA → Configuración del sitio web.',
+              btn: 'Recargar', mail: '¿Sigue sin funcionar? Escríbenos:' },
+        pt: { slowT: 'Está demorando um pouco mais…', slowB: 'Se a sua conexão estiver lenta, espere mais um pouco. Se nada acontecer, recarregue a página.',
+              failT: 'O Moodcorn não abriu neste navegador', failB: 'Atualize o navegador (no iPhone e no iPad, atualize o iOS) e tente de novo. Se o Modo de Isolamento estiver ativado, você pode desativá-lo para este site no Safari: menu aA → Ajustes do Site.',
+              btn: 'Recarregar', mail: 'Ainda não funcionou? Escreva para nós:' },
+        fr: { slowT: 'Ça prend un peu plus de temps…', slowB: 'Si ta connexion est lente, attends encore un peu. Sinon, recharge la page.',
+              failT: "Moodcorn n'a pas pu s'ouvrir dans ce navigateur", failB: 'Mets à jour ton navigateur (sur iPhone et iPad, mets à jour iOS) puis réessaie. Si le mode Isolement est activé, tu peux le désactiver pour ce site dans Safari : menu aA → Réglages du site web.',
+              btn: 'Recharger', mail: 'Toujours rien ? Écris-nous :' },
+        ru: { slowT: 'Загрузка занимает чуть больше времени…', slowB: 'Если интернет медленный, подожди ещё немного. Если ничего не происходит, обнови страницу.',
+              failT: 'Moodcorn не открылся в этом браузере', failB: 'Обнови браузер (на iPhone и iPad — iOS) и попробуй ещё раз. Если включён режим блокировки, его можно отключить для этого сайта в Safari: меню aA → Настройки веб-сайта.',
+              btn: 'Обновить', mail: 'Всё ещё не работает? Напиши нам:' }
+      };
+      function savedLang() {
+        try {
+          var keys = ['flutter.locale', 'locale'];
+          for (var i = 0; i < keys.length; i++) {
+            var v = window.localStorage.getItem(keys[i]);
+            if (v) { try { v = JSON.parse(v); } catch (e) {} if (typeof v === 'string') return v; }
+          }
+        } catch (e) {}
+        return '';
+      }
+      function pickLang() {
+        var c = [savedLang()], nl = navigator.languages || [navigator.language || ''];
+        for (var i = 0; i < nl.length; i++) c.push(nl[i]);
+        for (var j = 0; j < c.length; j++) {
+          var k = String(c[j] || '').slice(0, 2).toLowerCase();
+          if (T[k]) return T[k];
+        }
+        return T.en;
+      }
+      var started = false, failed = false, errTimer = null;
+      function el(tag, text) { var e = document.createElement(tag); e.textContent = text; return e; }
+      function show(kind) {
+        if (started) return;
+        var s = document.getElementById('splash'), n = document.getElementById('load-note');
+        if (!s || !n) return;
+        var t = pickLang();
+        n.innerHTML = '';
+        n.appendChild(el('h1', kind === 'fail' ? t.failT : t.slowT));
+        n.appendChild(el('p', kind === 'fail' ? t.failB : t.slowB));
+        var b = el('button', t.btn);
+        b.type = 'button';
+        b.onclick = function () { window.location.reload(); };
+        n.appendChild(b);
+        if (kind === 'fail') {
+          var sm = el('small', t.mail + ' '), a = el('a', 'moodcorn.app@gmail.com');
+          a.href = 'mailto:moodcorn.app@gmail.com';
+          sm.appendChild(a);
+          n.appendChild(sm);
+          s.className = 'stuck';
+        }
+        n.className = 'show';
+      }
+      function fail() { if (failed || started) return; failed = true; show('fail'); }
+      // Hata çıkınca 4 saniye daha beklenir; uygulama yine de açılırsa not hiç görünmez.
+      function soonFail() { if (!errTimer && !started) errTimer = setTimeout(fail, 4000); }
+      window.addEventListener('flutter-first-frame', function () {
+        started = true;
+        var s = document.getElementById('splash');
+        if (!s) return;
+        s.style.opacity = '0';
+        setTimeout(function () { if (s.parentNode) s.parentNode.removeChild(s); }, 350);
+      });
+      window.addEventListener('error', soonFail);
+      window.addEventListener('unhandledrejection', soonFail);
+      if (typeof WebAssembly !== 'object') { fail(); return; }
+      setTimeout(function () { if (!failed) show('slow'); }, 20000);
+    })();
   </script>
   <script src="flutter_bootstrap.js" async></script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b40b697d6cf1476b8112e23d9787aaa1"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
